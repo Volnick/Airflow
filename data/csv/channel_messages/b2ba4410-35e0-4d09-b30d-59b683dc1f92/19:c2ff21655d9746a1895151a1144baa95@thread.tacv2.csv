@@ -1,0 +1,44 @@
+,id,message_type,subject,summary,channel_id,importance,web_url,from_user_id,body_content_type,body_content
+0,1698671917960,message,,,19:c2ff21655d9746a1895151a1144baa95@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3Ac2ff21655d9746a1895151a1144baa95%40thread.tacv2/1698671917960?groupId=b2ba4410-35e0-4d09-b30d-59b683dc1f92&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698671917960&parentMessageId=1698671917960,38a0a82a-6ddf-4d32-8da4-2a944211e183,html,"<div><div>Moin Leute, ich habe die PowerPoint aus Aufgabe A1 bei Dateien hochgeladen. Füllt diese gerne bis 20 Uhr aus, damit Alex nochmal bei der Formatierung rüber schauen kann <emoji id=""smile"" alt=""🙂"" title=""""></emoji>&nbsp;</div>
+</div>"
+1,1698695145614,message,Aufgabe 2.1.1 Plattform-Geschäftsmodell Theorie und Konzepte,,19:c2ff21655d9746a1895151a1144baa95@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3Ac2ff21655d9746a1895151a1144baa95%40thread.tacv2/1698695145614?groupId=b2ba4410-35e0-4d09-b30d-59b683dc1f92&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698695145614&parentMessageId=1698695145614,6f23a159-4517-46ac-acde-60fc86d9d277,html,"<div><div><at id=""0"">Lucy Petters</at>, <at id=""1"">Leon Bredernitz</at>&nbsp;zu unseren Slides:</div>
+
+
+<ul itemprop=""copy-paste-block"">
+
+	
+<li><strong>Slide 1 ""Plattform-Geschäftsmodell – Begriffsklärung und Abgrenzung zu anderen Begriffen und Konzepten"":</strong> Sieht soweit schon ganz gut aus. Wir müssten hier nur nochmal darauf eingehen, was dieses ""Matrixartige"" bei den Plattformen bedeutet, bzw. wie sie sich grundsätzlich von linearen Geschäftsmodellen unterscheiden.
+
+	
+<ul>
+
+		
+<li><strong>Quellen</strong>: Artikel vom Lehrstuhl, <a href=""https://www.fh-muenster.de/ipd/a-z/platform-management.php"" rel=""noreferrer noopener"" target=""_blank"" title=""https://www.fh-muenster.de/ipd/a-z/platform-management.php"">Platform Management - IPD - Institut für Prozessmanagement und Digitale Transformation - FH Münster (fh-muenster.de)</a>,</li>
+	</ul>
+
+	</li>
+	
+<li><strong>Slide 2 ""Plattform-Geschäftsmodell – Hauptaufgaben von und Transaktionen auf Plattformen in der Sharing Economy"":</strong>&nbsp;Passt von meiner Seite aus. Ich habe für die Transaktionen erstmal eine sehr einfache Grafik gebaut, weil ich auch im Netz nichts cooles gefunden habe. vielleicht können wir die nochmal anpassen. Aktuell fehlt uns noch das Prozessmanagement. Das scheint eng verwoben mit dieser Slide speziell mit dem Punkt Governance, Rules &amp; Standards zu sein. Da die Aufgaben und Transaktionen aber zusammenhängen, müssen wir mal schauen, ob wir das Prozessmanagement dann auf die nächste Slide machen.
+	
+<ul>
+
+		
+<li><strong>Quellen</strong>: <a href=""https://www.applicoinc.com/blog/four-core-functions-platform/"" rel=""noreferrer noopener"" target=""_blank"" title=""https://www.applicoinc.com/blog/four-core-functions-platform/"">Four Core Functions of a Platform (applicoinc.com)</a>, <a href=""https://www.applicoinc.com/blog/core-transaction-platforms-facilitate-exchange/"" rel=""noreferrer noopener"" target=""_blank"" title=""https://www.applicoinc.com/blog/core-transaction-platforms-facilitate-exchange/"">The Core Transaction: How Platforms Facilitate Exchange (applicoinc.com)</a></li>
+	</ul>
+
+	</li>
+	
+<li><strong>Slide 3:</strong> Fehlt da Infos zu Prozessmanagement <at id=""2"">Lucy Petters</at>&nbsp;vielleicht findest du da was cooles zu.</li>
+	
+<li><strong>Slide 4 - ""Plattform-Geschäftsmodell – Weitere Konzepte"": </strong>Bräuchte noch eine zusammenfassende Überschrift und die Section zu Kapitalbindung und Fixkosten müssten wir nochmal bearbeiten... grobe Richtung passt, aber vielleicht bekommen wir das nochmal auf den Punkt formuliert.
+	<div><span><img height=""250"" src=""https://graph.microsoft.com/beta/teams/b2ba4410-35e0-4d09-b30d-59b683dc1f92/channels/19:c2ff21655d9746a1895151a1144baa95@thread.tacv2/messages/1698695145614/hostedContents/aWQ9eF8wLXdldS1kOC1iNWJiMDdiZGJkN2ZlMmUwNjFhYTFjNTI5NjA2NWViMix0eXBlPTEsdXJsPWh0dHBzOi8vZXUtYXBpLmFzbS5za3lwZS5jb20vdjEvb2JqZWN0cy8wLXdldS1kOC1iNWJiMDdiZGJkN2ZlMmUwNjFhYTFjNTI5NjA2NWViMi92aWV3cy9pbWdv/$value"" width=""403.765690376569"" style=""vertical-align:bottom; width:403px; height:250px""></span>
+	
+	</div>
+
+	
+	</li>
+</ul>
+
+</div>"
+2,1698390167689,systemEventMessage,,,19:c2ff21655d9746a1895151a1144baa95@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3Ac2ff21655d9746a1895151a1144baa95%40thread.tacv2/1698390167689?groupId=b2ba4410-35e0-4d09-b30d-59b683dc1f92&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698390167689&parentMessageId=1698390167689,,html,<systemEventMessage/>
+3,1697828086519,message,,,19:c2ff21655d9746a1895151a1144baa95@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3Ac2ff21655d9746a1895151a1144baa95%40thread.tacv2/1697828086519?groupId=b2ba4410-35e0-4d09-b30d-59b683dc1f92&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697828086519&parentMessageId=1697828086519,6f23a159-4517-46ac-acde-60fc86d9d277,html,"<p>Hi Leute, da noch keiner was zur neuen Aufgabe gesagt hat: ich denke es wäre sinnvoll, dass wir uns alle auf die Aufgabe vorbereiten und dann zusammen die Slides dazu erarbeiten. Falls ihr eine andere Idee habt, teilt sie doch gerne <emoji id=""smile"" alt=""🙂"" title=""""></emoji>.</p>"

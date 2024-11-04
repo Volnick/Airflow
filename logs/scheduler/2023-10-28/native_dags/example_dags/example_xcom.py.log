@@ -1,0 +1,903 @@
+[2023-10-28T02:01:08.460+0200] {processor.py:157} INFO - Started process (PID=41731) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:01:08.462+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:01:08.462+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:01:08.462+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:01:08.484+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:01:08.549+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:01:08.548+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:01:08.555+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:01:08.555+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:01:08.562+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.102 seconds
+[2023-10-28T02:02:26.061+0200] {processor.py:157} INFO - Started process (PID=41871) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:02:26.063+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:02:26.064+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:02:26.064+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:02:26.087+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:02:26.151+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:02:26.151+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:02:26.158+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:02:26.158+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:02:26.165+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.104 seconds
+[2023-10-28T02:03:39.223+0200] {processor.py:157} INFO - Started process (PID=42008) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:03:39.225+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:03:39.225+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:03:39.225+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:03:39.247+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:03:39.311+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:03:39.311+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:03:39.317+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:03:39.317+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:03:39.324+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T02:04:53.143+0200] {processor.py:157} INFO - Started process (PID=42143) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:04:53.144+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:04:53.145+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:04:53.145+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:04:53.167+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:04:53.230+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:04:53.230+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:04:53.236+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:04:53.236+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:04:53.242+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T02:06:10.384+0200] {processor.py:157} INFO - Started process (PID=42283) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:06:10.386+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:06:10.387+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:06:10.386+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:06:10.408+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:06:10.471+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:06:10.471+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:06:10.477+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:06:10.477+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:06:10.484+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T02:07:26.254+0200] {processor.py:157} INFO - Started process (PID=42420) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:07:26.256+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:07:26.256+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:07:26.256+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:07:26.278+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:07:26.341+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:07:26.341+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:07:26.347+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:07:26.347+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:07:26.354+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T02:08:42.088+0200] {processor.py:157} INFO - Started process (PID=42557) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:08:42.090+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:08:42.090+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:08:42.090+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:08:42.112+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:08:42.175+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:08:42.175+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:08:42.181+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:08:42.181+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:08:42.188+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T02:09:56.202+0200] {processor.py:157} INFO - Started process (PID=42690) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:09:56.203+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:09:56.204+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:09:56.204+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:09:56.225+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:09:56.289+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:09:56.289+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:09:56.296+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:09:56.296+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:09:56.303+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T02:11:17.175+0200] {processor.py:157} INFO - Started process (PID=42871) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:11:17.177+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:11:17.178+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:11:17.178+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:11:17.205+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:11:17.281+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:11:17.281+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:11:17.288+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:11:17.288+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:11:17.296+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.121 seconds
+[2023-10-28T02:28:05.177+0200] {processor.py:157} INFO - Started process (PID=43038) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:28:05.178+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:28:05.179+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:28:05.179+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:28:05.200+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:28:05.264+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:28:05.264+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:28:05.271+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:28:05.271+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:28:05.277+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T02:28:57.533+0200] {processor.py:157} INFO - Started process (PID=43166) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:28:57.535+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:28:57.536+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:28:57.536+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:28:57.562+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:28:57.634+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:28:57.634+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:28:57.642+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:28:57.642+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:28:57.650+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.118 seconds
+[2023-10-28T02:30:21.248+0200] {processor.py:157} INFO - Started process (PID=43332) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:30:21.251+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:30:21.252+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:30:21.251+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:30:21.277+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:30:21.347+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:30:21.347+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:30:21.354+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:30:21.354+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:30:21.362+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.114 seconds
+[2023-10-28T02:31:41.051+0200] {processor.py:157} INFO - Started process (PID=43474) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:31:41.053+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:31:41.053+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:31:41.053+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:31:41.074+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:31:41.136+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:31:41.136+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:31:41.142+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:31:41.142+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:31:41.149+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T02:42:36.785+0200] {processor.py:157} INFO - Started process (PID=43562) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:42:36.786+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:42:36.787+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:42:36.787+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:42:36.809+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:42:36.871+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:42:36.871+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:42:36.877+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:42:36.877+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:42:36.884+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T02:59:04.397+0200] {processor.py:157} INFO - Started process (PID=43697) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:59:04.399+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T02:59:04.399+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:59:04.399+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:59:04.420+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T02:59:04.482+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:59:04.482+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T02:59:04.489+0200] {logging_mixin.py:151} INFO - [2023-10-28T02:59:04.489+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T02:59:04.495+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T03:16:11.793+0200] {processor.py:157} INFO - Started process (PID=43795) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:16:11.795+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T03:16:11.796+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:16:11.795+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:16:11.817+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:16:11.879+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:16:11.879+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T03:16:11.885+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:16:11.885+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T03:16:11.892+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T03:16:59.640+0200] {processor.py:157} INFO - Started process (PID=43883) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:16:59.642+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T03:16:59.642+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:16:59.642+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:16:59.663+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:16:59.726+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:16:59.726+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T03:16:59.732+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:16:59.732+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T03:16:59.738+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T03:18:15.491+0200] {processor.py:157} INFO - Started process (PID=44020) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:18:15.493+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T03:18:15.493+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:18:15.493+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:18:15.514+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:18:15.577+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:18:15.577+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T03:18:15.583+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:18:15.583+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T03:18:15.590+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T03:36:33.142+0200] {processor.py:157} INFO - Started process (PID=44102) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:36:33.144+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T03:36:33.144+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:36:33.144+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:36:33.165+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:36:33.228+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:36:33.228+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T03:36:33.234+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:36:33.234+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T03:36:33.240+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T03:53:47.061+0200] {processor.py:157} INFO - Started process (PID=44241) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:53:47.063+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T03:53:47.063+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:53:47.063+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:53:47.084+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T03:53:47.151+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:53:47.151+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T03:53:47.157+0200] {logging_mixin.py:151} INFO - [2023-10-28T03:53:47.157+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T03:53:47.164+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.103 seconds
+[2023-10-28T04:09:49.052+0200] {processor.py:157} INFO - Started process (PID=44378) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:09:49.053+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T04:09:49.054+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:09:49.054+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:09:49.075+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:09:49.138+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:09:49.138+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T04:09:49.144+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:09:49.144+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T04:09:49.151+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T04:11:05.364+0200] {processor.py:157} INFO - Started process (PID=44514) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:11:05.366+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T04:11:05.366+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:11:05.366+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:11:05.387+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:11:05.449+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:11:05.449+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T04:11:05.455+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:11:05.455+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T04:11:05.462+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T04:28:47.788+0200] {processor.py:157} INFO - Started process (PID=44666) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:28:47.789+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T04:28:47.790+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:28:47.790+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:28:47.811+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:28:47.873+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:28:47.873+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T04:28:47.879+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:28:47.879+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T04:28:47.886+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T04:47:32.921+0200] {processor.py:157} INFO - Started process (PID=44760) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:47:32.923+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T04:47:32.923+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:47:32.923+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:47:32.945+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T04:47:33.008+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:47:33.008+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T04:47:33.014+0200] {logging_mixin.py:151} INFO - [2023-10-28T04:47:33.014+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T04:47:33.021+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T05:05:12.518+0200] {processor.py:157} INFO - Started process (PID=44921) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:05:12.520+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:05:12.520+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:05:12.520+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:05:12.542+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:05:12.605+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:05:12.604+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:05:12.611+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:05:12.611+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:05:12.617+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T05:05:59.612+0200] {processor.py:157} INFO - Started process (PID=45011) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:05:59.614+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:05:59.614+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:05:59.614+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:05:59.635+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:05:59.697+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:05:59.697+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:05:59.704+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:05:59.704+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:05:59.710+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T05:07:17.213+0200] {processor.py:157} INFO - Started process (PID=45148) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:07:17.215+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:07:17.215+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:07:17.215+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:07:17.236+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:07:17.298+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:07:17.298+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:07:17.304+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:07:17.304+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:07:17.310+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T05:23:13.950+0200] {processor.py:157} INFO - Started process (PID=45231) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:23:13.952+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:23:13.952+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:23:13.952+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:23:13.973+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:23:14.036+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:23:14.036+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:23:14.042+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:23:14.042+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:23:14.049+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T05:41:08.143+0200] {processor.py:157} INFO - Started process (PID=45375) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:41:08.145+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:41:08.145+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:41:08.145+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:41:08.166+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:41:08.228+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:41:08.228+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:41:08.234+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:41:08.234+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:41:08.241+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T05:57:44.456+0200] {processor.py:157} INFO - Started process (PID=45500) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:57:44.457+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:57:44.458+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:57:44.458+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:57:44.479+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:57:44.542+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:57:44.542+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:57:44.549+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:57:44.549+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:57:44.555+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T05:58:32.032+0200] {processor.py:157} INFO - Started process (PID=45590) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:58:32.034+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:58:32.034+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:58:32.034+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:58:32.055+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:58:32.117+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:58:32.117+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:58:32.124+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:58:32.123+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:58:32.130+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T05:59:50.574+0200] {processor.py:157} INFO - Started process (PID=45728) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:59:50.576+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T05:59:50.576+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:59:50.576+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:59:50.597+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T05:59:50.660+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:59:50.660+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T05:59:50.666+0200] {logging_mixin.py:151} INFO - [2023-10-28T05:59:50.666+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T05:59:50.672+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T06:05:58.524+0200] {processor.py:157} INFO - Started process (PID=45807) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:05:58.526+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T06:05:58.527+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:05:58.527+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:05:58.548+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:05:58.610+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:05:58.610+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T06:05:58.616+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:05:58.616+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T06:05:58.623+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T06:25:00.768+0200] {processor.py:157} INFO - Started process (PID=45966) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:25:00.770+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T06:25:00.771+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:25:00.770+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:25:00.792+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:25:00.853+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:25:00.853+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T06:25:00.859+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:25:00.859+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T06:25:00.867+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T06:40:51.190+0200] {processor.py:157} INFO - Started process (PID=46067) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:40:51.193+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T06:40:51.193+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:40:51.193+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:40:51.214+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:40:51.277+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:40:51.277+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T06:40:51.283+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:40:51.283+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T06:40:51.289+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T06:58:47.029+0200] {processor.py:157} INFO - Started process (PID=46201) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:58:47.030+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T06:58:47.031+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:58:47.031+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:58:47.052+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:58:47.114+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:58:47.113+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T06:58:47.120+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:58:47.120+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T06:58:47.126+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T06:59:33.863+0200] {processor.py:157} INFO - Started process (PID=46294) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:59:33.865+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T06:59:33.865+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:59:33.865+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:59:33.886+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T06:59:33.948+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:59:33.948+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T06:59:33.954+0200] {logging_mixin.py:151} INFO - [2023-10-28T06:59:33.954+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T06:59:33.961+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T07:00:49.584+0200] {processor.py:157} INFO - Started process (PID=46428) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:00:49.586+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T07:00:49.586+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:00:49.586+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:00:49.607+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:00:49.670+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:00:49.670+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T07:00:49.676+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:00:49.676+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T07:00:49.683+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T07:16:48.760+0200] {processor.py:157} INFO - Started process (PID=46511) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:16:48.762+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T07:16:48.762+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:16:48.762+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:16:48.784+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:16:48.847+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:16:48.847+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T07:16:48.853+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:16:48.853+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T07:16:48.859+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T07:33:43.644+0200] {processor.py:157} INFO - Started process (PID=46648) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:33:43.646+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T07:33:43.646+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:33:43.646+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:33:43.668+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:33:43.730+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:33:43.730+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T07:33:43.736+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:33:43.736+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T07:33:43.743+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T07:49:57.807+0200] {processor.py:157} INFO - Started process (PID=46743) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:49:57.809+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T07:49:57.809+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:49:57.809+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:49:57.832+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:49:57.894+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:49:57.894+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T07:49:57.901+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:49:57.901+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T07:49:57.907+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T07:50:58.937+0200] {processor.py:157} INFO - Started process (PID=46862) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:50:58.939+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T07:50:58.939+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:50:58.939+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:50:58.961+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:50:59.024+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:50:59.023+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T07:50:59.030+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:50:59.030+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T07:50:59.036+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T07:52:15.251+0200] {processor.py:157} INFO - Started process (PID=47000) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:52:15.253+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T07:52:15.253+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:52:15.253+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:52:15.274+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T07:52:15.337+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:52:15.337+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T07:52:15.343+0200] {logging_mixin.py:151} INFO - [2023-10-28T07:52:15.343+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T07:52:15.350+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T08:25:18.846+0200] {processor.py:157} INFO - Started process (PID=47166) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:25:18.848+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T08:25:18.849+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:25:18.848+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:25:18.870+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:25:18.932+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:25:18.932+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T08:25:18.938+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:25:18.938+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T08:25:18.944+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T08:41:52.500+0200] {processor.py:157} INFO - Started process (PID=47332) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:41:52.502+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T08:41:52.502+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:41:52.502+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:41:52.524+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:41:52.586+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:41:52.586+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T08:41:52.593+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:41:52.592+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T08:41:52.599+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T08:43:08.643+0200] {processor.py:157} INFO - Started process (PID=47474) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:43:08.645+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T08:43:08.645+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:43:08.645+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:43:08.666+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:43:08.728+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:43:08.728+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T08:43:08.735+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:43:08.735+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T08:43:08.741+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T08:43:56.100+0200] {processor.py:157} INFO - Started process (PID=47563) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:43:56.102+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T08:43:56.102+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:43:56.102+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:43:56.123+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T08:43:56.185+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:43:56.185+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T08:43:56.192+0200] {logging_mixin.py:151} INFO - [2023-10-28T08:43:56.192+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T08:43:56.198+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T09:01:19.707+0200] {processor.py:157} INFO - Started process (PID=47648) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:01:19.709+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T09:01:19.709+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:01:19.709+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:01:19.730+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:01:19.793+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:01:19.792+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T09:01:19.799+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:01:19.799+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T09:01:19.805+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T09:18:02.507+0200] {processor.py:157} INFO - Started process (PID=47787) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:18:02.509+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T09:18:02.509+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:18:02.509+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:18:02.530+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:18:02.592+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:18:02.592+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T09:18:02.598+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:18:02.598+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T09:18:02.605+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T09:35:50.931+0200] {processor.py:157} INFO - Started process (PID=47888) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:35:50.933+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T09:35:50.933+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:35:50.933+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:35:50.954+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:35:51.016+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:35:51.016+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T09:35:51.023+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:35:51.022+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T09:35:51.029+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T09:37:07.063+0200] {processor.py:157} INFO - Started process (PID=48039) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:37:07.064+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T09:37:07.065+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:37:07.065+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:37:07.086+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:37:07.148+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:37:07.148+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T09:37:07.154+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:37:07.154+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T09:37:07.160+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T09:55:00.360+0200] {processor.py:157} INFO - Started process (PID=48239) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:55:00.363+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T09:55:00.363+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:55:00.363+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:55:00.384+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T09:55:00.446+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:55:00.446+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T09:55:00.452+0200] {logging_mixin.py:151} INFO - [2023-10-28T09:55:00.452+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T09:55:00.459+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T10:12:40.222+0200] {processor.py:157} INFO - Started process (PID=48384) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:12:40.224+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T10:12:40.224+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:12:40.224+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:12:40.246+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:12:40.309+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:12:40.308+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T10:12:40.315+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:12:40.315+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T10:12:40.321+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T10:28:40.254+0200] {processor.py:157} INFO - Started process (PID=48492) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:28:40.256+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T10:28:40.256+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:28:40.256+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:28:40.277+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:28:40.339+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:28:40.339+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T10:28:40.346+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:28:40.345+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T10:28:40.352+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T10:29:28.563+0200] {processor.py:157} INFO - Started process (PID=48586) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:29:28.565+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T10:29:28.565+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:29:28.565+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:29:28.586+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:29:28.649+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:29:28.648+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T10:29:28.655+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:29:28.655+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T10:29:28.661+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T10:30:43.713+0200] {processor.py:157} INFO - Started process (PID=48723) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:30:43.715+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T10:30:43.715+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:30:43.715+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:30:43.736+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:30:43.799+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:30:43.798+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T10:30:43.805+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:30:43.805+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T10:30:43.811+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T10:48:45.431+0200] {processor.py:157} INFO - Started process (PID=48875) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:48:45.433+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T10:48:45.433+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:48:45.433+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:48:45.454+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:48:45.516+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:48:45.515+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T10:48:45.522+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:48:45.522+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T10:48:45.528+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T10:49:58.554+0200] {processor.py:157} INFO - Started process (PID=49010) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:49:58.556+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T10:49:58.556+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:49:58.556+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:49:58.578+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T10:49:58.640+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:49:58.640+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T10:49:58.646+0200] {logging_mixin.py:151} INFO - [2023-10-28T10:49:58.646+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T10:49:58.653+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T11:08:02.887+0200] {processor.py:157} INFO - Started process (PID=49172) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:08:02.889+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:08:02.889+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:08:02.889+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:08:02.911+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:08:02.974+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:08:02.974+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:08:02.980+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:08:02.980+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:08:02.987+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T11:24:48.404+0200] {processor.py:157} INFO - Started process (PID=49308) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:24:48.406+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:24:48.406+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:24:48.406+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:24:48.427+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:24:48.490+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:24:48.490+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:24:48.496+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:24:48.496+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:24:48.502+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T11:26:02.834+0200] {processor.py:157} INFO - Started process (PID=49442) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:26:02.836+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:26:02.836+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:26:02.836+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:26:02.858+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:26:02.920+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:26:02.920+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:26:02.926+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:26:02.926+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:26:02.933+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T11:31:07.030+0200] {processor.py:157} INFO - Started process (PID=49626) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:31:07.031+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:31:07.032+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:31:07.032+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:31:07.055+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:31:07.125+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:31:07.125+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:31:07.132+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:31:07.132+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:31:07.149+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.120 seconds
+[2023-10-28T11:31:54.837+0200] {processor.py:157} INFO - Started process (PID=49722) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:31:54.839+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:31:54.839+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:31:54.839+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:31:54.860+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:31:54.923+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:31:54.923+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:31:54.929+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:31:54.929+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:31:54.936+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T11:33:07.918+0200] {processor.py:157} INFO - Started process (PID=49866) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:33:07.920+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:33:07.920+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:33:07.920+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:33:07.941+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:33:08.004+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:33:08.004+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:33:08.010+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:33:08.010+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:33:08.016+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T11:37:40.341+0200] {processor.py:157} INFO - Started process (PID=50020) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:37:40.343+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:37:40.344+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:37:40.344+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:37:40.365+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:37:40.427+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:37:40.427+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:37:40.433+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:37:40.433+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:37:40.440+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T11:45:50.576+0200] {processor.py:157} INFO - Started process (PID=50106) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:45:50.578+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:45:50.578+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:45:50.578+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:45:50.600+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:45:50.662+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:45:50.661+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:45:50.668+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:45:50.668+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:45:50.674+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T11:59:41.162+0200] {processor.py:157} INFO - Started process (PID=50200) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:59:41.164+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T11:59:41.164+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:59:41.164+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:59:41.185+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T11:59:41.249+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:59:41.249+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T11:59:41.255+0200] {logging_mixin.py:151} INFO - [2023-10-28T11:59:41.255+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T11:59:41.261+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T12:00:53.988+0200] {processor.py:157} INFO - Started process (PID=50336) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:00:53.990+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:00:53.990+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:00:53.990+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:00:54.011+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:00:54.074+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:00:54.074+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:00:54.080+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:00:54.080+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:00:54.087+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:01:43.887+0200] {processor.py:157} INFO - Started process (PID=50477) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:01:43.890+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:01:43.890+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:01:43.890+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:01:43.915+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:01:43.986+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:01:43.986+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:01:43.993+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:01:43.992+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:01:44.001+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.114 seconds
+[2023-10-28T12:03:01.171+0200] {processor.py:157} INFO - Started process (PID=50630) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:03:01.174+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:03:01.174+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:03:01.174+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:03:01.195+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:03:01.257+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:03:01.256+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:03:01.263+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:03:01.263+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:03:01.269+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:04:12.669+0200] {processor.py:157} INFO - Started process (PID=50765) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:04:12.671+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:04:12.671+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:04:12.671+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:04:12.692+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:04:12.755+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:04:12.754+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:04:12.761+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:04:12.761+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:04:12.767+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:05:33.956+0200] {processor.py:157} INFO - Started process (PID=50932) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:05:33.959+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:05:33.959+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:05:33.959+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:05:33.980+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:05:34.043+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:05:34.042+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:05:34.049+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:05:34.049+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:05:34.055+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T12:06:48.990+0200] {processor.py:157} INFO - Started process (PID=51073) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:06:48.993+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:06:48.993+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:06:48.993+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:06:49.014+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:06:49.077+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:06:49.076+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:06:49.083+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:06:49.083+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:06:49.089+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:08:11.310+0200] {processor.py:157} INFO - Started process (PID=51217) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:08:11.313+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:08:11.313+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:08:11.313+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:08:11.338+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:08:11.402+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:08:11.402+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:08:11.409+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:08:11.409+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:08:11.415+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds
+[2023-10-28T12:09:31.938+0200] {processor.py:157} INFO - Started process (PID=51366) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:09:31.941+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:09:31.941+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:09:31.941+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:09:31.962+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:09:32.028+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:09:32.028+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:09:32.035+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:09:32.035+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:09:32.042+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.104 seconds
+[2023-10-28T12:10:49.689+0200] {processor.py:157} INFO - Started process (PID=51512) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:10:49.692+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:10:49.692+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:10:49.692+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:10:49.713+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:10:49.775+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:10:49.775+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:10:49.781+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:10:49.781+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:10:49.788+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:12:07.114+0200] {processor.py:157} INFO - Started process (PID=51651) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:12:07.116+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:12:07.116+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:12:07.116+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:12:07.140+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:12:07.205+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:12:07.205+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:12:07.212+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:12:07.212+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:12:07.220+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.106 seconds
+[2023-10-28T12:13:23.723+0200] {processor.py:157} INFO - Started process (PID=51788) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:13:23.725+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:13:23.725+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:13:23.725+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:13:23.746+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:13:23.808+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:13:23.808+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:13:23.814+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:13:23.814+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:13:23.821+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:14:42.619+0200] {processor.py:157} INFO - Started process (PID=51931) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:14:42.621+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:14:42.621+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:14:42.621+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:14:42.642+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:14:42.704+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:14:42.704+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:14:42.711+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:14:42.711+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:14:42.718+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:15:57.895+0200] {processor.py:157} INFO - Started process (PID=52155) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:15:57.897+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:15:57.897+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:15:57.897+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:15:57.919+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:15:57.982+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:15:57.981+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:15:57.988+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:15:57.988+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:15:57.994+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:17:15.679+0200] {processor.py:157} INFO - Started process (PID=52307) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:17:15.681+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:17:15.681+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:17:15.681+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:17:15.704+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:17:15.770+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:17:15.770+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:17:15.776+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:17:15.776+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:17:15.783+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.104 seconds
+[2023-10-28T12:18:33.049+0200] {processor.py:157} INFO - Started process (PID=52448) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:18:33.051+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:18:33.052+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:18:33.051+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:18:33.073+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:18:33.135+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:18:33.135+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:18:33.142+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:18:33.142+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:18:33.148+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:19:49.225+0200] {processor.py:157} INFO - Started process (PID=52583) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:19:49.227+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:19:49.228+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:19:49.228+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:19:49.250+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:19:49.313+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:19:49.313+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:19:49.319+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:19:49.319+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:19:49.326+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T12:21:06.445+0200] {processor.py:157} INFO - Started process (PID=52726) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:21:06.446+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:21:06.447+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:21:06.447+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:21:06.468+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:21:06.530+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:21:06.530+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:21:06.536+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:21:06.536+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:21:06.543+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:22:22.910+0200] {processor.py:157} INFO - Started process (PID=52866) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:22:22.912+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:22:22.912+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:22:22.912+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:22:22.933+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:22:22.995+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:22:22.995+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:22:23.001+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:22:23.001+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:22:23.008+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:23:39.183+0200] {processor.py:157} INFO - Started process (PID=53003) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:23:39.185+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:23:39.185+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:23:39.185+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:23:39.206+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:23:39.268+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:23:39.268+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:23:39.274+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:23:39.274+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:23:39.281+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:24:53.682+0200] {processor.py:157} INFO - Started process (PID=53140) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:24:53.684+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:24:53.684+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:24:53.684+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:24:53.706+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:24:53.767+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:24:53.767+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:24:53.774+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:24:53.773+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:24:53.780+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:26:08.168+0200] {processor.py:157} INFO - Started process (PID=53274) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:26:08.170+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:26:08.170+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:26:08.170+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:26:08.191+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:26:08.253+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:26:08.253+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:26:08.259+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:26:08.259+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:26:08.265+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:27:24.435+0200] {processor.py:157} INFO - Started process (PID=53416) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:27:24.437+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:27:24.437+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:27:24.437+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:27:24.458+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:27:24.520+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:27:24.520+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:27:24.526+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:27:24.526+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:27:24.532+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:28:39.497+0200] {processor.py:157} INFO - Started process (PID=53552) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:28:39.498+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:28:39.499+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:28:39.499+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:28:39.520+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:28:39.581+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:28:39.581+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:28:39.587+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:28:39.587+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:28:39.594+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:29:54.831+0200] {processor.py:157} INFO - Started process (PID=53689) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:29:54.833+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:29:54.833+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:29:54.833+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:29:54.854+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:29:54.916+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:29:54.916+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:29:54.922+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:29:54.922+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:29:54.928+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.097 seconds
+[2023-10-28T12:31:12.263+0200] {processor.py:157} INFO - Started process (PID=53828) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:31:12.265+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:31:12.265+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:31:12.265+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:31:12.286+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:31:12.349+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:31:12.349+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:31:12.355+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:31:12.355+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:31:12.362+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:32:25.187+0200] {processor.py:157} INFO - Started process (PID=53964) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:32:25.189+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:32:25.190+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:32:25.189+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:32:25.210+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:32:25.272+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:32:25.272+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:32:25.278+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:32:25.278+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:32:25.285+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:33:39.740+0200] {processor.py:157} INFO - Started process (PID=54098) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:33:39.742+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:33:39.742+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:33:39.742+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:33:39.763+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:33:39.825+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:33:39.825+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:33:39.831+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:33:39.831+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:33:39.837+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.097 seconds
+[2023-10-28T12:34:58.277+0200] {processor.py:157} INFO - Started process (PID=54239) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:34:58.279+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:34:58.279+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:34:58.279+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:34:58.301+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:34:58.362+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:34:58.362+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:34:58.369+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:34:58.369+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:34:58.375+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:36:14.364+0200] {processor.py:157} INFO - Started process (PID=54379) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:36:14.365+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:36:14.366+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:36:14.366+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:36:14.387+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:36:14.448+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:36:14.448+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:36:14.454+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:36:14.454+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:36:14.461+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.097 seconds
+[2023-10-28T12:37:30.739+0200] {processor.py:157} INFO - Started process (PID=54524) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:37:30.742+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:37:30.742+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:37:30.742+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:37:30.764+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:37:30.826+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:37:30.826+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:37:30.832+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:37:30.832+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:37:30.839+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T12:38:48.375+0200] {processor.py:157} INFO - Started process (PID=54670) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:38:48.378+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:38:48.378+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:38:48.378+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:38:48.400+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:38:48.462+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:38:48.462+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:38:48.468+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:38:48.468+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:38:48.475+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T12:40:09.995+0200] {processor.py:157} INFO - Started process (PID=54829) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:40:09.997+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:40:09.998+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:40:09.997+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:40:10.022+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:40:10.089+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:40:10.089+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:40:10.096+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:40:10.095+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:40:10.102+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.108 seconds
+[2023-10-28T12:41:30.556+0200] {processor.py:157} INFO - Started process (PID=54991) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:41:30.559+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:41:30.559+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:41:30.559+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:41:30.581+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:41:30.644+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:41:30.644+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:41:30.650+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:41:30.650+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:41:30.657+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T12:42:44.883+0200] {processor.py:157} INFO - Started process (PID=55125) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:42:44.885+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:42:44.885+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:42:44.885+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:42:44.907+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:42:44.970+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:42:44.969+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:42:44.976+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:42:44.976+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:42:44.982+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T12:44:02.231+0200] {processor.py:157} INFO - Started process (PID=55268) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:44:02.233+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:44:02.234+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:44:02.234+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:44:02.257+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:44:02.328+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:44:02.328+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:44:02.335+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:44:02.335+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:44:02.349+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.118 seconds
+[2023-10-28T12:45:19.557+0200] {processor.py:157} INFO - Started process (PID=55408) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:45:19.559+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:45:19.559+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:45:19.559+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:45:19.581+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:45:19.647+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:45:19.647+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:45:19.654+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:45:19.654+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:45:19.662+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds
+[2023-10-28T12:46:37.226+0200] {processor.py:157} INFO - Started process (PID=55546) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:46:37.228+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:46:37.228+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:46:37.228+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:46:37.251+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:46:37.317+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:46:37.317+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:46:37.324+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:46:37.324+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:46:37.331+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds
+[2023-10-28T12:47:56.472+0200] {processor.py:157} INFO - Started process (PID=55691) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:47:56.474+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:47:56.474+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:47:56.474+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:47:56.496+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:47:56.560+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:47:56.560+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:47:56.566+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:47:56.566+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:47:56.573+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T12:49:16.066+0200] {processor.py:157} INFO - Started process (PID=55835) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:49:16.068+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:49:16.069+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:49:16.068+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:49:16.091+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:49:16.156+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:49:16.156+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:49:16.162+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:49:16.162+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:49:16.169+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.103 seconds
+[2023-10-28T12:50:33.416+0200] {processor.py:157} INFO - Started process (PID=55977) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:50:33.417+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:50:33.418+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:50:33.418+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:50:33.439+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:50:33.504+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:50:33.504+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:50:33.510+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:50:33.510+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:50:33.517+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.102 seconds
+[2023-10-28T12:51:48.016+0200] {processor.py:157} INFO - Started process (PID=56113) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:51:48.018+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:51:48.019+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:51:48.019+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:51:48.042+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:51:48.114+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:51:48.114+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:51:48.121+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:51:48.121+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:51:48.129+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.113 seconds
+[2023-10-28T12:53:11.561+0200] {processor.py:157} INFO - Started process (PID=56266) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:53:11.563+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:53:11.564+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:53:11.564+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:53:11.586+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:53:11.653+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:53:11.653+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:53:11.659+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:53:11.659+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:53:11.666+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds
+[2023-10-28T12:54:30.748+0200] {processor.py:157} INFO - Started process (PID=56408) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:54:30.750+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:54:30.750+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:54:30.750+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:54:30.773+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:54:30.841+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:54:30.841+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:54:30.848+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:54:30.848+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:54:30.857+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.109 seconds
+[2023-10-28T12:55:51.028+0200] {processor.py:157} INFO - Started process (PID=56559) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:55:51.029+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:55:51.030+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:55:51.030+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:55:51.051+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:55:51.113+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:55:51.113+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:55:51.119+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:55:51.119+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:55:51.126+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T12:57:59.822+0200] {processor.py:157} INFO - Started process (PID=56646) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:57:59.824+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T12:57:59.824+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:57:59.824+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:57:59.846+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T12:57:59.908+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:57:59.908+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T12:57:59.915+0200] {logging_mixin.py:151} INFO - [2023-10-28T12:57:59.915+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T12:57:59.921+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T13:09:00.298+0200] {processor.py:157} INFO - Started process (PID=56820) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:09:00.301+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:09:00.301+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:09:00.301+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:09:00.322+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:09:00.385+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:09:00.385+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:09:00.391+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:09:00.391+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:09:00.398+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T13:10:43.344+0200] {processor.py:157} INFO - Started process (PID=56974) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:10:43.347+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:10:43.347+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:10:43.347+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:10:43.369+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:10:43.431+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:10:43.431+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:10:43.438+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:10:43.437+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:10:43.444+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T13:13:06.495+0200] {processor.py:157} INFO - Started process (PID=57084) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:13:06.497+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:13:06.497+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:13:06.497+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:13:06.518+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:13:06.580+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:13:06.580+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:13:06.587+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:13:06.586+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:13:06.593+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T13:13:57.782+0200] {processor.py:157} INFO - Started process (PID=57160) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:13:57.784+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:13:57.784+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:13:57.784+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:13:57.805+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:13:57.867+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:13:57.867+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:13:57.873+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:13:57.873+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:13:57.880+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T13:16:45.255+0200] {processor.py:157} INFO - Started process (PID=57261) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:16:45.258+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:16:45.258+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:16:45.258+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:16:45.280+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:16:45.342+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:16:45.342+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:16:45.348+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:16:45.348+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:16:45.355+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T13:17:46.920+0200] {processor.py:157} INFO - Started process (PID=57350) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:17:46.922+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:17:46.922+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:17:46.922+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:17:46.944+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:17:47.006+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:17:47.006+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:17:47.012+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:17:47.012+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:17:47.019+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T13:20:28.925+0200] {processor.py:157} INFO - Started process (PID=57449) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:20:28.927+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:20:28.927+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:20:28.927+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:20:28.949+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:20:29.010+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:20:29.010+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:20:29.017+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:20:29.016+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:20:29.023+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2023-10-28T13:21:58.372+0200] {processor.py:157} INFO - Started process (PID=57537) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:21:58.374+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T13:21:58.374+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:21:58.374+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:21:58.395+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T13:21:58.457+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:21:58.457+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T13:21:58.463+0200] {logging_mixin.py:151} INFO - [2023-10-28T13:21:58.463+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T13:21:58.470+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T14:18:43.519+0200] {processor.py:157} INFO - Started process (PID=57691) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T14:18:43.522+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T14:18:43.522+0200] {logging_mixin.py:151} INFO - [2023-10-28T14:18:43.522+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T14:18:43.543+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T14:18:43.606+0200] {logging_mixin.py:151} INFO - [2023-10-28T14:18:43.606+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T14:18:43.612+0200] {logging_mixin.py:151} INFO - [2023-10-28T14:18:43.612+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T14:18:43.619+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T16:06:05.719+0200] {processor.py:157} INFO - Started process (PID=57889) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T16:06:05.721+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T16:06:05.721+0200] {logging_mixin.py:151} INFO - [2023-10-28T16:06:05.721+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T16:06:05.742+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T16:06:05.805+0200] {logging_mixin.py:151} INFO - [2023-10-28T16:06:05.805+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T16:06:05.812+0200] {logging_mixin.py:151} INFO - [2023-10-28T16:06:05.812+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T16:06:05.819+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T17:48:55.446+0200] {processor.py:157} INFO - Started process (PID=58072) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T17:48:55.448+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T17:48:55.449+0200] {logging_mixin.py:151} INFO - [2023-10-28T17:48:55.449+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T17:48:55.470+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T17:48:55.534+0200] {logging_mixin.py:151} INFO - [2023-10-28T17:48:55.534+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T17:48:55.540+0200] {logging_mixin.py:151} INFO - [2023-10-28T17:48:55.540+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T17:48:55.547+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2023-10-28T20:34:28.336+0200] {processor.py:157} INFO - Started process (PID=58283) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:34:28.339+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T20:34:28.339+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:34:28.339+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:34:28.361+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:34:28.423+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:34:28.423+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T20:34:28.429+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:34:28.429+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T20:34:28.435+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T20:39:56.035+0200] {processor.py:157} INFO - Started process (PID=58446) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:39:56.037+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T20:39:56.038+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:39:56.037+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:39:56.060+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:39:56.122+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:39:56.122+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T20:39:56.128+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:39:56.128+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T20:39:56.135+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2023-10-28T20:46:35.948+0200] {processor.py:157} INFO - Started process (PID=58599) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:46:35.950+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T20:46:35.950+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:46:35.950+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:46:35.972+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T20:46:36.034+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:46:36.034+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T20:46:36.040+0200] {logging_mixin.py:151} INFO - [2023-10-28T20:46:36.040+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T20:46:36.047+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-28T21:49:30.972+0200] {processor.py:157} INFO - Started process (PID=58779) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T21:49:30.974+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T21:49:30.974+0200] {logging_mixin.py:151} INFO - [2023-10-28T21:49:30.974+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T21:49:30.997+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T21:49:31.061+0200] {logging_mixin.py:151} INFO - [2023-10-28T21:49:31.061+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T21:49:31.067+0200] {logging_mixin.py:151} INFO - [2023-10-28T21:49:31.067+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T21:49:31.074+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.102 seconds
+[2023-10-28T23:30:59.612+0200] {processor.py:157} INFO - Started process (PID=58968) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T23:30:59.615+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-28T23:30:59.615+0200] {logging_mixin.py:151} INFO - [2023-10-28T23:30:59.615+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T23:30:59.637+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-28T23:30:59.699+0200] {logging_mixin.py:151} INFO - [2023-10-28T23:30:59.698+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-28T23:30:59.705+0200] {logging_mixin.py:151} INFO - [2023-10-28T23:30:59.705+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-28T23:30:59.711+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.099 seconds
+[2023-10-29T01:32:39.782+0200] {processor.py:157} INFO - Started process (PID=59154) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-29T01:32:39.785+0200] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-10-29T01:32:39.786+0200] {logging_mixin.py:151} INFO - [2023-10-29T01:32:39.785+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-29T01:32:39.807+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-10-29T01:32:39.870+0200] {logging_mixin.py:151} INFO - [2023-10-29T01:32:39.870+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-29T01:32:39.876+0200] {logging_mixin.py:151} INFO - [2023-10-29T01:32:39.876+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-10-29T01:32:39.883+0200] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds

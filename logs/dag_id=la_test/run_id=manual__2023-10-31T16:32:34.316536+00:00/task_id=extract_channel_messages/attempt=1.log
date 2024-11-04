@@ -1,0 +1,32 @@
+[2023-10-31T22:39:40.480+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:32:34.316536+00:00 [queued]>
+[2023-10-31T22:39:40.483+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:32:34.316536+00:00 [queued]>
+[2023-10-31T22:39:40.483+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-31T22:39:40.488+0100] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_channel_messages> on 2023-10-31 16:32:34.316536+00:00
+[2023-10-31T22:39:40.491+0100] {standard_task_runner.py:57} INFO - Started process 66145 to run task
+[2023-10-31T22:39:40.494+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:32:34.316536+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/test_aj.py', '--cfg-path', '/var/folders/4w/73_t653s0rz1z847_g217g2h0000gn/T/tmpwa86uni9']
+[2023-10-31T22:39:40.495+0100] {standard_task_runner.py:85} INFO - Job 55: Subtask extract_channel_messages
+[2023-10-31T22:39:40.515+0100] {task_command.py:416} INFO - Running <TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:32:34.316536+00:00 [running]> on host mbp21-14
+[2023-10-31T22:39:40.538+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='la_test' AIRFLOW_CTX_TASK_ID='extract_channel_messages' AIRFLOW_CTX_EXECUTION_DATE='2023-10-31T16:32:34.316536+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-31T16:32:34.316536+00:00'
+[2023-10-31T22:39:40.540+0100] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nick/airflow/dags/operators/extract_operators.py", line 79, in generic_extract_from_dataframe_args
+    df = pd.read_csv(input_fp, usecols=columns)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/nick/airflow/data/csv/teams_channels.csv'
+[2023-10-31T22:39:40.543+0100] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=la_test, task_id=extract_channel_messages, execution_date=20231031T163234, start_date=20231031T213940, end_date=20231031T213940
+[2023-10-31T22:39:40.546+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 55 for task extract_channel_messages ([Errno 2] No such file or directory: '/Users/nick/airflow/data/csv/teams_channels.csv'; 66145)
+[2023-10-31T22:39:40.554+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-31T22:39:40.565+0100] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

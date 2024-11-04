@@ -1,0 +1,29 @@
+[2023-10-31T22:34:48.923+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:32:07.375922+00:00 [queued]>
+[2023-10-31T22:34:48.926+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:32:07.375922+00:00 [queued]>
+[2023-10-31T22:34:48.926+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-31T22:34:48.930+0100] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): merge_group_user_lists> on 2023-10-31 16:32:07.375922+00:00
+[2023-10-31T22:34:48.933+0100] {standard_task_runner.py:57} INFO - Started process 65566 to run task
+[2023-10-31T22:34:48.936+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:32:07.375922+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/test_aj.py', '--cfg-path', '/var/folders/4w/73_t653s0rz1z847_g217g2h0000gn/T/tmpwk3lpevy']
+[2023-10-31T22:34:48.936+0100] {standard_task_runner.py:85} INFO - Job 31: Subtask merge_group_user_lists
+[2023-10-31T22:34:48.956+0100] {task_command.py:416} INFO - Running <TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:32:07.375922+00:00 [running]> on host mbp21-14
+[2023-10-31T22:34:48.976+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='la_test' AIRFLOW_CTX_TASK_ID='merge_group_user_lists' AIRFLOW_CTX_EXECUTION_DATE='2023-10-31T16:32:07.375922+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-31T16:32:07.375922+00:00'
+[2023-10-31T22:34:48.977+0100] {logging_mixin.py:151} INFO - []
+[2023-10-31T22:34:48.977+0100] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/nick/airflow/dags/operators/transform_operators.py", line 91, in merge_dataframes_from_directory
+    df = pd.concat(frames, ignore_index=True)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 380, in concat
+    op = _Concatenator(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 443, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 505, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+[2023-10-31T22:34:48.979+0100] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=la_test, task_id=merge_group_user_lists, execution_date=20231031T163207, start_date=20231031T213448, end_date=20231031T213448
+[2023-10-31T22:34:48.982+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 31 for task merge_group_user_lists (No objects to concatenate; 65566)
+[2023-10-31T22:34:48.997+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-31T22:34:49.009+0100] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

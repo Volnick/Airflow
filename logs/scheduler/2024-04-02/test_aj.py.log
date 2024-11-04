@@ -1,0 +1,12 @@
+[2024-04-02T02:33:52.050+0200] {processor.py:157} INFO - Started process (PID=78012) to work on /Users/nick/airflow/dags/test_aj.py
+[2024-04-02T02:33:52.052+0200] {processor.py:829} INFO - Processing file /Users/nick/airflow/dags/test_aj.py for tasks to queue
+[2024-04-02T02:33:52.052+0200] {logging_mixin.py:151} INFO - [2024-04-02T02:33:52.052+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_aj.py
+[2024-04-02T02:33:52.388+0200] {processor.py:839} INFO - DAG(s) dict_keys(['la_test']) retrieved from /Users/nick/airflow/dags/test_aj.py
+[2024-04-02T02:33:52.392+0200] {logging_mixin.py:151} INFO - [2024-04-02T02:33:52.392+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-02T02:33:52.405+0200] {processor.py:179} INFO - Processing /Users/nick/airflow/dags/test_aj.py took 0.356 seconds
+[2024-04-03T01:28:35.245+0200] {processor.py:157} INFO - Started process (PID=93663) to work on /Users/nick/airflow/dags/test_aj.py
+[2024-04-03T01:28:35.248+0200] {processor.py:829} INFO - Processing file /Users/nick/airflow/dags/test_aj.py for tasks to queue
+[2024-04-03T01:28:35.248+0200] {logging_mixin.py:151} INFO - [2024-04-03T01:28:35.248+0200] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_aj.py
+[2024-04-03T01:28:35.616+0200] {processor.py:839} INFO - DAG(s) dict_keys(['la_test']) retrieved from /Users/nick/airflow/dags/test_aj.py
+[2024-04-03T01:28:35.621+0200] {logging_mixin.py:151} INFO - [2024-04-03T01:28:35.620+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-03T01:28:35.635+0200] {processor.py:179} INFO - Processing /Users/nick/airflow/dags/test_aj.py took 0.390 seconds

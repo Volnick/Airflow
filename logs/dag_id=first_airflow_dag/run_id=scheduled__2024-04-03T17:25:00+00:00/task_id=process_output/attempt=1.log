@@ -1,0 +1,14 @@
+[2024-04-03T19:26:55.865+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: first_airflow_dag.process_output scheduled__2024-04-03T17:25:00+00:00 [queued]>
+[2024-04-03T19:26:55.867+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: first_airflow_dag.process_output scheduled__2024-04-03T17:25:00+00:00 [queued]>
+[2024-04-03T19:26:55.867+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-04-03T19:26:55.871+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): process_output> on 2024-04-03 17:25:00+00:00
+[2024-04-03T19:26:55.874+0200] {standard_task_runner.py:57} INFO - Started process 67518 to run task
+[2024-04-03T19:26:55.877+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'first_airflow_dag', 'process_output', 'scheduled__2024-04-03T17:25:00+00:00', '--job-id', '1042', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/var/folders/4w/73_t653s0rz1z847_g217g2h0000gn/T/tmpk31_wess']
+[2024-04-03T19:26:55.878+0200] {standard_task_runner.py:85} INFO - Job 1042: Subtask process_output
+[2024-04-03T19:26:55.894+0200] {task_command.py:416} INFO - Running <TaskInstance: first_airflow_dag.process_output scheduled__2024-04-03T17:25:00+00:00 [running]> on host mbp21-14
+[2024-04-03T19:26:55.954+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='first_airflow_dag' AIRFLOW_CTX_TASK_ID='process_output' AIRFLOW_CTX_EXECUTION_DATE='2024-04-03T17:25:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-03T17:25:00+00:00'
+[2024-04-03T19:26:55.957+0200] {logging_mixin.py:151} INFO - Ausgabe des Datums:  Mi  3 Apr 2024 19:26:52 CEST
+[2024-04-03T19:26:55.957+0200] {python.py:194} INFO - Done. Returned value was: None
+[2024-04-03T19:26:55.959+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=first_airflow_dag, task_id=process_output, execution_date=20240403T172500, start_date=20240403T172655, end_date=20240403T172655
+[2024-04-03T19:26:56.000+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-04-03T19:26:56.006+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

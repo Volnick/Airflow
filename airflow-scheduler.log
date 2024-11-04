@@ -1,0 +1,1267 @@
+2023-10-23 18:26:44,679 INFO - Starting the scheduler
+2023-10-23 18:26:44,680 INFO - Processing each file at most -1 times
+2023-10-23 18:26:44,685 INFO - Launched DagFileProcessorManager with pid: 68334
+2023-10-23 18:26:44,687 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 18:31:45,125 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 18:36:45,810 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 18:41:46,629 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 18:46:47,453 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 18:51:48,304 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 18:56:48,334 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:01:48,366 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:06:48,392 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:11:48,412 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:16:48,441 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:21:48,466 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:26:48,503 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:28:34,965 ERROR - Exception when executing SchedulerJob._run_scheduler_loop
+Traceback (most recent call last):
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 733, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: job.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job_runner.py", line 845, in _execute
+    self._run_scheduler_loop()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job_runner.py", line 986, in _run_scheduler_loop
+    perform_heartbeat(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/job.py", line 350, in perform_heartbeat
+    job.heartbeat(heartbeat_callback=heartbeat_callback, session=session)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/job.py", line 211, in heartbeat
+    session.commit()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1454, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 832, in commit
+    self._prepare_impl()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 811, in _prepare_impl
+    self.session.flush()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3589, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1097, in _emit_insert_statements
+    c = connection._execute_20(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 733, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: job.id
+[SQL: INSERT INTO job (id, dag_id, state, job_type, start_date, end_date, latest_heartbeat, executor_class, hostname, unixname) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ((18, None, <JobState.RUNNING: 'running'>, 'SchedulerJob', '2023-10-23 16:26:44.664461', None, '2023-10-23 17:28:29.920130', None, 'mbp21-14', 'nick'), (18, None, <JobState.RUNNING: 'running'>, 'SchedulerJob', '2023-10-23 16:26:44.664461', None, '2023-10-23 17:28:29.920130', None, 'mbp21-14', 'nick'))]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2023-10-23 19:28:35,984 INFO - Sending Signals.SIGTERM to group 68334. PIDs of all processes in the group: [68334]
+2023-10-23 19:28:35,986 INFO - Sending the signal Signals.SIGTERM to group 68334
+2023-10-23 19:28:36,288 INFO - Process psutil.Process(pid=68334, status='terminated', exitcode=0, started='18:26:44') (68334) terminated with exit code 0
+2023-10-23 19:28:36,289 INFO - Exited execute loop
+2023-10-23 19:28:36,292 ERROR - Exception when running scheduler job
+Traceback (most recent call last):
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 733, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: job.id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/scheduler_command.py", line 47, in _run_scheduler_job
+    run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/session.py", line 77, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/job.py", line 289, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/job.py", line 318, in execute_job
+    ret = execute_callable()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job_runner.py", line 845, in _execute
+    self._run_scheduler_loop()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job_runner.py", line 986, in _run_scheduler_loop
+    perform_heartbeat(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/job.py", line 350, in perform_heartbeat
+    job.heartbeat(heartbeat_callback=heartbeat_callback, session=session)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/job.py", line 211, in heartbeat
+    session.commit()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1454, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 832, in commit
+    self._prepare_impl()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 811, in _prepare_impl
+    self.session.flush()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3589, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1097, in _emit_insert_statements
+    c = connection._execute_20(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 733, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: job.id
+[SQL: INSERT INTO job (id, dag_id, state, job_type, start_date, end_date, latest_heartbeat, executor_class, hostname, unixname) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ((18, None, <JobState.RUNNING: 'running'>, 'SchedulerJob', '2023-10-23 16:26:44.664461', None, '2023-10-23 17:28:29.920130', None, 'mbp21-14', 'nick'), (18, None, <JobState.RUNNING: 'running'>, 'SchedulerJob', '2023-10-23 16:26:44.664461', None, '2023-10-23 17:28:29.920130', None, 'mbp21-14', 'nick'))]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2023-10-23 19:33:10,537 INFO - Starting the scheduler
+2023-10-23 19:33:10,538 INFO - Processing each file at most -1 times
+2023-10-23 19:33:10,541 INFO - Launched DagFileProcessorManager with pid: 78883
+2023-10-23 19:33:10,543 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:38:11,531 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:43:11,884 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:48:12,555 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:53:12,736 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 19:58:13,180 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 20:03:13,262 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 21:42:55,201 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 21:47:55,792 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 21:52:56,492 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 21:57:56,601 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:02:57,224 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:07:57,928 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:12:58,581 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:17:58,593 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:22:59,374 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:27:59,452 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:33:00,078 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:38:00,488 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:43:00,552 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:48:00,824 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:53:01,051 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 22:58:01,213 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:03:01,882 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:08:02,339 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:13:03,063 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:18:03,705 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:23:04,370 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:28:05,056 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:33:05,394 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-23 23:38:35,439 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 00:29:58,098 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 00:53:32,173 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 01:16:19,379 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 01:55:41,482 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 01:55:41,484 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-24 02:19:53,393 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 03:11:08,147 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 03:50:03,194 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 04:42:41,602 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 05:36:46,306 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 06:46:26,135 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 07:38:04,792 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 08:27:42,366 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 09:10:47,586 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 09:22:16,623 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 09:32:08,422 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 09:42:51,102 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 10:12:44,865 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 10:17:45,342 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 10:22:45,831 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 10:27:46,451 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 10:32:47,035 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 10:37:47,145 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 10:42:47,712 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 11:03:42,077 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 12:27:10,492 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 12:32:11,132 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 12:37:11,198 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 12:42:11,752 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 12:47:12,251 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 12:52:12,868 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 12:57:13,508 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:02:13,868 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:07:14,910 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:12:15,590 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:17:16,238 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:22:16,969 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:27:17,626 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:32:17,896 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:37:18,589 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:42:19,280 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:47:20,482 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:52:21,056 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 13:57:21,207 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:02:21,486 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:07:22,205 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:12:22,889 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:17:23,560 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:22:24,229 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:27:24,924 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:32:25,015 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:37:25,777 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:42:26,683 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:47:27,337 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:52:27,978 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 14:57:28,542 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:02:29,228 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:07:29,920 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:12:30,864 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:17:32,062 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:22:32,980 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:27:33,029 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:32:33,695 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:37:34,282 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:43:53,132 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:48:53,632 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:53:54,297 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 15:58:54,915 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:03:55,849 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:08:56,509 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:13:56,753 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:18:56,904 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:23:57,342 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:28:57,967 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:33:58,538 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:38:59,342 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:43:59,766 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:49:00,259 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:54:00,889 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 16:59:01,439 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:04:01,841 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:09:01,930 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:14:02,503 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:19:03,108 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:24:03,372 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:29:04,149 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:34:04,451 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:39:05,076 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:44:05,711 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:49:05,980 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:54:06,552 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 17:59:06,607 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:04:07,211 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:09:07,813 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:14:08,479 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:19:09,017 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:24:09,180 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:29:09,623 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:34:10,222 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:39:10,682 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:44:11,248 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:49:11,831 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:54:12,051 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 18:59:12,492 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:04:13,084 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:09:13,632 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:14:13,780 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:19:13,831 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:25:42,717 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:30:43,390 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:35:44,008 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 19:54:09,717 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 22:28:48,596 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 22:33:48,900 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 22:38:49,420 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 22:43:49,694 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 22:48:49,858 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 22:53:49,902 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 22:58:50,534 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:03:50,619 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:08:51,212 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:13:51,879 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:18:52,505 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:23:53,172 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:28:53,843 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:33:54,445 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:38:55,059 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:43:55,726 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:48:56,329 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:53:56,847 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-24 23:58:57,098 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:03:57,848 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:08:58,149 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:13:58,693 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:18:59,355 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:23:59,883 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:28:59,966 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:34:00,581 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:39:01,357 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:44:01,483 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:49:02,353 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 00:54:02,752 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 08:44:39,293 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 08:44:39,295 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-25 10:40:00,803 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 10:45:01,386 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 10:50:01,997 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 10:55:02,728 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:00:03,390 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:05:03,982 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:10:04,633 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:15:05,242 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:20:05,528 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:25:05,926 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:30:06,129 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 11:35:06,867 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:13:19,688 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:25:26,419 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:30:26,733 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:35:27,316 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:40:27,915 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:45:28,509 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:50:28,879 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 12:55:29,471 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:00:29,544 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:05:30,236 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:10:30,561 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:15:31,179 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:20:31,609 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:25:32,224 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:30:32,828 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:35:32,849 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:40:33,453 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:45:34,057 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:50:34,189 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 13:55:34,781 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:00:35,386 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:05:35,997 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:10:36,332 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:15:36,906 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:20:37,591 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:25:37,633 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:30:38,241 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:35:38,858 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 14:40:39,233 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 15:01:41,522 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-25 21:58:33,147 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 08:01:51,369 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 08:01:51,371 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-26 08:41:06,756 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 08:46:07,367 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 08:51:07,998 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 08:56:08,629 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:01:09,186 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:06:10,270 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:11:10,613 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:16:11,273 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:21:11,913 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:26:12,072 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:31:12,189 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:36:12,699 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:41:12,848 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:46:13,440 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:51:14,134 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 09:56:14,392 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:01:14,764 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:06:15,440 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:11:15,684 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:16:16,327 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:21:16,463 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:26:17,089 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:31:17,744 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:36:17,800 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:41:18,296 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:46:18,920 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:51:19,580 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 10:56:20,187 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:01:20,795 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:06:20,974 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:11:21,647 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:16:22,246 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:21:23,084 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:26:23,472 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:31:23,998 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:36:24,620 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:41:25,343 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:47:02,486 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:52:02,550 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 11:57:03,154 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 12:02:03,339 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 12:07:04,109 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 12:12:04,794 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 12:17:05,866 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 12:22:06,513 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 12:28:24,880 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 13:17:26,520 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 13:34:57,769 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 13:39:58,393 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 13:44:59,218 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 13:49:59,449 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 13:55:00,062 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:00:00,405 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:05:01,093 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:10:01,418 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:15:01,940 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:20:02,682 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:25:03,478 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:30:04,330 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:35:04,681 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:40:05,286 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:45:05,971 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:50:06,639 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 14:55:07,084 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:00:07,763 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:05:08,443 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:10:09,072 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:15:09,748 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:20:10,468 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:25:11,151 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:30:11,258 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:35:11,953 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:40:12,563 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:45:13,200 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:50:13,341 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 15:55:14,008 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:00:14,672 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:05:15,338 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:10:16,198 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:15:16,890 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:20:17,581 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:25:18,527 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:30:19,200 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:35:19,530 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:40:20,052 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:45:20,632 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:50:21,128 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 16:55:21,735 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:00:21,802 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:19:13,064 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:24:13,354 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:30:41,152 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:39:42,418 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:44:42,487 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:52:13,272 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 17:57:13,885 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:04:14,948 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:09:53,068 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:09:53,070 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-26 18:32:24,032 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:37:24,622 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:42:25,255 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:47:25,467 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:52:26,183 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 18:57:26,619 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 19:02:27,483 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 20:53:58,240 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 21:35:05,081 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 21:35:05,082 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-26 22:28:52,855 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-26 22:28:52,856 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-26 23:40:13,252 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 09:18:51,264 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 09:23:51,793 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 09:28:52,474 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 10:25:46,180 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 10:30:46,815 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 10:35:47,504 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:08:25,185 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:08:25,187 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-27 11:13:25,700 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:18:26,353 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:23:26,978 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:28:27,666 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:33:28,199 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:38:28,420 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:43:28,480 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:48:29,198 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:53:29,805 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 11:58:30,311 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:03:30,963 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:08:31,274 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:13:32,060 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:18:32,732 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:23:33,014 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:28:33,584 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:33:34,177 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 12:57:30,874 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 13:30:45,376 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:05:49,641 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:10:50,274 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:15:51,239 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:20:51,286 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:25:52,224 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:30:52,922 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:35:53,540 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 14:59:02,577 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 15:35:34,996 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 15:40:35,614 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 15:46:07,940 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 15:46:07,942 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-27 15:51:43,189 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 15:57:12,483 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:02:13,079 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:07:13,730 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:12:14,395 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:17:14,717 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:22:15,238 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:27:15,809 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:32:15,898 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:37:16,401 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:42:17,072 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:47:17,266 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:52:18,154 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 16:57:18,772 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:02:19,004 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:07:19,532 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:12:20,162 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:17:20,837 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:22:21,465 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:27:21,609 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:32:22,236 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:37:22,852 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:42:23,425 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:47:24,027 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:52:24,582 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 17:57:25,208 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:02:25,509 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:07:25,829 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:12:26,066 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:17:26,663 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:22:26,724 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:27:27,205 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:40:00,385 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:45:00,974 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:50:01,825 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 18:55:03,240 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 19:33:03,658 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 20:26:43,721 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 21:21:05,247 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 22:11:15,089 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 22:47:39,259 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 22:52:39,918 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 22:57:40,541 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:02:40,643 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:07:41,108 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:12:41,265 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:17:41,884 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:22:42,121 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:27:42,796 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:32:43,581 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:37:44,208 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:42:44,880 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:47:45,078 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:52:45,876 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-27 23:57:46,354 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:02:47,023 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:07:47,481 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:12:48,083 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:17:48,352 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:22:48,959 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:27:49,136 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:32:49,706 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 00:53:07,798 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:01:39,753 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:06:40,357 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:11:41,040 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:16:41,624 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:21:42,092 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:26:42,727 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:31:43,322 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:36:43,995 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:41:44,078 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:46:44,709 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:51:45,582 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 01:56:46,257 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 02:01:46,936 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 02:06:47,542 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 02:11:48,963 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 02:42:25,738 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 03:36:49,384 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 04:29:24,432 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 05:40:45,117 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 05:40:45,119 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-28 06:24:44,987 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 07:16:59,334 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 08:08:14,692 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 09:17:35,326 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 10:12:34,340 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 10:49:35,614 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 11:26:59,571 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 11:59:38,909 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:04:39,481 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:09:39,488 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:14:40,091 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:19:40,825 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:24:41,644 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:29:42,022 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:34:42,632 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:39:43,712 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:44:43,971 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:49:44,274 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 12:54:44,879 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 13:13:05,498 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 14:18:43,708 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-28 20:42:12,305 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 03:55:41,498 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 03:55:41,501 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-29 11:44:14,405 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 11:54:13,544 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 11:59:14,114 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 12:04:14,280 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 12:09:14,903 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 12:14:14,985 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 12:35:19,512 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 13:28:50,122 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 14:15:22,316 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 15:07:49,606 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 15:51:03,019 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 15:56:03,262 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 16:15:45,642 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 17:09:07,994 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 18:01:50,889 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 18:57:31,843 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 19:55:45,495 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 20:41:44,824 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 21:06:39,030 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 22:00:30,125 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 22:47:55,066 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 23:41:13,558 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 23:48:46,945 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 23:53:47,124 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-29 23:58:47,712 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:03:48,340 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:08:48,686 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:13:49,336 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:18:49,782 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:23:50,193 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:28:50,235 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:33:51,265 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:38:51,894 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:43:52,101 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:48:52,697 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:53:52,933 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 00:58:53,497 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 01:03:54,162 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 01:08:54,206 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 01:13:54,870 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 01:18:55,185 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 01:23:55,836 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 01:28:56,480 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 01:33:57,383 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 02:09:51,677 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 02:51:59,137 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 03:44:40,857 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 04:38:19,013 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 05:33:34,271 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 06:25:30,696 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 07:17:15,700 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 08:12:08,017 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 08:47:31,944 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 08:52:32,555 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 09:45:38,923 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 09:45:38,925 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-30 10:22:48,759 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 11:53:06,734 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 11:53:06,736 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-30 14:14:14,009 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:19:14,122 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:24:14,742 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:29:15,403 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:34:15,831 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:39:15,931 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:44:16,441 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:49:16,556 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:54:17,237 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 14:59:17,685 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:04:18,357 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:09:19,111 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:14:19,994 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:19:20,705 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:24:21,208 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:29:21,885 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:34:22,513 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:39:22,683 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:44:23,586 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:49:23,793 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:54:24,380 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 15:59:25,001 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:04:25,183 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:09:25,840 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:14:26,080 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:19:26,626 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:24:27,518 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:29:27,765 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:34:28,294 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:39:28,792 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:44:29,357 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:49:29,941 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:54:30,854 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 16:59:31,513 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:04:32,427 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:09:32,807 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:14:33,414 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:19:33,950 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:24:34,632 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:29:35,287 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:37:29,924 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 17:45:28,974 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 18:05:49,001 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 18:38:19,819 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 19:18:12,231 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 19:48:45,578 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 20:11:43,015 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 20:11:43,018 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-30 21:09:42,770 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 22:01:49,139 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-30 23:07:09,715 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 00:00:11,403 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 00:37:21,156 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 01:30:41,133 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 01:30:41,135 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-31 02:22:58,421 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 03:17:22,039 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 04:12:18,886 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 05:06:26,685 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 06:19:38,546 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 06:19:38,548 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-31 07:02:47,535 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 07:55:46,065 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 08:49:59,104 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 09:42:50,170 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 10:03:29,183 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:04:52,643 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:09:53,187 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:14:53,828 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:19:54,470 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:24:55,134 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:29:56,069 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:34:56,155 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:39:56,836 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:44:57,228 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:49:57,616 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:54:57,661 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 11:59:58,165 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 12:04:58,759 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 12:15:47,017 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 12:15:47,019 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-31 12:54:22,865 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 13:34:44,746 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 13:59:49,605 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 14:04:51,057 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 14:10:13,255 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 14:48:44,074 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 14:53:44,728 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 14:58:45,406 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 15:03:46,009 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 15:08:46,390 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 15:13:46,771 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 15:18:47,446 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 15:21:22,930 INFO - 1 tasks up for execution:
+	<TaskInstance: learning_analytics_teams.extract_teams_groups manual__2023-10-23T17:45:07.858024+00:00 [scheduled]>
+2023-10-31 15:21:22,931 INFO - DAG learning_analytics_teams has 0/16 running and queued tasks
+2023-10-31 15:21:22,931 INFO - Setting the following tasks to queued state:
+	<TaskInstance: learning_analytics_teams.extract_teams_groups manual__2023-10-23T17:45:07.858024+00:00 [scheduled]>
+2023-10-31 15:21:22,933 INFO - Sending TaskInstanceKey(dag_id='learning_analytics_teams', task_id='extract_teams_groups', run_id='manual__2023-10-23T17:45:07.858024+00:00', try_number=1, map_index=-1) to executor with priority 24 and queue default
+2023-10-31 15:21:22,933 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'learning_analytics_teams', 'extract_teams_groups', 'manual__2023-10-23T17:45:07.858024+00:00', '--local', '--subdir', 'DAGS_FOLDER/learning_analytics_teams.py']
+2023-10-31 15:21:22,935 INFO - Executing command: ['airflow', 'tasks', 'run', 'learning_analytics_teams', 'extract_teams_groups', 'manual__2023-10-23T17:45:07.858024+00:00', '--local', '--subdir', 'DAGS_FOLDER/learning_analytics_teams.py']
+2023-10-31 22:34:26,248 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='learning_analytics_teams', task_id='extract_teams_groups', run_id='manual__2023-10-23T17:45:07.858024+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:26,256 INFO - TaskInstance Finished: dag_id=learning_analytics_teams, task_id=extract_teams_groups, run_id=manual__2023-10-23T17:45:07.858024+00:00, map_index=-1, run_start_date=2023-10-31 14:21:23.913379+00:00, run_end_date=None, run_duration=None, state=None, executor_state=success, try_number=1, max_tries=1, job_id=20, pool=default_pool, queue=default, priority_weight=24, operator=PythonOperator, queued_dttm=2023-10-31 14:21:22.932420+00:00, queued_by_job_id=None, pid=45768
+2023-10-31 22:34:26,268 ERROR - DagFileProcessorManager (PID=78883) last sent a heartbeat 13104.79 seconds ago! Restarting it
+2023-10-31 22:34:26,272 INFO - Sending Signals.SIGTERM to group 78883. PIDs of all processes in the group: [78883]
+2023-10-31 22:34:26,273 INFO - Sending the signal Signals.SIGTERM to group 78883
+2023-10-31 22:34:26,451 INFO - Process psutil.Process(pid=78883, status='terminated', exitcode=0, started='2023-10-23 19:33:10') (78883) terminated with exit code 0
+2023-10-31 22:34:26,455 INFO - Launched DagFileProcessorManager with pid: 65491
+2023-10-31 22:34:26,527 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 22:34:26,528 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-31 22:34:41,036 INFO - 7 tasks up for execution:
+	<TaskInstance: la_test.transform_users manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:34:41,036 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:41,037 INFO - Not executing <TaskInstance: la_test.transform_users manual__2023-10-31T16:36:16.370874+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:41,037 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:41,037 INFO - Not executing <TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:41,038 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:41,038 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:41,038 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:41,039 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:41,039 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:41,039 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:41,040 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:41,040 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:41,040 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:41,041 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,204 INFO - 8 tasks up for execution:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:20:36.373025+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_users manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:34:42,205 INFO - DAG la_test has 15/16 running and queued tasks
+2023-10-31 22:34:42,205 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:42,205 INFO - Not executing <TaskInstance: la_test.transform_users manual__2023-10-31T16:36:16.370874+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,206 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:42,206 INFO - Not executing <TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,206 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:42,207 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,207 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:42,207 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,208 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:42,208 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,208 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:42,209 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,209 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:42,209 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:42,210 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:20:36.373025+00:00 [scheduled]>
+2023-10-31 22:34:42,210 WARNING - cannot record scheduled_duration for task merge_group_user_lists because previous state change time has not been saved
+2023-10-31 22:34:42,211 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:20:36.373025+00:00', try_number=1, map_index=-1) to executor with priority 10 and queue default
+2023-10-31 22:34:42,211 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:20:36.373025+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:42,212 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:20:36.373025+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:43,626 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:20:36.373025+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:43,630 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_group_user_lists, run_id=manual__2023-10-31T16:20:36.373025+00:00, map_index=-1, run_start_date=2023-10-31 21:34:43.344996+00:00, run_end_date=2023-10-31 21:34:43.411654+00:00, run_duration=0.066658, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=24, pool=default_pool, queue=default, priority_weight=10, operator=PythonOperator, queued_dttm=2023-10-31 21:34:42.210475+00:00, queued_by_job_id=19, pid=65540
+2023-10-31 22:34:44,413 INFO - 8 tasks up for execution:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:30:05.761647+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_users manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:34:44,413 INFO - DAG la_test has 14/16 running and queued tasks
+2023-10-31 22:34:44,414 INFO - DAG la_test has 15/16 running and queued tasks
+2023-10-31 22:34:44,414 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:44,414 INFO - Not executing <TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:44,415 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:44,415 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:44,415 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:44,416 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:44,416 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:44,416 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:44,417 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:44,417 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:44,417 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:44,418 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:44,418 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:30:05.761647+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_users manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+2023-10-31 22:34:44,419 WARNING - cannot record scheduled_duration for task merge_group_user_lists because previous state change time has not been saved
+2023-10-31 22:34:44,420 WARNING - cannot record scheduled_duration for task transform_users because previous state change time has not been saved
+2023-10-31 22:34:44,420 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:30:05.761647+00:00', try_number=1, map_index=-1) to executor with priority 10 and queue default
+2023-10-31 22:34:44,421 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:30:05.761647+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:44,421 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='transform_users', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2023-10-31 22:34:44,421 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'transform_users', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:44,423 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:30:05.761647+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:45,802 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'transform_users', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:47,182 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:30:05.761647+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:47,183 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='transform_users', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:47,188 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_group_user_lists, run_id=manual__2023-10-31T16:30:05.761647+00:00, map_index=-1, run_start_date=2023-10-31 21:34:45.564816+00:00, run_end_date=2023-10-31 21:34:45.620563+00:00, run_duration=0.055747, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=26, pool=default_pool, queue=default, priority_weight=10, operator=PythonOperator, queued_dttm=2023-10-31 21:34:44.419070+00:00, queued_by_job_id=19, pid=65549
+2023-10-31 22:34:47,189 INFO - TaskInstance Finished: dag_id=la_test, task_id=transform_users, run_id=manual__2023-10-31T16:36:16.370874+00:00, map_index=-1, run_start_date=2023-10-31 21:34:46.896160+00:00, run_end_date=2023-10-31 21:34:46.983528+00:00, run_duration=0.087368, state=success, executor_state=success, try_number=1, max_tries=0, job_id=28, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2023-10-31 21:34:44.419070+00:00, queued_by_job_id=19, pid=65556
+2023-10-31 22:34:47,882 INFO - 10 tasks up for execution:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:32:07.375922+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:35:47.434347+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:48:53.413001+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_user_lists manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:34:47,883 INFO - DAG la_test has 11/16 running and queued tasks
+2023-10-31 22:34:47,883 INFO - DAG la_test has 12/16 running and queued tasks
+2023-10-31 22:34:47,884 INFO - DAG la_test has 13/16 running and queued tasks
+2023-10-31 22:34:47,884 INFO - DAG la_test has 14/16 running and queued tasks
+2023-10-31 22:34:47,884 INFO - DAG la_test has 15/16 running and queued tasks
+2023-10-31 22:34:47,885 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:47,885 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:47,885 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:47,886 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:47,886 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:47,886 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:47,886 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:47,887 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:47,887 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:47,887 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:47,888 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:32:07.375922+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:35:47.434347+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:48:53.413001+00:00 [scheduled]>
+	<TaskInstance: la_test.transform_user_principal_names manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_user_lists manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+2023-10-31 22:34:47,890 WARNING - cannot record scheduled_duration for task merge_group_user_lists because previous state change time has not been saved
+2023-10-31 22:34:47,890 WARNING - cannot record scheduled_duration for task merge_group_user_lists because previous state change time has not been saved
+2023-10-31 22:34:47,890 WARNING - cannot record scheduled_duration for task merge_group_user_lists because previous state change time has not been saved
+2023-10-31 22:34:47,891 WARNING - cannot record scheduled_duration for task transform_user_principal_names because previous state change time has not been saved
+2023-10-31 22:34:47,891 WARNING - cannot record scheduled_duration for task merge_user_lists because previous state change time has not been saved
+2023-10-31 22:34:47,891 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:32:07.375922+00:00', try_number=1, map_index=-1) to executor with priority 10 and queue default
+2023-10-31 22:34:47,892 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:32:07.375922+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:47,892 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:35:47.434347+00:00', try_number=1, map_index=-1) to executor with priority 10 and queue default
+2023-10-31 22:34:47,892 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:35:47.434347+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:47,893 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:48:53.413001+00:00', try_number=1, map_index=-1) to executor with priority 10 and queue default
+2023-10-31 22:34:47,893 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:48:53.413001+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:47,893 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='transform_user_principal_names', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2023-10-31 22:34:47,894 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'transform_user_principal_names', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:47,894 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_user_lists', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-10-31 22:34:47,894 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_user_lists', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:47,895 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:32:07.375922+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:49,151 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:35:47.434347+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:50,427 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:48:53.413001+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:51,665 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'transform_user_principal_names', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:52,873 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_user_lists', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:54,345 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:32:07.375922+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:54,346 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:35:47.434347+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:54,346 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:48:53.413001+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:54,347 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='transform_user_principal_names', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:54,347 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_user_lists', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1)
+2023-10-31 22:34:54,362 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_group_user_lists, run_id=manual__2023-10-31T16:48:53.413001+00:00, map_index=-1, run_start_date=2023-10-31 21:34:51.433243+00:00, run_end_date=2023-10-31 21:34:51.491643+00:00, run_duration=0.0584, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=34, pool=default_pool, queue=default, priority_weight=10, operator=PythonOperator, queued_dttm=2023-10-31 21:34:47.888865+00:00, queued_by_job_id=19, pid=65573
+2023-10-31 22:34:54,362 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_user_lists, run_id=manual__2023-10-31T16:36:16.370874+00:00, map_index=-1, run_start_date=2023-10-31 21:34:53.975018+00:00, run_end_date=2023-10-31 21:34:54.144245+00:00, run_duration=0.169227, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=36, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2023-10-31 21:34:47.888865+00:00, queued_by_job_id=19, pid=65583
+2023-10-31 22:34:54,363 INFO - TaskInstance Finished: dag_id=la_test, task_id=transform_user_principal_names, run_id=manual__2023-10-31T16:36:16.370874+00:00, map_index=-1, run_start_date=2023-10-31 21:34:52.653124+00:00, run_end_date=2023-10-31 21:34:52.711817+00:00, run_duration=0.058693, state=success, executor_state=success, try_number=1, max_tries=0, job_id=35, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2023-10-31 21:34:47.888865+00:00, queued_by_job_id=19, pid=65578
+2023-10-31 22:34:54,363 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_group_user_lists, run_id=manual__2023-10-31T16:35:47.434347+00:00, map_index=-1, run_start_date=2023-10-31 21:34:50.209832+00:00, run_end_date=2023-10-31 21:34:50.266260+00:00, run_duration=0.056428, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=33, pool=default_pool, queue=default, priority_weight=10, operator=PythonOperator, queued_dttm=2023-10-31 21:34:47.888865+00:00, queued_by_job_id=19, pid=65570
+2023-10-31 22:34:54,363 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_group_user_lists, run_id=manual__2023-10-31T16:32:07.375922+00:00, map_index=-1, run_start_date=2023-10-31 21:34:48.923533+00:00, run_end_date=2023-10-31 21:34:48.979055+00:00, run_duration=0.055522, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=31, pool=default_pool, queue=default, priority_weight=10, operator=PythonOperator, queued_dttm=2023-10-31 21:34:47.888865+00:00, queued_by_job_id=19, pid=65566
+2023-10-31 22:34:55,126 INFO - 7 tasks up for execution:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:50:48.492053+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_user_principal_name_list manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:34:55,126 INFO - DAG la_test has 10/16 running and queued tasks
+2023-10-31 22:34:55,126 INFO - DAG la_test has 11/16 running and queued tasks
+2023-10-31 22:34:55,127 INFO - DAG la_test has 12/16 running and queued tasks
+2023-10-31 22:34:55,127 INFO - DAG la_test has 13/16 running and queued tasks
+2023-10-31 22:34:55,127 INFO - DAG la_test has 14/16 running and queued tasks
+2023-10-31 22:34:55,128 INFO - DAG la_test has 15/16 running and queued tasks
+2023-10-31 22:34:55,128 INFO - DAG la_test has 16/16 running and queued tasks
+2023-10-31 22:34:55,128 INFO - Not executing <TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]> since the number of tasks running or queued from DAG la_test is >= to the DAG's max_active_tasks limit of 16
+2023-10-31 22:34:55,129 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.merge_group_user_lists manual__2023-10-31T16:50:48.492053+00:00 [scheduled]>
+	<TaskInstance: la_test.merge_user_principal_name_list manual__2023-10-31T16:36:16.370874+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+2023-10-31 22:34:55,131 WARNING - cannot record scheduled_duration for task merge_group_user_lists because previous state change time has not been saved
+2023-10-31 22:34:55,131 WARNING - cannot record scheduled_duration for task merge_user_principal_name_list because previous state change time has not been saved
+2023-10-31 22:34:55,132 WARNING - cannot record scheduled_duration for task load_channels because previous state change time has not been saved
+2023-10-31 22:34:55,132 WARNING - cannot record scheduled_duration for task load_channels because previous state change time has not been saved
+2023-10-31 22:34:55,132 WARNING - cannot record scheduled_duration for task load_channels because previous state change time has not been saved
+2023-10-31 22:34:55,133 WARNING - cannot record scheduled_duration for task load_channels because previous state change time has not been saved
+2023-10-31 22:34:55,133 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:50:48.492053+00:00', try_number=1, map_index=-1) to executor with priority 10 and queue default
+2023-10-31 22:34:55,134 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:50:48.492053+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:55,134 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='merge_user_principal_name_list', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-10-31 22:34:55,134 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'merge_user_principal_name_list', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:55,135 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:19:52.345619+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-10-31 22:34:55,135 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:19:52.345619+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:55,135 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:24:22.656958+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-10-31 22:34:55,135 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:24:22.656958+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:55,136 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:27:30.022445+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-10-31 22:34:55,136 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:27:30.022445+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:55,136 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:32:34.316536+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-10-31 22:34:55,137 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:32:34.316536+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:55,138 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_group_user_lists', 'manual__2023-10-31T16:50:48.492053+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:56,403 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'merge_user_principal_name_list', 'manual__2023-10-31T16:36:16.370874+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:57,627 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:19:52.345619+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:34:59,743 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:24:22.656958+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:35:02,007 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:27:30.022445+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:35:03,579 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:32:34.316536+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:35:05,138 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_group_user_lists', run_id='manual__2023-10-31T16:50:48.492053+00:00', try_number=1, map_index=-1)
+2023-10-31 22:35:05,139 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='merge_user_principal_name_list', run_id='manual__2023-10-31T16:36:16.370874+00:00', try_number=1, map_index=-1)
+2023-10-31 22:35:05,140 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:19:52.345619+00:00', try_number=1, map_index=-1)
+2023-10-31 22:35:05,140 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:24:22.656958+00:00', try_number=1, map_index=-1)
+2023-10-31 22:35:05,140 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:27:30.022445+00:00', try_number=1, map_index=-1)
+2023-10-31 22:35:05,141 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:32:34.316536+00:00', try_number=1, map_index=-1)
+2023-10-31 22:35:05,146 INFO - TaskInstance Finished: dag_id=la_test, task_id=load_channels, run_id=manual__2023-10-31T16:27:30.022445+00:00, map_index=-1, run_start_date=2023-10-31 21:35:02.976671+00:00, run_end_date=2023-10-31 21:35:03.411744+00:00, run_duration=0.435073, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=41, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-10-31 21:34:55.130079+00:00, queued_by_job_id=19, pid=65619
+2023-10-31 22:35:05,147 INFO - TaskInstance Finished: dag_id=la_test, task_id=load_channels, run_id=manual__2023-10-31T16:24:22.656958+00:00, map_index=-1, run_start_date=2023-10-31 21:35:01.013399+00:00, run_end_date=2023-10-31 21:35:01.780360+00:00, run_duration=0.766961, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=40, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-10-31 21:34:55.130079+00:00, queued_by_job_id=19, pid=65611
+2023-10-31 22:35:05,147 INFO - TaskInstance Finished: dag_id=la_test, task_id=load_channels, run_id=manual__2023-10-31T16:19:52.345619+00:00, map_index=-1, run_start_date=2023-10-31 21:34:58.709114+00:00, run_end_date=2023-10-31 21:34:59.469442+00:00, run_duration=0.760328, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=39, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-10-31 21:34:55.130079+00:00, queued_by_job_id=19, pid=65599
+2023-10-31 22:35:05,148 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_group_user_lists, run_id=manual__2023-10-31T16:50:48.492053+00:00, map_index=-1, run_start_date=2023-10-31 21:34:56.160279+00:00, run_end_date=2023-10-31 21:34:56.224381+00:00, run_duration=0.064102, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=37, pool=default_pool, queue=default, priority_weight=10, operator=PythonOperator, queued_dttm=2023-10-31 21:34:55.130079+00:00, queued_by_job_id=19, pid=65588
+2023-10-31 22:35:05,148 INFO - TaskInstance Finished: dag_id=la_test, task_id=load_channels, run_id=manual__2023-10-31T16:32:34.316536+00:00, map_index=-1, run_start_date=2023-10-31 21:35:04.574077+00:00, run_end_date=2023-10-31 21:35:04.981803+00:00, run_duration=0.407726, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=42, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-10-31 21:34:55.130079+00:00, queued_by_job_id=19, pid=65625
+2023-10-31 22:35:05,148 INFO - TaskInstance Finished: dag_id=la_test, task_id=merge_user_principal_name_list, run_id=manual__2023-10-31T16:36:16.370874+00:00, map_index=-1, run_start_date=2023-10-31 21:34:57.393206+00:00, run_end_date=2023-10-31 21:34:57.453575+00:00, run_duration=0.060369, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=38, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2023-10-31 21:34:55.130079+00:00, queued_by_job_id=19, pid=65592
+2023-10-31 22:35:05,811 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:20:36.373025+00:00: manual__2023-10-31T16:20:36.373025+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:35:05,812 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:20:36.373025+00:00, run_id=manual__2023-10-31T16:20:36.373025+00:00, run_start_date=2023-10-31 16:20:36.373025+00:00, run_end_date=2023-10-31 21:35:05.812464+00:00, run_duration=18869.439439, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:35:05,840 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:36:16.370874+00:00: manual__2023-10-31T16:36:16.370874+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:35:05,840 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:36:16.370874+00:00, run_id=manual__2023-10-31T16:36:16.370874+00:00, run_start_date=2023-10-31 16:36:16.370874+00:00, run_end_date=2023-10-31 21:35:05.840575+00:00, run_duration=17929.469701, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:35:05,854 INFO - 1 tasks up for execution:
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:35:05,854 INFO - DAG la_test has 10/16 running and queued tasks
+2023-10-31 22:35:05,855 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.load_channels manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:35:05,855 WARNING - cannot record scheduled_duration for task load_channels because previous state change time has not been saved
+2023-10-31 22:35:05,856 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:46:45.800182+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-10-31 22:35:05,856 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:46:45.800182+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:35:05,857 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T16:46:45.800182+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:35:07,418 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T16:46:45.800182+00:00', try_number=1, map_index=-1)
+2023-10-31 22:35:07,422 INFO - TaskInstance Finished: dag_id=la_test, task_id=load_channels, run_id=manual__2023-10-31T16:46:45.800182+00:00, map_index=-1, run_start_date=2023-10-31 21:35:06.845862+00:00, run_end_date=2023-10-31 21:35:07.232529+00:00, run_duration=0.386667, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=43, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-10-31 21:35:05.855465+00:00, queued_by_job_id=19, pid=65631
+2023-10-31 22:35:08,094 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:30:05.761647+00:00: manual__2023-10-31T16:30:05.761647+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:35:08,095 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:30:05.761647+00:00, run_id=manual__2023-10-31T16:30:05.761647+00:00, run_start_date=2023-10-31 16:30:05.761647+00:00, run_end_date=2023-10-31 21:35:08.095049+00:00, run_duration=18302.333402, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:35:09,786 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:32:07.375922+00:00: manual__2023-10-31T16:32:07.375922+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:35:09,787 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:32:07.375922+00:00, run_id=manual__2023-10-31T16:32:07.375922+00:00, run_start_date=2023-10-31 16:32:07.375922+00:00, run_end_date=2023-10-31 21:35:09.787080+00:00, run_duration=18182.411158, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:35:09,814 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:35:47.434347+00:00: manual__2023-10-31T16:35:47.434347+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:35:09,814 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:35:47.434347+00:00, run_id=manual__2023-10-31T16:35:47.434347+00:00, run_start_date=2023-10-31 16:35:47.434347+00:00, run_end_date=2023-10-31 21:35:09.814763+00:00, run_duration=17962.380416, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:35:09,819 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:48:53.413001+00:00: manual__2023-10-31T16:48:53.413001+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:35:09,820 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:48:53.413001+00:00, run_id=manual__2023-10-31T16:48:53.413001+00:00, run_start_date=2023-10-31 16:48:53.413001+00:00, run_end_date=2023-10-31 21:35:09.820080+00:00, run_duration=17176.407079, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:35:10,848 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:50:48.492053+00:00: manual__2023-10-31T16:50:48.492053+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:35:10,849 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:50:48.492053+00:00, run_id=manual__2023-10-31T16:50:48.492053+00:00, run_start_date=2023-10-31 16:50:48.492053+00:00, run_end_date=2023-10-31 21:35:10.849232+00:00, run_duration=17062.357179, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:27,152 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 22:39:27,154 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-31 22:39:27,158 INFO - Reset the following 10 orphaned TaskInstances:
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:19:52.345619+00:00 [queued]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:20:59.554974+00:00 [queued]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:24:22.656958+00:00 [queued]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:27:14.830410+00:00 [queued]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:27:30.022445+00:00 [queued]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:30:46.289465+00:00 [queued]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:32:34.316536+00:00 [queued]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:35:27.789574+00:00 [queued]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:46:45.800182+00:00 [queued]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:19:00.755189+00:00 [running]>
+2023-10-31 22:39:28,871 INFO - 10 tasks up for execution:
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:19:00.755189+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:20:59.554974+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:27:14.830410+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:30:46.289465+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:35:27.789574+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:39:28,871 INFO - DAG la_test has 0/16 running and queued tasks
+2023-10-31 22:39:28,871 INFO - DAG la_test has 1/16 running and queued tasks
+2023-10-31 22:39:28,872 INFO - DAG la_test has 2/16 running and queued tasks
+2023-10-31 22:39:28,872 INFO - DAG la_test has 3/16 running and queued tasks
+2023-10-31 22:39:28,873 INFO - DAG la_test has 4/16 running and queued tasks
+2023-10-31 22:39:28,873 INFO - DAG la_test has 5/16 running and queued tasks
+2023-10-31 22:39:28,873 INFO - DAG la_test has 6/16 running and queued tasks
+2023-10-31 22:39:28,874 INFO - DAG la_test has 7/16 running and queued tasks
+2023-10-31 22:39:28,874 INFO - DAG la_test has 8/16 running and queued tasks
+2023-10-31 22:39:28,874 INFO - DAG la_test has 9/16 running and queued tasks
+2023-10-31 22:39:28,874 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:19:00.755189+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:20:59.554974+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:27:14.830410+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:30:46.289465+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T16:35:27.789574+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:19:52.345619+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:24:22.656958+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:27:30.022445+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:32:34.316536+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T16:46:45.800182+00:00 [scheduled]>
+2023-10-31 22:39:28,877 WARNING - cannot record scheduled_duration for task extract_channels because previous state change time has not been saved
+2023-10-31 22:39:28,877 WARNING - cannot record scheduled_duration for task extract_channels because previous state change time has not been saved
+2023-10-31 22:39:28,878 WARNING - cannot record scheduled_duration for task extract_channels because previous state change time has not been saved
+2023-10-31 22:39:28,878 WARNING - cannot record scheduled_duration for task extract_channels because previous state change time has not been saved
+2023-10-31 22:39:28,879 WARNING - cannot record scheduled_duration for task extract_channel_messages because previous state change time has not been saved
+2023-10-31 22:39:28,879 WARNING - cannot record scheduled_duration for task extract_channel_messages because previous state change time has not been saved
+2023-10-31 22:39:28,879 WARNING - cannot record scheduled_duration for task extract_channel_messages because previous state change time has not been saved
+2023-10-31 22:39:28,880 WARNING - cannot record scheduled_duration for task extract_channel_messages because previous state change time has not been saved
+2023-10-31 22:39:28,880 WARNING - cannot record scheduled_duration for task extract_channel_messages because previous state change time has not been saved
+2023-10-31 22:39:28,880 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:19:00.755189+00:00', try_number=2, map_index=-1) to executor with priority 9 and queue default
+2023-10-31 22:39:28,881 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:19:00.755189+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,881 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:20:59.554974+00:00', try_number=1, map_index=-1) to executor with priority 9 and queue default
+2023-10-31 22:39:28,882 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:20:59.554974+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,882 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:27:14.830410+00:00', try_number=1, map_index=-1) to executor with priority 9 and queue default
+2023-10-31 22:39:28,882 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:27:14.830410+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,883 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:30:46.289465+00:00', try_number=1, map_index=-1) to executor with priority 9 and queue default
+2023-10-31 22:39:28,883 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:30:46.289465+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,884 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:35:27.789574+00:00', try_number=1, map_index=-1) to executor with priority 9 and queue default
+2023-10-31 22:39:28,884 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:35:27.789574+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,884 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:19:52.345619+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2023-10-31 22:39:28,885 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:19:52.345619+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,885 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:24:22.656958+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2023-10-31 22:39:28,885 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:24:22.656958+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,886 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:27:30.022445+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2023-10-31 22:39:28,886 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:27:30.022445+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,886 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:32:34.316536+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2023-10-31 22:39:28,887 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:32:34.316536+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,887 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:46:45.800182+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2023-10-31 22:39:28,887 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:46:45.800182+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:28,889 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:19:00.755189+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:30,242 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:20:59.554974+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:31,681 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:27:14.830410+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:32,983 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:30:46.289465+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:34,269 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T16:35:27.789574+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:35,519 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:19:52.345619+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:36,774 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:24:22.656958+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:38,107 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:27:30.022445+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:39,403 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:32:34.316536+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:40,730 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T16:46:45.800182+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:39:42,056 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:19:00.755189+00:00', try_number=2, map_index=-1)
+2023-10-31 22:39:42,056 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:20:59.554974+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,057 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:27:14.830410+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,057 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:30:46.289465+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,058 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T16:35:27.789574+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,058 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:19:52.345619+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,058 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:24:22.656958+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,058 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:27:30.022445+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,059 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:32:34.316536+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,059 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T16:46:45.800182+00:00', try_number=1, map_index=-1)
+2023-10-31 22:39:42,067 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channels, run_id=manual__2023-10-31T16:20:59.554974+00:00, map_index=-1, run_start_date=2023-10-31 21:39:31.432334+00:00, run_end_date=2023-10-31 21:39:31.493804+00:00, run_duration=0.06147, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=45, pool=default_pool, queue=default, priority_weight=9, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66110
+2023-10-31 22:39:42,068 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channels, run_id=manual__2023-10-31T16:19:00.755189+00:00, map_index=-1, run_start_date=2023-10-31 21:39:29.951899+00:00, run_end_date=2023-10-31 21:39:30.023505+00:00, run_duration=0.071606, state=failed, executor_state=success, try_number=2, max_tries=0, job_id=44, pool=default_pool, queue=default, priority_weight=9, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66105
+2023-10-31 22:39:42,068 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channels, run_id=manual__2023-10-31T16:30:46.289465+00:00, map_index=-1, run_start_date=2023-10-31 21:39:34.022173+00:00, run_end_date=2023-10-31 21:39:34.085415+00:00, run_duration=0.063242, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=47, pool=default_pool, queue=default, priority_weight=9, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66120
+2023-10-31 22:39:42,068 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channel_messages, run_id=manual__2023-10-31T16:27:30.022445+00:00, map_index=-1, run_start_date=2023-10-31 21:39:39.162393+00:00, run_end_date=2023-10-31 21:39:39.217867+00:00, run_duration=0.055474, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=53, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66139
+2023-10-31 22:39:42,069 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channel_messages, run_id=manual__2023-10-31T16:24:22.656958+00:00, map_index=-1, run_start_date=2023-10-31 21:39:37.858840+00:00, run_end_date=2023-10-31 21:39:37.916800+00:00, run_duration=0.05796, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=51, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66134
+2023-10-31 22:39:42,069 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channel_messages, run_id=manual__2023-10-31T16:19:52.345619+00:00, map_index=-1, run_start_date=2023-10-31 21:39:36.531340+00:00, run_end_date=2023-10-31 21:39:36.590783+00:00, run_duration=0.059443, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=49, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66128
+2023-10-31 22:39:42,069 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channel_messages, run_id=manual__2023-10-31T16:46:45.800182+00:00, map_index=-1, run_start_date=2023-10-31 21:39:41.764867+00:00, run_end_date=2023-10-31 21:39:41.830858+00:00, run_duration=0.065991, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=57, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66149
+2023-10-31 22:39:42,070 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channel_messages, run_id=manual__2023-10-31T16:32:34.316536+00:00, map_index=-1, run_start_date=2023-10-31 21:39:40.480769+00:00, run_end_date=2023-10-31 21:39:40.542731+00:00, run_duration=0.061962, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=55, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66145
+2023-10-31 22:39:42,070 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channels, run_id=manual__2023-10-31T16:27:14.830410+00:00, map_index=-1, run_start_date=2023-10-31 21:39:32.741158+00:00, run_end_date=2023-10-31 21:39:32.800644+00:00, run_duration=0.059486, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=46, pool=default_pool, queue=default, priority_weight=9, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66114
+2023-10-31 22:39:42,070 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channels, run_id=manual__2023-10-31T16:35:27.789574+00:00, map_index=-1, run_start_date=2023-10-31 21:39:35.278480+00:00, run_end_date=2023-10-31 21:39:35.339145+00:00, run_duration=0.060665, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=48, pool=default_pool, queue=default, priority_weight=9, operator=PythonOperator, queued_dttm=2023-10-31 21:39:28.876038+00:00, queued_by_job_id=19, pid=66124
+2023-10-31 22:39:46,349 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:19:52.345619+00:00: manual__2023-10-31T16:19:52.345619+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:46,350 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:19:52.345619+00:00, run_id=manual__2023-10-31T16:19:52.345619+00:00, run_start_date=2023-10-31 16:19:52.345619+00:00, run_end_date=2023-10-31 21:39:46.350008+00:00, run_duration=19194.004389, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:46,355 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:24:22.656958+00:00: manual__2023-10-31T16:24:22.656958+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:46,355 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:24:22.656958+00:00, run_id=manual__2023-10-31T16:24:22.656958+00:00, run_start_date=2023-10-31 16:24:22.656958+00:00, run_end_date=2023-10-31 21:39:46.355745+00:00, run_duration=18923.698787, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:46,360 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:27:30.022445+00:00: manual__2023-10-31T16:27:30.022445+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:46,360 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:27:30.022445+00:00, run_id=manual__2023-10-31T16:27:30.022445+00:00, run_start_date=2023-10-31 16:27:30.022445+00:00, run_end_date=2023-10-31 21:39:46.360870+00:00, run_duration=18736.338425, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:46,365 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:32:34.316536+00:00: manual__2023-10-31T16:32:34.316536+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:46,366 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:32:34.316536+00:00, run_id=manual__2023-10-31T16:32:34.316536+00:00, run_start_date=2023-10-31 16:32:34.316536+00:00, run_end_date=2023-10-31 21:39:46.365991+00:00, run_duration=18432.049455, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:46,370 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:46:45.800182+00:00: manual__2023-10-31T16:46:45.800182+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:46,371 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:46:45.800182+00:00, run_id=manual__2023-10-31T16:46:45.800182+00:00, run_start_date=2023-10-31 16:46:45.800182+00:00, run_end_date=2023-10-31 21:39:46.371032+00:00, run_duration=17580.57085, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:49,505 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:19:00.755189+00:00: manual__2023-10-31T16:19:00.755189+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:49,506 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:19:00.755189+00:00, run_id=manual__2023-10-31T16:19:00.755189+00:00, run_start_date=2023-10-31 16:19:00.755189+00:00, run_end_date=2023-10-31 21:39:49.506327+00:00, run_duration=19248.751138, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:49,508 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:20:59.554974+00:00: manual__2023-10-31T16:20:59.554974+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:49,509 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:20:59.554974+00:00, run_id=manual__2023-10-31T16:20:59.554974+00:00, run_start_date=2023-10-31 16:20:59.554974+00:00, run_end_date=2023-10-31 21:39:49.509250+00:00, run_duration=19129.954276, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:49,511 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:27:14.830410+00:00: manual__2023-10-31T16:27:14.830410+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:49,512 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:27:14.830410+00:00, run_id=manual__2023-10-31T16:27:14.830410+00:00, run_start_date=2023-10-31 16:27:14.830410+00:00, run_end_date=2023-10-31 21:39:49.512144+00:00, run_duration=18754.681734, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:49,514 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:30:46.289465+00:00: manual__2023-10-31T16:30:46.289465+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:49,514 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:30:46.289465+00:00, run_id=manual__2023-10-31T16:30:46.289465+00:00, run_start_date=2023-10-31 16:30:46.289465+00:00, run_end_date=2023-10-31 21:39:49.514882+00:00, run_duration=18543.225417, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:39:49,517 ERROR - Marking run <DagRun la_test @ 2023-10-31 16:35:27.789574+00:00: manual__2023-10-31T16:35:27.789574+00:00, state:running, queued_at: None. externally triggered: False> failed
+2023-10-31 22:39:49,517 INFO - DagRun Finished: dag_id=la_test, execution_date=2023-10-31 16:35:27.789574+00:00, run_id=manual__2023-10-31T16:35:27.789574+00:00, run_start_date=2023-10-31 16:35:27.789574+00:00, run_end_date=2023-10-31 21:39:49.517683+00:00, run_duration=18261.728109, state=failed, external_trigger=False, run_type=manual, data_interval_start=2023-10-30 03:00:00+00:00, data_interval_end=2023-10-31 03:00:00+00:00, dag_hash=a1fd96b2f25902e74e283e25f710dec2
+2023-10-31 22:44:27,827 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 22:44:27,830 INFO - Reset the following 1 orphaned TaskInstances:
+	<TaskInstance: la_test.extract_teams_groups __airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__ [running]>
+2023-10-31 22:44:29,558 INFO - 1 tasks up for execution:
+	<TaskInstance: la_test.extract_teams_groups __airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__ [scheduled]>
+2023-10-31 22:44:29,558 INFO - DAG la_test has 0/16 running and queued tasks
+2023-10-31 22:44:29,559 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.extract_teams_groups __airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__ [scheduled]>
+2023-10-31 22:44:29,560 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_teams_groups', run_id='__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', try_number=2, map_index=-1) to executor with priority 24 and queue default
+2023-10-31 22:44:29,560 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_teams_groups', '__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:44:29,561 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_teams_groups', '__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:46:41,414 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'la_test', 'extract_teams_groups', '__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']' returned non-zero exit status 1..
+2023-10-31 22:46:41,417 INFO - Received executor event with state failed for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_teams_groups', run_id='__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', try_number=2, map_index=-1)
+2023-10-31 22:46:41,420 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_teams_groups, run_id=__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__, map_index=-1, run_start_date=2023-10-31 21:45:37.106260+00:00, run_end_date=None, run_duration=None, state=running, executor_state=failed, try_number=2, max_tries=1, job_id=65, pool=default_pool, queue=default, priority_weight=24, operator=PythonOperator, queued_dttm=2023-10-31 21:45:36.014081+00:00, queued_by_job_id=21, pid=66782
+2023-10-31 22:46:41,432 ERROR - DagFileProcessorManager (PID=65491) last sent a heartbeat 131.89 seconds ago! Restarting it
+2023-10-31 22:46:41,437 INFO - Sending Signals.SIGTERM to group 65491. PIDs of all processes in the group: [65491]
+2023-10-31 22:46:41,437 INFO - Sending the signal Signals.SIGTERM to group 65491
+2023-10-31 22:46:41,615 INFO - Process psutil.Process(pid=65491, status='terminated', exitcode=0, started='22:34:26') (65491) terminated with exit code 0
+2023-10-31 22:46:41,619 INFO - Launched DagFileProcessorManager with pid: 66898
+2023-10-31 22:46:43,176 INFO - 2 tasks up for execution:
+	<TaskInstance: la_test.extract_group_users manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+2023-10-31 22:46:43,177 INFO - DAG la_test has 1/16 running and queued tasks
+2023-10-31 22:46:43,177 INFO - DAG la_test has 2/16 running and queued tasks
+2023-10-31 22:46:43,178 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.extract_group_users manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channels manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+2023-10-31 22:46:43,179 WARNING - cannot record scheduled_duration for task extract_group_users because previous state change time has not been saved
+2023-10-31 22:46:43,179 WARNING - cannot record scheduled_duration for task extract_channels because previous state change time has not been saved
+2023-10-31 22:46:43,180 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_group_users', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1) to executor with priority 12 and queue default
+2023-10-31 22:46:43,180 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_group_users', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:46:43,180 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1) to executor with priority 9 and queue default
+2023-10-31 22:46:43,181 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:46:43,182 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_group_users', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:48:04,603 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channels', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:48:06,250 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_group_users', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1)
+2023-10-31 22:48:06,251 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channels', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1)
+2023-10-31 22:48:06,256 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channels, run_id=manual__2023-10-31T21:46:37.807741+00:00, map_index=-1, run_start_date=None, run_end_date=2023-10-31 21:47:17.483877+00:00, run_duration=None, state=success, executor_state=success, try_number=1, max_tries=0, job_id=None, pool=default_pool, queue=default, priority_weight=9, operator=PythonOperator, queued_dttm=2023-10-31 21:46:43.178730+00:00, queued_by_job_id=19, pid=66884
+2023-10-31 22:48:06,256 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_group_users, run_id=manual__2023-10-31T21:46:37.807741+00:00, map_index=-1, run_start_date=2023-10-31 21:46:44.195786+00:00, run_end_date=2023-10-31 21:46:59.026681+00:00, run_duration=14.830895, state=success, executor_state=success, try_number=1, max_tries=0, job_id=66, pool=default_pool, queue=default, priority_weight=12, operator=PythonOperator, queued_dttm=2023-10-31 21:46:43.178730+00:00, queued_by_job_id=19, pid=66903
+2023-10-31 22:48:06,268 ERROR - DagFileProcessorManager (PID=66898) last sent a heartbeat 83.11 seconds ago! Restarting it
+2023-10-31 22:48:06,273 INFO - Sending Signals.SIGTERM to group 66898. PIDs of all processes in the group: [66898]
+2023-10-31 22:48:06,273 INFO - Sending the signal Signals.SIGTERM to group 66898
+2023-10-31 22:48:06,452 INFO - Process psutil.Process(pid=66898, status='terminated', exitcode=0, started='22:46:41') (66898) terminated with exit code 0
+2023-10-31 22:48:06,456 INFO - Launched DagFileProcessorManager with pid: 67047
+2023-10-31 22:48:08,024 INFO - 3 tasks up for execution:
+	<TaskInstance: la_test.extract_users manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+2023-10-31 22:48:08,024 INFO - DAG la_test has 1/16 running and queued tasks
+2023-10-31 22:48:08,024 INFO - DAG la_test has 2/16 running and queued tasks
+2023-10-31 22:48:08,025 INFO - DAG la_test has 3/16 running and queued tasks
+2023-10-31 22:48:08,025 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.extract_users manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+	<TaskInstance: la_test.extract_channel_messages manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+	<TaskInstance: la_test.load_channels manual__2023-10-31T21:46:37.807741+00:00 [scheduled]>
+2023-10-31 22:48:08,026 WARNING - cannot record scheduled_duration for task extract_users because previous state change time has not been saved
+2023-10-31 22:48:08,026 WARNING - cannot record scheduled_duration for task extract_channel_messages because previous state change time has not been saved
+2023-10-31 22:48:08,027 WARNING - cannot record scheduled_duration for task load_channels because previous state change time has not been saved
+2023-10-31 22:48:08,027 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_users', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1) to executor with priority 8 and queue default
+2023-10-31 22:48:08,028 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_users', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:48:08,028 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default
+2023-10-31 22:48:08,029 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:48:08,029 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-10-31 22:48:08,029 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:48:08,030 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_users', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:51:40,221 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_channel_messages', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:53:22,111 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'load_channels', 'manual__2023-10-31T21:46:37.807741+00:00', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:53:23,712 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_users', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1)
+2023-10-31 22:53:23,713 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='extract_channel_messages', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1)
+2023-10-31 22:53:23,713 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='la_test', task_id='load_channels', run_id='manual__2023-10-31T21:46:37.807741+00:00', try_number=1, map_index=-1)
+2023-10-31 22:53:23,722 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_channel_messages, run_id=manual__2023-10-31T21:46:37.807741+00:00, map_index=-1, run_start_date=2023-10-31 21:51:41.690799+00:00, run_end_date=2023-10-31 21:52:12.272365+00:00, run_duration=30.581566, state=success, executor_state=success, try_number=1, max_tries=0, job_id=69, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2023-10-31 21:48:08.026067+00:00, queued_by_job_id=19, pid=67327
+2023-10-31 22:53:23,722 INFO - TaskInstance Finished: dag_id=la_test, task_id=extract_users, run_id=manual__2023-10-31T21:46:37.807741+00:00, map_index=-1, run_start_date=2023-10-31 21:48:09.055583+00:00, run_end_date=2023-10-31 21:50:33.469742+00:00, run_duration=144.414159, state=success, executor_state=success, try_number=1, max_tries=0, job_id=68, pool=default_pool, queue=default, priority_weight=8, operator=PythonOperator, queued_dttm=2023-10-31 21:48:08.026067+00:00, queued_by_job_id=19, pid=67053
+2023-10-31 22:53:23,723 INFO - TaskInstance Finished: dag_id=la_test, task_id=load_channels, run_id=manual__2023-10-31T21:46:37.807741+00:00, map_index=-1, run_start_date=None, run_end_date=2023-10-31 21:50:34.206591+00:00, run_duration=None, state=success, executor_state=success, try_number=1, max_tries=0, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-10-31 21:48:08.026067+00:00, queued_by_job_id=19, pid=66884
+2023-10-31 22:53:23,735 ERROR - DagFileProcessorManager (PID=67047) last sent a heartbeat 315.69 seconds ago! Restarting it
+2023-10-31 22:53:23,740 INFO - Sending Signals.SIGTERM to group 67047. PIDs of all processes in the group: [67047]
+2023-10-31 22:53:23,740 INFO - Sending the signal Signals.SIGTERM to group 67047
+2023-10-31 22:53:23,917 INFO - Process psutil.Process(pid=67047, status='terminated', exitcode=0, started='22:48:06') (67047) terminated with exit code 0
+2023-10-31 22:53:23,921 INFO - Launched DagFileProcessorManager with pid: 67475
+2023-10-31 22:53:23,935 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-31 22:53:23,937 INFO - Marked 1 SchedulerJob instances as failed
+2023-10-31 22:53:23,939 INFO - Reset the following 1 orphaned TaskInstances:
+	<TaskInstance: la_test.extract_teams_groups __airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__ [running]>
+2023-10-31 22:53:25,429 INFO - 1 tasks up for execution:
+	<TaskInstance: la_test.extract_teams_groups __airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__ [scheduled]>
+2023-10-31 22:53:25,429 INFO - DAG la_test has 0/16 running and queued tasks
+2023-10-31 22:53:25,430 INFO - Setting the following tasks to queued state:
+	<TaskInstance: la_test.extract_teams_groups __airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__ [scheduled]>
+2023-10-31 22:53:25,431 INFO - Sending TaskInstanceKey(dag_id='la_test', task_id='extract_teams_groups', run_id='__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', try_number=4, map_index=-1) to executor with priority 24 and queue default
+2023-10-31 22:53:25,431 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'la_test', 'extract_teams_groups', '__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-10-31 22:53:25,432 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_teams_groups', '__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2023-11-04 16:14:00,634 INFO - Exiting gracefully upon receiving signal 15
+2023-11-04 16:14:00,651 INFO - Sending Signals.SIGTERM to group 67475. PIDs of all processes in the group: []
+2023-11-04 16:14:00,654 INFO - Sending the signal Signals.SIGTERM to group 67475
+2023-11-04 16:14:00,656 INFO - Sending the signal Signals.SIGTERM to process 67475 as process group is missing.
+2023-11-04 16:14:00,674 INFO - Executing command: ['airflow', 'tasks', 'run', 'la_test', 'extract_teams_groups', '__airflow_temporary_run_2023-10-31T17:13:33.488673+00:00__', '--local', '--subdir', 'DAGS_FOLDER/test_aj.py']
+2024-11-04 14:45:23,332 INFO - Loaded executor: SequentialExecutor
+2024-11-04 16:30:25,911 INFO - Loaded executor: SequentialExecutor

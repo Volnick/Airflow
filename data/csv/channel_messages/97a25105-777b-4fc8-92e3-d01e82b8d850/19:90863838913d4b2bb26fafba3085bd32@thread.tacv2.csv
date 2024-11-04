@@ -1,0 +1,151 @@
+,id,message_type,subject,summary,channel_id,importance,web_url,from_user_id,body_content_type,body_content
+0,1702395745550,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1702395745550?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702395745550&parentMessageId=1702395745550,bf2c9614-1bc7-4651-a03c-7855411ee3be,html,"Besprechung wurde geplant<attachment id=""1702395758350""></attachment>"
+1,1702311867954,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1702311867954?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702311867954&parentMessageId=1702311867954,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"Besprechung wurde geplant<attachment id=""1702311879502""></attachment>"
+2,1702227258788,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1702227258788?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702227258788&parentMessageId=1702227258788,bf2c9614-1bc7-4651-a03c-7855411ee3be,html,"Besprechung wurde geplant<attachment id=""1702227271305""></attachment>"
+3,1702231675287,systemEventMessage,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1702231675287?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702231675287&parentMessageId=1702231675287,,html,<systemEventMessage/>
+4,1702045223808,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1702045223808?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702045223808&parentMessageId=1702045223808,bf2c9614-1bc7-4651-a03c-7855411ee3be,html,"Besprechung wurde geplant<attachment id=""1702045236436""></attachment>"
+5,1701706447600,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1701706447600?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701706447600&parentMessageId=1701706447600,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"Besprechung wurde geplant<attachment id=""1701706517167""></attachment>"
+6,1701100737211,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1701100737211?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701100737211&parentMessageId=1701100737211,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"Besprechung wurde geplant<attachment id=""1701100776119""></attachment>"
+7,1700754792629,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1700754792629?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700754792629&parentMessageId=1700754792629,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"Besprechung wurde geplant<attachment id=""1700754805376""></attachment>"
+8,1700492967164,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1700492967164?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700492967164&parentMessageId=1700492967164,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<p>Agenda</p>
+<p>-Refinement</p>
+<p>-Aufgaben vorstellen</p>
+<p>-Neue Aufgaben verteilen</p>
+<p>-Workshop vorbereiten</p>
+<p>-Forms Umfrage von Sophie Cool</p><attachment id=""1700492979847""></attachment>"
+9,1699803582076,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1699803582076?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699803582076&parentMessageId=1699803582076,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<p>Agenda:</p>
+<p>-Refinement( Design, Aufgabenverteilung)</p>
+<p>-Vorstellung der Aufgaben der letzten Woche</p>
+<p>-Vorstellung des Projektplans und der nächsten Aufgaben</p>
+<p>-tba</p><attachment id=""1699889858136""></attachment>"
+10,1699296529170,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1699296529170?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699296529170&parentMessageId=1699296529170,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"Besprechung wurde geplant<attachment id=""1699296531354""></attachment>"
+11,1699288186121,systemEventMessage,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1699288186121?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699288186121&parentMessageId=1699288186121,,html,<systemEventMessage/>
+12,1698939124450,message,Meeting am Montag,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1698939124450?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698939124450&parentMessageId=1698939124450,5736b26e-a6ca-444c-a132-ed6b3dfa9af0,text,"Wie machen wir es diesen Montag, da Caroline ja 17:30 nicht mehr kann?"
+13,1698864057338,systemEventMessage,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1698864057338?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698864057338&parentMessageId=1698864057338,,html,<systemEventMessage/>
+14,1698857102402,systemEventMessage,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1698857102402?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698857102402&parentMessageId=1698857102402,,html,<systemEventMessage/>
+15,1698522725369,message,Treffen am Montag,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1698522725369?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698522725369&parentMessageId=1698522725369,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<div>
+<p>Wie abgesprochen haben wir am Montag wieder unser wöchentliches Treffen. <at id=""0"">G5 FIVR 23/24</at></p>
+
+
+
+<p>Dazu laden wir wie angekündigt auch unsere Mentorin <at id=""1"">Celine Tetzlaff</at>&nbsp;ein.&nbsp;</p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p><strong>Agenda</strong></p>
+
+
+
+<p>- Treffen mit Mentorin</p>
+
+
+
+<p>- Refinement</p>
+
+
+
+<p>-Aufgaben A2 vorstellen</p>
+
+
+
+<p>- Projektplan für B1 vorstellen und Aufgaben verteilen</p>
+
+
+
+<p>-tba</p>
+
+</div><attachment id=""1698523084965""></attachment>"
+16,1698340454249,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1698340454249?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698340454249&parentMessageId=1698340454249,,text,
+17,1697981646890,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697981646890?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697981646890&parentMessageId=1697981646890,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<div><div>
+<div>
+<div>Können alle am 01.11.23 um 17:30-20:00 am Workshop teilnehmen? Bitte <emoji id=""yes"" alt=""👍"" title=""""></emoji><at id=""0"">G5 FIVR 23/24</at></div>
+</div>
+</div>
+</div>"
+18,1698216056255,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1698216056255?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698216056255&parentMessageId=1698216056255,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"Besprechung wurde geplant<attachment id=""1698216057626""></attachment>"
+19,1697980108872,message,Treffen am Montag,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697980108872?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697980108872&parentMessageId=1697980108872,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<div><div>
+<div>
+<div>
+
+<p><span style=""font-size:inherit"">wie angekündigt würde ich gerne für Montag ein Treffen ansetzen. Anhand des Gruppenvertrages würde ich 17:30 vorschlagen. Bitte reagiert auf den Beitrag, ob ihr anwesend sein könnt.</span></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p><span style=""font-size:inherit""><at id=""0"">Celine</at>, wir laden dich als gesamte Gruppe zu diesem Termin ein, damit wir uns endlich alle gegenseitig persönlich kennen lernen können. Bitte gib uns eine Rückmeldung, ob der Termin für dich machbar ist oder wir einen weiteren Termin ansetzen müssen. <at id=""1"">Allgemein</at></span></p>
+
+
+
+<p>&nbsp;</p>
+
+</div>
+</div>
+</div>
+</div><attachment id=""1698075788841""></attachment>"
+0,1697966271968,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697966271968?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697966271968&parentMessageId=1697966271968,c42f2759-5b80-41a2-a538-342bfb6cbe0c,html,"<div>
+<div itemprop=""copy-paste-block"">
+
+<div style=""font-size:14px"">Guten Morgen/ Mittag liebe&nbsp;<at id=""0"">G5 FIVR 23/24</at>. Wie sieht es mit dem morgigen Treffen aus? Ich kann evtl. doch dabei sein, da ich krank bin und wenn es mir morgen nicht besser geht, ich auch morgen noch krankgeschrieben bin. Habt ihr schon eine Zeit ausgemacht und diese auch Celine zugeteilt? Liebe Grüße und einen schönen Tag!</div>
+</div>
+</div>"
+1,1697739073310,message,Treffen Montag,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697739073310?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697739073310&parentMessageId=1697739073310,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<div><div>-tba</div>
+
+<div>-Celine einladen</div>
+</div>"
+2,1697716238224,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697716238224?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697716238224&parentMessageId=1697716238224,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<div><div>
+<div>
+<div>
+<div>
+<div>
+<div>
+
+<div itemprop=""copy-paste-block"">
+<div>wie angekündigt würde ich gerne für Montag ein Treffen ansetzen. Anhand des Gruppenvertrages würde ich 17:30 vorschlagen. Bitte reagiert auf den Beitrag, ob ihr anwesend sein könnt. Die Agenda findet ihr im Termin und ihr könnt gerne noch Punkte hinzufügen.</div>
+
+<div>&nbsp;</div>
+
+<div>Celine, wir laden dich als gesamte Gruppe zu diesem Termin ein, damit wir uns endlich alle gegenseitig persönlich kennen lernen können. Bitte gib uns eine Rückmeldung, ob der Termin für dich machbar ist oder wir einen weiteren Termin ansetzen müssen. <at id=""0"">Allgemein</at></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><attachment id=""1697733994591""></attachment>"
+3,1697668753724,message,Frage,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697668753724?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697668753724&parentMessageId=1697668753724,4c4facf7-960f-48c4-8cbc-95d889af7d92,text,Könnt ihr mir sagen wo man die Emails von der MS Teams Mail abrufen kann? Ich wollte mcih auf meinem IPad anmelden aber komme nicht rein. Kann leider nichts unterschreiben ohne den Zugang
+4,1697574982211,message,Treffen Aufgabe A1,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,high,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697574982211?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697574982211&parentMessageId=1697574982211,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<div><div>
+<div>
+<div>
+<div>
+<div>Hallo Alle, wir haben die erste Woche mit Aufgaben hinter uns und schon stehen die nächsten Aufgaben an. Damit wir diese Woche genug Zeit haben für unsere Aufgaben, würde ich das nächste Treffen gerne zeitnah planen. Laut unserem Gruppenvertrag sollten die meisten von uns entweder Morgen (Mittwoch) nach 17:30 oder Donnerstag nach 14:30 Zeit haben. Stimmt also bitte ab. Außerdem werde&nbsp;ich unserer E-Tutorin <at id=""0"">Celine</at> vorschlagen an diesem&nbsp;Termin teilzunehmen, da unser Kennenlernen mit ihr noch aussteht.</div>
+
+<div><at id=""1"">G5 FIVR 23/24</at></div>
+</div>
+</div>
+</div>
+</div>
+</div>"
+5,1697550239213,message,Nächstes Treffen,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697550239213?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697550239213&parentMessageId=1697550239213,cb0a9c54-7269-4c44-b7d1-c798d54a5043,html,"<div>Haben wir eigentlich schon einen Termin fest gemacht für unser nächstes Treffen? Ich war mir etwas unsicher <emoji id=""think"" alt=""🤔"" title=""""></emoji> Müssen die nächste Aufgabe am 24.10 abgeben..</div>"
+6,1697359480987,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697359480987?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697359480987&parentMessageId=1697359480987,0ce0aede-de9e-45fe-995d-f7a2af278609,text,Erstes Treffen Montag 17:30
+7,1697455944202,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697455944202?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697455944202&parentMessageId=1697455944202,c42f2759-5b80-41a2-a538-342bfb6cbe0c,text,"Ich habe jetzt ein Dokument unter ""Weitere Dokumente"" hochgeladen, wo ich mich ganz kurz vorstelle und ein paar Erwartungen von mir, sowie meine Verfügbarkeit teile. Ich hoffe ihr habt später ein erfolgreiches Treffen und ich kann trotzdem etwas Input mit dem Dokument mitgeben. "
+8,1697138846464,message,,Leon Mourice Uhlig sent a poll,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697138846464?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697138846464&parentMessageId=1697138846464,,html,"<attachment id=""a55d14f78a1e4cd5be4687afb6f9ef9e""></attachment>"
+9,1697279390695,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697279390695?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697279390695&parentMessageId=1697279390695,bf2c9614-1bc7-4651-a03c-7855411ee3be,html,"<div><div>Passt euch Montag direkt um 18:00 Uhr? Dann einfach Daumen hoch, ansonsten gerne eine andere Uhrzeit vorschlagen <emoji id=""smile"" alt=""🙂"" title=""""></emoji>&nbsp;</div>
+</div>"
+10,1697146042970,systemEventMessage,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697146042970?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697146042970&parentMessageId=1697146042970,,html,<systemEventMessage/>
+11,1697136734376,message,,,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697136734376?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697136734376&parentMessageId=1697136734376,0ce0aede-de9e-45fe-995d-f7a2af278609,html,"<div>
+<div itemprop=""copy-paste-block"">
+
+<p>Heyy <at id=""0"">G5 FIVR 23/24</at>, dieser Kanal soll für uns ein Ort sein um Meetings zu planen und auch hier abzuhalten. Damit können wir verhindern, dass die anderen Kanäle zu unübersichtlich werden<emoji id=""1f6ae_putlitterinitsplacesymbol"" alt=""🚮"" title=""""></emoji></p>
+
+</div>
+</div>"
+8,1697138846464,message,,Leon Mourice Uhlig sent a poll,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697138846464?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697138846464&parentMessageId=1697138846464,,html,"<attachment id=""a2bbff30f9bf4df387530d904fc15fff""></attachment>"
+8,1697138846464,message,,Leon Mourice Uhlig sent a poll,19:90863838913d4b2bb26fafba3085bd32@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A90863838913d4b2bb26fafba3085bd32%40thread.tacv2/1697138846464?groupId=97a25105-777b-4fc8-92e3-d01e82b8d850&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1697138846464&parentMessageId=1697138846464,,html,"<attachment id=""aa65be4a65204a12bf294cd79e19dbe4""></attachment>"

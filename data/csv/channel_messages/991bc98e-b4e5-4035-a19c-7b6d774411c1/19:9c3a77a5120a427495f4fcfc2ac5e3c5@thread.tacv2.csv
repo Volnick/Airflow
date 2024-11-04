@@ -1,0 +1,315 @@
+,id,message_type,subject,summary,channel_id,importance,web_url,from_user_id,body_content_type,body_content
+0,1707660031944,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1707660031944?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1707660031944&parentMessageId=1707660031944,,html,<systemEventMessage/>
+1,1707659857073,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1707659857073?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1707659857073&parentMessageId=1707659857073,642e3495-9383-464e-b034-070390477877,html,"<div><div>Hallo <at id=""0"">Anne Jantos</at>, hier ist unsere Finale Abgabe mit Reflexionsteil in der Präsentation. <emoji id=""smile"" alt=""🙂"" title=""""></emoji></div>
+</div><attachment id=""f1f2d949-5788-4cc3-a932-57dbff44c4ae""></attachment><attachment id=""72050f8e-29fd-4862-85bf-2f16e465f41b""></attachment>"
+2,1707657618301,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1707657618301?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1707657618301&parentMessageId=1707657618301,,html,<systemEventMessage/>
+3,1707656504138,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1707656504138?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1707656504138&parentMessageId=1707656504138,,html,<systemEventMessage/>
+4,1706182426763,message,Peer-Feedback,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1706182426763?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1706182426763&parentMessageId=1706182426763,76e9a00d-4e7a-4219-b027-bcfa50d073c7,html,"<p>Ihr Lieben,&nbsp;</p>
+<p>&nbsp;</p>
+<p>anbei findet Ihr die Podcast-Folge der Gruppe Digital Defense Dresden und deren Reflexion. <emoji id=""smile"" alt=""🙂"" title=""Grinsen""></emoji>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Liebe Grüße</p><attachment id=""64f70394-af4f-421f-bdb1-8f5424ca9420""></attachment><attachment id=""7a51c04a-8b76-47f3-bc0f-c6bdd4d0bd0c""></attachment>"
+5,1707123543046,message,Abschluss,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1707123543046?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1707123543046&parentMessageId=1707123543046,76e9a00d-4e7a-4219-b027-bcfa50d073c7,html,"<p>Liebe Gruppe AAA(A),&nbsp;</p>
+<p>&nbsp;</p>
+<p>aufgrund der verspäteten Abgabe eurer letzten Aufgabe und der Tatsache, dass wir für die Gruppe, die Euch Rückmeldung geben soll, diesen Kurs nicht verlängern können, wird es für die letzte Aufgabe kein Peer-Feedback für Euch geben. Wir hoffen, Ihr habt dafür Verständnis.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Liebe Grüße</p>"
+6,1706259396744,message,Feedback Task 5,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1706259396744?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1706259396744&parentMessageId=1706259396744,76e9a00d-4e7a-4219-b027-bcfa50d073c7,html,"<p>Liebes Team AAA(A),</p>
+<p>&nbsp;</p>
+<p>herzlichen Glückwunsch zu eurem Podcast! Eure Struktur mit einer klaren Einführung, einem Hauptteil mit Argumentation und einem moderierten Ende war gut durchdacht und vermittelte eine klare Linie. Obwohl der Umfang eures Podcasts über dem vorgegebenen Rahmen lag, habt ihr euch bemüht, die Vor- und Nachteile von KI in der Bildung ausreichend darzulegen.</p>
+<p>&nbsp;</p>
+<p>Es ist positiv anzumerken, dass ihr konkrete Maßnahmen aufgezeigt habt, wie man KI in die Bildung integrieren kann, um mögliche Risiken zu verringern. Diese praktischen Überlegungen verleihen eurer Argumentation eine greifbare Dimension.</p>
+<p>&nbsp;</p>
+<p>In der Reflexion seid ihr auf das verbesserte Gruppenklima und die Toolauswahl eingegangen, was einen Einblick in euren Teamprozess bietet. Allerdings wäre eine Korrektur des Textes wünschenswert gewesen, da der Lesefluss durch inkorrekte Interpunktion unterbrochen wurde. Dennoch habt ihr die wichtigsten Aspekte eures Arbeitsprozesses erfasst und geteilt.</p>
+<p>&nbsp;</p>
+<p>Trotz einiger wiederholter Antworten im Podcast und möglichen Verbesserungen in der Reflexion habt ihr eine respektable Leistung erbracht. Ihr habt euch intensiv mit dem Thema auseinandergesetzt und konkrete Vorschläge für die Integration von KI in die Bildung gemacht.</p>
+<p>&nbsp;</p>
+<p>Liebe Grüße,</p>
+<p>Anne &amp; Lydia</p>"
+7,1705851161239,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1705851161239?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1705851161239&parentMessageId=1705851161239,,html,<systemEventMessage/>
+8,1705853800799,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1705853800799?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1705853800799&parentMessageId=1705853800799,642e3495-9383-464e-b034-070390477877,html,"<div><div><at id=""0"">Lydia Kilz</at>&nbsp;<at id=""1"">Anne Jantos</at>&nbsp; Hier unsere Reflexion von der Aufgabe dieser woche.</div>
+</div><attachment id=""82c45837-2bcf-467d-bd6d-6f48299e186d""></attachment>"
+9,1705681325133,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1705681325133?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1705681325133&parentMessageId=1705681325133,642e3495-9383-464e-b034-070390477877,html,"<div><div><at id=""0"">Lydia Kilz</at>&nbsp;<at id=""1"">Anne Jantos</at>&nbsp;Peer Feedback für heute an DD MK 311 E <emoji id=""smile"" alt=""🙂"" title=""""></emoji>&nbsp;lg</div>
+</div><attachment id=""aaf90805-165c-4601-94cc-90695c87c265""></attachment>"
+10,1705233080808,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1705233080808?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1705233080808&parentMessageId=1705233080808,,html,<systemEventMessage/>
+11,1705050767970,message,Feedback Task 4,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1705050767970?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1705050767970&parentMessageId=1705050767970,76e9a00d-4e7a-4219-b027-bcfa50d073c7,html,"<p>Liebes Team AAAA,</p>
+<p>&nbsp;</p>
+<p>wir möchten euch für eure anschauliche und gut gestaltete Infografik gratulieren! Die klare Darstellung der wichtigsten Skills sowie die gelungene Einführung in das Thema haben eure Arbeit besonders positiv hervorgehoben. Die Verknüpfung der einzelnen Bereiche wurde überzeugend umgesetzt, was eure Infografik zu einem informativen Gesamtbild macht.</p>
+<p>Es wäre jedoch wünschenswert gewesen, die Infografik zusätzlich zum Video zur Verfügung zu stellen, um sie genauer betrachten zu können.</p>
+<p>&nbsp;</p>
+<p>Das Reflexionsvideo war im Vergleich zum vorherigen ausführlicher und strukturierter. Die Darlegung der Skill-Bereiche und die Vorstellung der gelesenen Studie waren informativ und gut präsentiert. Dennoch ist anzumerken, dass das Reflexionsvideo hauptsächlich dem Zweck dient, euren Gruppenarbeitsprozess zu beleuchten, und nicht als vollständige Präsentation der Inhalte gedacht ist. In Zukunft könnte darauf geachtet werden, einen Einblick in den Umgang mit der Aufgabe, die Aufgabenverteilung, die genutzten Tools und auftretende Probleme zu geben.</p>
+<p>&nbsp;</p>
+<p>Eure Reflexion war insgesamt sehr gut und es war positiv zu sehen, dass ihr Transparenz und Offenheit hinsichtlich der aufgetretenen Probleme gezeigt habt. Eure Lösungsansätze, um diese zu überwinden, sind lobenswert.</p>
+<p>&nbsp;</p>
+<p>Bitte kommt mit Terminvorschlägen für eine Konsultation auf uns zu, die wir als zwingend notwendig erachten.</p>
+<p>Zusammenfassend habt ihr ein gutes und informatives Ergebnis präsentiert.</p>
+<p>&nbsp;</p>
+<p>Mit besten Grüßen,</p>
+<p>Anne &amp; Lydia</p>"
+12,1703270840342,message,Feedback von den Mediascholars,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1703270840342?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1703270840342&parentMessageId=1703270840342,76e9a00d-4e7a-4219-b027-bcfa50d073c7,html,"<div>Hallo liebe AAAA-Fraktion!<br>
+Zunächst wollen wir, die Mediascholars 🚀, uns bei euch für euer Feedback bedanken!<br>
+Aber kommen wir zu eurem Blogpost und dem mitgesendeten Video.<br>
+Den Blogpost wie eine Unizeitung zu gestalten, war eine stilistisch fabelhafte Idee! Wir glauben, dass der Blogpost deswegen mit wenig farblichen Hervorhebungen auskommen musste, um etwaige Druckkosten niedrig zu halten. Die Struktur, die ihr gewählt habt, war gut und zusammen mit dem Bildmaterial angenehm dargestellt.<br>
+Beim Video scheint es, dass Arbeitsschritte gefehlt haben: Es war ungeschnitten und dass der Redebeitrag von Aiysha, durch Verbindungsschwierigkeiten nehmen wir an, kaum vorhanden war, wäre dabei sonst aufgefallen. Bei der Bearbeitung des Videos hätte man mit Animationseffekten eventuell die angesprochenen Themen hervorheben oder eine Art Zoom installieren können. Das hätte das Video ansprechender gemacht.<br>
+Der Inhalt des Blogposts warf für uns ein paar Fragen auf, weil er sehr detailliert auf die Bereiche eingeht, aber vieles nicht ausformuliert. Bei der Ausstattung, die mit der Hälfte des Budgets festgesetzt wurde, geht es zum einen um Hardware, aber auch um die Infrastruktur. Aber es wird nicht ganz klar, um was für Geräte es sich handelt, oder welchen Zweck sie erfüllen sollen. Außerdem wird die Stromversorgung explizit genannt, die nach einem massiven Umbauvorhaben klingt, zum einen am Gebäude, und womöglich auch beim Mobiliar.<br>
+Bei den Lizenzen wäre es notwendig gewesen, ein wenig mehr zu recherchieren. Es gibt eine Vielzahl von verschiedenen Lizenzmodellen, und je nach E-Learning-Anwendung können sich diese stark unterscheiden. Da gäbe es zumindest bei der Formulierung ein paar Verbesserungen.<br>
+Das sind aber nur sehr detaillierte Punkte aus dem Inhalt, die uns auffielen. Bei der groben Betrachtung sind wir uns nicht sicher. Ihr habt den Weg, mit konkreten Zahlen zu arbeiten, gewählt. Aber am Ende der Rechnung fehlen uns irgendwie 100.000&nbsp;€. Zumindest im Blogpost und im Video wird der fehlende Betrag nicht genannt, vielleicht auch durch die Verbindungsschwierigkeiten bei Aiysha.<br>
+Uns hätte noch eure Herangehensweise interessiert. Diese würde uns, gerade für den inhaltlichen Teil, einen besseren Einblick geben, wie ihr zu euren Entscheidungen gekommen seid.<br>
+In der Reflexion geht ihr auf die Gruppendynamik ein und wie sich die Verbesserungen auf die Effizienz ausgewirkt haben, was immer ein gutes Zeichen ist und was wir auch nachvollziehen können.<br>
+Wir wünschen euch noch eine erholsame Weihnachtszeit!</div><attachment id=""090afeb9-ef23-4e5f-a591-a7b9302cbb75""></attachment>"
+13,1703070655785,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1703070655785?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1703070655785&parentMessageId=1703070655785,,html,<systemEventMessage/>
+14,1703071665438,message,Konsultation,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1703071665438?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1703071665438&parentMessageId=1703071665438,76e9a00d-4e7a-4219-b027-bcfa50d073c7,html,"<p>Ihr Lieben,&nbsp;</p>
+<p>&nbsp;</p>
+<p>ich hatte gerade mit Aiysha eine Konsultation, in der sie mir ihren Bearbeitungsstand beschrieben hat, aber wenig Aussagen über den gesamten Gruppenprozess (Aufgaben von euch anderen) geben konnte. Darum würde ich vorschlagen, falls ihr noch Bedarf habt und Dinge, die ihr klären müsst, dann bin ich diese Woche noch verfügbar. <emoji id=""smile"" alt=""🙂"" title=""Grinsen""></emoji>&nbsp;</p>"
+15,1702811725652,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702811725652?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702811725652&parentMessageId=1702811725652,,html,<systemEventMessage/>
+16,1702815845376,message,Peer-Feedback AAAA für Mediascolars,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702815845376?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702815845376&parentMessageId=1702815845376,6786f3e0-5cbd-48f2-aec0-a23549dd4bff,html,"<div>Hallo Anne, <at id=""0"">Anne Jantos</at><br>
+<br>
+anbei unser Feedback für „Mediascolars“ :)</div><attachment id=""90ec6a11-d17d-4ef0-ab38-fa0ebe8ceea7""></attachment>"
+17,1701362777693,message,Feedback Stakeholder Analyse,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1701362777693?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701362777693&parentMessageId=1701362777693,798bca91-b8d6-4ac6-8109-39bae470d23f,html,"<div>
+<div itemprop=""copy-paste-block"">
+
+<p style=""font-size:14px"">Liebe AAAAs,</p>
+
+
+
+<p style=""font-size:14px"">Eure Umsetzung und Darbietung der Präsentation ist insgesamt gut strukturiert und klar vermittelt. Die Gliederung und Vorstellung der Inhalte sind präzise, jedoch könnte die Darstellung der Stakeholder-Map im Video verbessert werden, da sie nicht deutlich erkennbar ist. Kleinere Versprecher verleihen der Präsentation Authentizität und Sympathie, allerdings könnte die Qualität der Abbildung ein Faktor sein, der deren Erkennbarkeit erschwert. Hier könnte eine genauere Analyse helfen, um herauszufinden, ob das Problem in der Video- oder Abbildungsqualität liegt. Es ist lobenswert, dass umfangreiche Quellen verwendet und angegeben wurden, was die Glaubwürdigkeit der präsentierten Informationen stärkt.</p>
+
+
+
+<p style=""font-size:14px"">Inhaltlich ist die Wahl der Stakeholder klar und überzeugend begründet. Die verschiedenen Perspektiven der Stakeholder sowie ihr Bezug zur Digitalisierung werden deutlich und einnehmend dargestellt. Die Herausarbeitung der individuellen Herausforderungen jedes Stakeholders verdeutlicht die Vielschichtigkeit des Themas auf beeindruckende Weise. Besonders positiv hervorzuheben ist die ausführliche Darstellung der Voraussetzungen der Stakeholder, vor allem durch konkrete Beispiele wie erfolgreiches Lernen oder Arbeiten an einer Universität. Die Einbeziehung verschiedener Perspektiven und Blickwinkel der ausgewählten Stakeholder zeugt von einer bemerkenswerten thematischen Tiefe.</p>
+
+
+
+<p style=""font-size:14px"">Die Reflexion, die jedes Gruppenmitglied verfasst und zusammengefasst hat, ist äußerst positiv zu bewerten. Besonders lobenswert ist die umfassende Betrachtung der erlebten Herausforderungen, insbesondere der zeitlichen Einschränkungen aufgrund anderer Verpflichtungen. Die Reflexion über Kommunikationsprobleme und Konflikte aufgrund unterschiedlicher Vorstellungen zeigt eine reife Herangehensweise, und die vorgeschlagenen Lösungsansätze sind äußerst konstruktiv. Die Reflexion ist insgesamt hervorragend und zeigt ein beeindruckendes Maß an Engagement und reflektiertem Denken.</p>
+
+
+
+<p style=""font-size:14px"">&nbsp;</p>
+
+
+
+<p style=""font-size:14px"">Viele Grüße Lydia &amp; Anne</p>
+
+</div>
+</div>"
+18,1702542285483,message,Ergebnisse Mediascholars,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702542285483?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702542285483&parentMessageId=1702542285483,76e9a00d-4e7a-4219-b027-bcfa50d073c7,html,"<p>Ihr Lieben,&nbsp;</p>
+<p>&nbsp;</p>
+<p>hier findet Ihr den Blogpost von der Gruppe Mediascholars und das dazugehörige <a href=""https://wiimtud.sharepoint.com/sites/LicensefordigitalCompetence-Groupgreen-pleaserename/_layouts/15/stream.aspx?id=%2Fsites%2FLicensefordigitalCompetence%2DGroupgreen%2Dpleaserename%2FFreigegebene%20Dokumente%2FMediascholars%20%F0%9F%9A%80%2FAbgabe%2FTask%203%2FVideo%5Ftask3%2Emp4&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview"" title=""https://wiimtud.sharepoint.com/sites/LicensefordigitalCompetence-Groupgreen-pleaserename/_layouts/15/stream.aspx?id=%2Fsites%2FLicensefordigitalCompetence%2DGroupgreen%2Dpleaserename%2FFreigegebene%20Dokumente%2FMediascholars%20%F0%9F%9A%80%2FAbgabe%2FTask%203%2FVideo%5Ftask3%2Emp4&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview"">Reflexionsvideo.</a></p>
+<p>&nbsp;</p>
+<p>Gebt Bescheid, wenn Ihr Probleme beim Öffnen/ Wiedergabe habt. &nbsp;</p><attachment id=""bcf43046-d94c-4a9a-82bb-73377856cab4""></attachment>"
+19,1702461313595,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702461313595?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702461313595&parentMessageId=1702461313595,,html,<systemEventMessage/>
+0,1702457857618,message,Feedback Opportunity Analysis,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702457857618?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702457857618&parentMessageId=1702457857618,798bca91-b8d6-4ac6-8109-39bae470d23f,html,"<p style=""margin-bottom:16px; margin-top:0px"">Liebes Team AAAA,</p>
+<p style=""margin-bottom:16px; margin-top:16px"">Wir möchten euch danken für euren Einsatz und eure Arbeit an der Opportunity Analysis. Ihr habt einige bemerkenswerte Aspekte in eurem Blogpost und Video hervorgebracht, die es zu würdigen gilt, sowie Bereiche, in denen Verbesserungen möglich sind.</p>
+<p style=""margin-bottom:16px; margin-top:16px""><strong>Zum Blogpost:</strong></p>
+<p style=""margin-bottom:16px; margin-top:16px"">Die Gestaltung eures Blogbeitrags war kreativ und anschaulich. Diese Art der Präsentation ist wichtig, um die Leserinnen und Leser zu engagieren und das Interesse am Inhalt zu steigern.</p>
+<p style=""margin-bottom:16px; margin-top:16px""><strong>Zum Video:</strong></p>
+<p style=""margin-bottom:16px; margin-top:16px"">Bei der Gestaltung des Videos gab es einige Herausforderungen. Die Präsentation wirkte teilweise holprig und unstrukturiert. Insbesondere die Unstimmigkeiten, die nichts mit dem Inhalt zu tun hatten, sowie Tonprobleme, haben beim Gucken abgelenkt. Es ist wichtig, dass solche Elemente vermieden werden, um die Professionalität und die inhaltliche Klarheit der Präsentation zu gewährleisten. Außerdem wäre es hilfreich gewesen, den Blogpost als separates Dokument zur Verfügung zu stellen, um die Zuschauerinnen und Zuschauer besser auf das Gesagte konzentrieren zu lassen. Euer eindeutiger Bezug zur Fallstudie und zur vorherigen Aufgabe war gut umgesetzt. Die konkrete Zuordnung von Investitionen in verschiedene Bereiche war ebenfalls positiv. Allerdings hätte eine tiefere und spezifischere Ausführung der Investitionen den Inhalt bereichert und die Strategie klarer gemacht.</p>
+<p style=""margin-bottom:16px; margin-top:16px""><strong>Reflexion:</strong></p>
+<p style=""margin-bottom:16px; margin-top:16px"">Eure Reflexion über die gruppeninternen Herausforderungen und die daraus resultierenden Effizienzsteigerungen war ein wichtiger Aspekt eurer Arbeit. Es zeigt, dass ihr in der Lage seid, Herausforderungen zu erkennen, anzugehen und daraus zu lernen, was für die weitere Entwicklung der Gruppe von großer Bedeutung ist.</p>
+<p style=""margin-bottom:16px; margin-top:16px"">Zusammenfassend möchten wir betonen, dass eure Arbeit wertvolle Ansätze und Ideen enthält. Wir ermutigen euch, die genannten Verbesserungsvorschläge in zukünftigen Projekten zu berücksichtigen, um sowohl eure Präsentationsfähigkeiten als auch eure inhaltliche Tiefe weiter zu entwickeln.</p>
+<p style=""margin-bottom:16px; margin-top:16px"">&nbsp;</p>
+<p style=""margin-bottom:16px; margin-top:16px"">VG Lydia&amp;Anne</p>"
+1,1702206023654,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702206023654?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702206023654&parentMessageId=1702206023654,,html,<systemEventMessage/>
+2,1702205126984,message,Reflexion AAAA,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702205126984?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702205126984&parentMessageId=1702205126984,6786f3e0-5cbd-48f2-aec0-a23549dd4bff,html,"<div>- Deutliche Verbesserungen der Gruppenklima im Vergleich zu vorherigen Wochen!!<br>
+- Hilfreiche Vorarbeit aus vorherigen Wochen ermöglichte das Vorwegnehmen vieler Aufgaben<br>
+-Fast vollständige Erledigung der Arbeit während eines Treffens<br>
+- Steigerung der Effizienz durch die Vorbereitungsarbeit<br>
+- Erfolgreiches Abschließen der gestellten Aufgaben innerhalb der zwei Treffen</div>"
+3,1702066672115,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1702066672115?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1702066672115&parentMessageId=1702066672115,46bd38d5-04ba-4e9a-9766-d3a16bc48b31,text,"Feedback zur Gruppe ""DDD"" <attachment id=""0a3ef9e5-a6d4-4507-8320-3cce28057f1c""></attachment>"
+4,1701421424093,message,Peer Feedback für die Gruppe DDD,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1701421424093?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701421424093&parentMessageId=1701421424093,798bca91-b8d6-4ac6-8109-39bae470d23f,html,"<div>
+<div itemprop=""copy-paste-block"">
+
+<p>Liebe AAAAs​,</p>
+
+
+
+<p><br>
+
+&nbsp;</p>
+
+
+
+<p>hier findet ihr das Video&nbsp;zur Stakeholder Analyse plus Reflexion der Gruppe DDD​ mit der Bitte, ein faires, konstruktives Feedback als Text aus eurer Gruppensicht zu verfassen- Hinweise erhalten ihr in dem Pitch von Dienstag, auf dem Board und in der angehangenen PDF.</p>
+
+
+
+<p><br>
+
+&nbsp;</p>
+
+
+
+<p>VG</p>
+
+
+
+<p>Anne</p>
+
+</div>
+</div><attachment id=""87169b47-b9c1-48e8-8f61-4571cbeedd6d""></attachment><attachment id=""3dbc1e09-14a8-41c4-898b-3bf2db1f617b""></attachment>"
+5,1701608966707,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1701608966707?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701608966707&parentMessageId=1701608966707,642e3495-9383-464e-b034-070390477877,html,"<div><div><at id=""0"">Aiysha Kanwal Nawaz</at>&nbsp;Du bist nach 30 Minuten aus dem Meeting raus gegangen und wir haben eine gesamte Aufgabe ohne dich gemacht. Bitte Antworte doch auf Whatsapp wieso du weg bist und nicht mitgearbeitet hast.</div>
+</div>"
+6,1701601240051,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1701601240051?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701601240051&parentMessageId=1701601240051,,html,<systemEventMessage/>
+7,1701601491927,message,Bewertung Polina,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1701601491927?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701601491927&parentMessageId=1701601491927,6786f3e0-5cbd-48f2-aec0-a23549dd4bff,text,"<attachment id=""2a61f8ba-5b86-4880-9f9b-7f0547813e7a""></attachment>"
+8,1701601249985,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1701601249985?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701601249985&parentMessageId=1701601249985,,html,<systemEventMessage/>
+9,1701155626431,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1701155626431?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1701155626431&parentMessageId=1701155626431,798bca91-b8d6-4ac6-8109-39bae470d23f,html,"<div><div><at id=""0"">Polina Pryimak</at>&nbsp;wir haben leider noch keine Abgabe von euch erhalten. Habt ihr Infos für uns, wie es weitergeht?</div>
+</div>"
+10,1700996434144,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700996434144?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700996434144&parentMessageId=1700996434144,,html,<systemEventMessage/>
+11,1700998715376,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700998715376?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700998715376&parentMessageId=1700998715376,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,html,"<div><div><at id=""0"">Naomi Rachel Deuster</at></div>
+</div><attachment id=""9dfcde8c-b3f7-4883-aec0-41ff9c9a0895""></attachment>"
+12,1700998558852,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700998558852?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700998558852&parentMessageId=1700998558852,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,html,"<div><div><at id=""0"">Naomi Rachel Deuster</at></div>
+</div><attachment id=""882c04c7-19a4-4382-af37-2aefe641c87c""></attachment>"
+13,1700998400834,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700998400834?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700998400834&parentMessageId=1700998400834,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,html,"<div><div><at id=""0"">Naomi Rachel Deuster</at></div>
+</div><attachment id=""f5f9839e-618a-4d13-9e07-cb39c91c8587""></attachment>"
+14,1700996797838,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700996797838?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700996797838&parentMessageId=1700996797838,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,text,"<attachment id=""747cc08f-16d5-4238-a467-b5584ad8f7fe""></attachment>"
+15,1700932890982,message,Reflexion Zusammengefasst,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700932890982?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700932890982&parentMessageId=1700932890982,6786f3e0-5cbd-48f2-aec0-a23549dd4bff,text,"<attachment id=""e0c3b484-6765-4fb1-8603-c59cbb72f326""></attachment>"
+16,1700996345278,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700996345278?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700996345278&parentMessageId=1700996345278,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,text,"<attachment id=""9ffa1e9f-ae68-4d1a-b25e-bf10a9acaabb""></attachment>"
+17,1700848364157,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700848364157?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700848364157&parentMessageId=1700848364157,642e3495-9383-464e-b034-070390477877,html,"<div><div><at id=""0"">Polina Pryimak</at>&nbsp;<at id=""1"">Aiysha Kanwal Nawaz</at> <at id=""2"">Martin Michael Kriele</at>&nbsp;Ich habe im Docs (<a href=""https://docs.google.com/document/d/1WyphM8f-2zF-X0PJlv5ucXAfYioIf-yIIHEcI87CONQ/edit"" rel=""noreferrer noopener"" target=""_blank"" title=""https://docs.google.com/document/d/1wyphm8f-2zf-x0pjlv5ucxafyioif-yiiheci87conq/edit"">https://docs.google.com/document/d/1WyphM8f-2zF-X0PJlv5ucXAfYioIf-yIIHEcI87CONQ/edit</a>) nochmal alle Aufgaben von jedem und das Meeting übersichtlich mit Checkliste eingefügt. Lg Naomi
+<div><span><img height=""250"" src=""https://graph.microsoft.com/beta/teams/991bc98e-b4e5-4035-a19c-7b6d774411c1/channels/19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2/messages/1700848364157/hostedContents/aWQ9eF8wLXdldS1kMy1mMDg4OWQxYmIxYzQ0ZTY0ZjIwYmZkY2Y0ZTY3ZDk5MCx0eXBlPTEsdXJsPWh0dHBzOi8vZXUtYXBpLmFzbS5za3lwZS5jb20vdjEvb2JqZWN0cy8wLXdldS1kMy1mMDg4OWQxYmIxYzQ0ZTY0ZjIwYmZkY2Y0ZTY3ZDk5MC92aWV3cy9pbWdv/$value"" width=""481.7647058823529"" style=""vertical-align:bottom; width:481px; height:250px""></span>
+
+</div>
+
+
+</div>
+</div>"
+18,1700837949481,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700837949481?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700837949481&parentMessageId=1700837949481,,html,<systemEventMessage/>
+19,1700568011123,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700568011123?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700568011123&parentMessageId=1700568011123,,html,<systemEventMessage/>
+0,1700395239530,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700395239530?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700395239530&parentMessageId=1700395239530,,html,<systemEventMessage/>
+1,1700398583997,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700398583997?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700398583997&parentMessageId=1700398583997,642e3495-9383-464e-b034-070390477877,html,"<div><div><at id=""0"">Martin Michael Kriele</at>&nbsp;
+<div><span><img height=""250"" src=""https://graph.microsoft.com/beta/teams/991bc98e-b4e5-4035-a19c-7b6d774411c1/channels/19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2/messages/1700398583997/hostedContents/aWQ9eF8wLXdldS1kMi1mMWY5YzJjOTdkNTJhYTQ3NjU4ODNlMTQ5MmM5MDAwMyx0eXBlPTEsdXJsPWh0dHBzOi8vZXUtYXBpLmFzbS5za3lwZS5jb20vdjEvb2JqZWN0cy8wLXdldS1kMi1mMWY5YzJjOTdkNTJhYTQ3NjU4ODNlMTQ5MmM5MDAwMy92aWV3cy9pbWdv/$value"" width=""348.34834834834834"" style=""vertical-align:bottom; width:348px; height:250px""></span>
+
+</div>
+
+
+</div>
+</div>"
+2,1700396598111,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700396598111?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700396598111&parentMessageId=1700396598111,6786f3e0-5cbd-48f2-aec0-a23549dd4bff,html,"<div><a href=""https://www.pedocs.de/volltexte/2018/15469/pdf/Riplinger_et_al_2017_Medieneinsatz_in_der_Hochschullehre.pdf"">https://www.pedocs.de/volltexte/2018/15469/pdf/Riplinger_et_al_2017_Medieneinsatz_in_der_Hochschullehre.pdf</a></div>"
+3,1700397630470,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700397630470?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700397630470&parentMessageId=1700397630470,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,html,"<div>
+<div itemprop=""copy-paste-block""><a href=""https://www.researchgate.net/publication/334415668_Stakeholder_und_deren_Einfluss_auf_die_Positionierung_von_osterreichischen_Fachhochschulen/link/5d283d8f458515c11c273e34/download"" rel=""noreferrer noopener"" target=""_blank"" title=""https://www.researchgate.net/publication/334415668_stakeholder_und_deren_einfluss_auf_die_positionierung_von_osterreichischen_fachhochschulen/link/5d283d8f458515c11c273e34/download"">https://www.researchgate.net/publication/334415668_Stakeholder_und_deren_Einfluss_auf_die_Positionierung_von_osterreichischen_Fachhochschulen/link/5d283d8f458515c11c273e34/download</a></div>
+</div>"
+4,1700395227449,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700395227449?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700395227449&parentMessageId=1700395227449,642e3495-9383-464e-b034-070390477877,text,"Hier schonmal was ich bis heute gefunden habe.<attachment id=""b27d717e-fe88-4a7e-9267-7158f3f53ff7""></attachment>"
+5,1700396180394,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700396180394?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700396180394&parentMessageId=1700396180394,642e3495-9383-464e-b034-070390477877,text,"1.) Quelle @Aiysha: Not Found , 2.) Quelle: Not Found"
+6,1700396155068,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700396155068?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700396155068&parentMessageId=1700396155068,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,text,"Meine bisherigen Quellen<attachment id=""de0ee22a-6705-4013-97fd-7d6059894ec6""></attachment><attachment id=""20d56f5b-9dcd-4d9d-a0e3-4a98e78e0d92""></attachment>"
+7,1700395748156,message,"Das, was ich gefunden habe:",,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700395748156?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700395748156&parentMessageId=1700395748156,6786f3e0-5cbd-48f2-aec0-a23549dd4bff,html,"<div>Stakeholder-Übersicht:<br>
+<br>
+1. Studierende:<br>
+ &nbsp; - Anforderungen: Flexibilität, multimediale Integration, Zugang von verschiedenen Standorten.<br>
+ &nbsp; - Anliegen: Barrierefreiheit, technische Unterstützung, Datenschutz.<br>
+<br>
+ &nbsp; - Quelle: Astin, A. W. (1984). Student involvement: A developmental theory for higher education. *Journal of College Student Personnel, 25*(4), 297-308.<br>
+<br>
+2. &nbsp;Dozenten und Lehrkräfte :<br>
+ &nbsp; - &nbsp;Bedarf : Schulung für E-Learning-Werkzeuge, Anpassung des Lehrplans, technische Unterstützung.<br>
+ &nbsp; - &nbsp;Anliegen : Arbeitsbelastung, Effektivität digitaler Werkzeuge, Qualität der Lehre erhalten.<br>
+<br>
+ Quelle: Cohen, A. M., &amp; Brawer, F. B. (2008). The American Community College. John Wiley &amp; Sons.<br>
+<br>
+3. &nbsp;Verwaltung :<br>
+ &nbsp; - &nbsp;Interesse : Effiziente Verwaltung von E-Learning-Systemen, Datensicherheit.<br>
+ &nbsp; - &nbsp;Anliegen : Budgetierung, rechtliche Einhaltung, Infrastrukturunterstützung.<br>
+<br>
+ &nbsp;- Quelle: Gumport, P. J. (2000). Academic restructuring: Organizational change and institutional imperatives. *Higher Education, 39*(1), 67-91.<br>
+<br>
+<br>
+4. &nbsp;IT-Abteilung :<br>
+ &nbsp; - &nbsp;Aufgaben : Netzwerksicherheit, Systemzuverlässigkeit, Wartung von Software/Hardware.<br>
+ &nbsp; - &nbsp;Anliegen : Ressourcenallokation, Kompatibilität, Datenschutzgesetze.<br>
+<br>
+Quelle: Green, K. C., &amp; Caruso, J. B. (2007). Environmental scan 2007: Higher education's top 10 strategic technologies. *Educause Review, 42*(6), 48-72.<br>
+<br>
+5. &nbsp;Recht und Compliance :<br>
+ &nbsp; - &nbsp;Rolle : Einhaltung von Datenschutzgesetzen, Urheberrechtsvorschriften und Zugänglichkeitsstandards.<br>
+ &nbsp; - &nbsp;Anliegen : Einhaltung, Risikominderung, Politikumsetzung.<br>
+<br>
+Quelle: Kezar, A., &amp; Maxey, D. (2014). Organizing for collaboration in higher education: An examination of eight university-wide attempts. *The Journal of Higher Education, 85*(5), 753-781.<br>
+<br>
+6. &nbsp;Externe Partner &nbsp;(Industrie, Gemeinschaft):<br>
+ &nbsp; - &nbsp;Interesse : Gemeinsame Projekte, Kompetenzentwicklung, Ressourcenteilung.<br>
+ &nbsp; - &nbsp;Anliegen : Datensicherheit, geistige Eigentumsrechte, Abstimmung der Ziele.<br>
+<br>
+Quelle: Saltmarsh, J., Giles, D. E., &amp; Ward, E. (2009). Civic engagement and higher education: Comparative perspectives. Taylor &amp; Francis.</div>"
+8,1700234056166,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700234056166?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700234056166&parentMessageId=1700234056166,,html,<systemEventMessage/>
+9,1700233868562,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700233868562?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700233868562&parentMessageId=1700233868562,,html,<systemEventMessage/>
+10,1700117383809,message,Feedback Group Contract,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1700117383809?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1700117383809&parentMessageId=1700117383809,798bca91-b8d6-4ac6-8109-39bae470d23f,html,"<div>
+<div itemprop=""copy-paste-block"">
+
+<p style=""font-size:14px"">Liebes Team AAAA <emoji id=""1f5e3_speakingheadinsilhouette"" alt=""🗣️"" title=""""></emoji><emoji id=""1f5e3_speakingheadinsilhouette"" alt=""🗣️"" title=""""></emoji><emoji id=""1f5e3_speakingheadinsilhouette"" alt=""🗣️"" title=""""></emoji><emoji id=""1f5e3_speakingheadinsilhouette"" alt=""🗣️"" title=""""></emoji>,</p>
+
+
+
+<p style=""font-size:14px"">Vielen Dank für euren Einsatz in der Erstellung des Gruppenvertrags! Eure Arbeit hat uns in vielerlei Hinsicht informiert und unterhalten und zeigt euren Charakter und, wie ihr als Team zusammengefunden habt.&nbsp;</p>
+
+
+
+<p style=""font-size:14px"">Die Gestaltung eures Gruppenvertrags war nicht nur äußerst ansprechend, sondern auch die kreative Namensfindung und der witzige Slogan haben uns begeistert. Ihr habt gezeigt, wie man Kreativität und Humor gekonnt in ein ernsthaftes Projekt einfließen lassen kann.</p>
+
+
+
+<p style=""font-size:14px"">Die Inhalte eures Vertrags, einschließlich der Erklärung des Namens, der Versprechungen, des Slogans und der Anmerkungen, waren sehr durchdacht und sinnvoll strukturiert. Eure Rollenverteilung und die klar definierten Verantwortlichkeiten haben zudem die Nachvollziehbarkeit und Transparenz eurer Gruppenarbeit erhöht.</p>
+
+
+
+<p style=""font-size:14px"">Euer Reflexionsvideo war persönlich und zeigte euren Charakter auf eine authentische Weise. Die Strukturierung des Videos und die Reflexion über eure unterschiedlichen Studienherkünfte und wie diese zusammenpassen, war nicht nur informativ, sondern auch inspirierend.</p>
+
+
+
+<p style=""font-size:14px"">Euer Bewusstsein für mögliche Umstände und Herausforderungen und euer Engagement für offene Kommunikation sind beispielhaft. Besonders hervorzuheben ist eure Bereitschaft, den Vertrag flexibel anzupassen. Dies zeigt eure Offenheit für Veränderungen und euren Willen, auf unvorhersehbare Situationen reagieren zu können.</p>
+
+
+
+<p style=""font-size:14px"">Es gibt jedoch auch Bereiche, in denen ihr euch noch weiterentwickeln könntet. Eine ausführlichere Reflexion über den Arbeitsprozess und mögliche Probleme wäre für zukünftige Projekte von großem Nutzen. Dies würde nicht nur euer Verständnis für die Dynamik innerhalb des Teams vertiefen, sondern auch dazu beitragen, eure Arbeitsweise weiter zu optimieren.</p>
+
+
+
+<p style=""font-size:14px"">Zusammenfassend möchten wir sagen, dass eure Arbeit beeindruckend und motivierend ist. Wir freuen uns darauf, zu sehen, wie ihr diese Anregungen in euren zukünftigen Projekten umsetzt.</p>
+
+</div>
+</div>"
+11,1699896442336,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699896442336?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699896442336&parentMessageId=1699896442336,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,html,"<p>Vorstellung </p><attachment id=""b59d6e56-c99d-49bf-9b77-61ffb4feb746""></attachment>"
+12,1699826266249,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699826266249?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699826266249&parentMessageId=1699826266249,,html,<systemEventMessage/>
+13,1699786908778,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699786908778?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699786908778&parentMessageId=1699786908778,,html,<systemEventMessage/>
+14,1699788236344,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699788236344?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699788236344&parentMessageId=1699788236344,46bd38d5-04ba-4e9a-9766-d3a16bc48b31,html,"<div><div>In unserem Team versuchen wir eine Kultur der gegenseitigen Unterstützung zu pflegen. Wir glauben fest daran, dass unsere Stärke in der Gemeinschaft liegt. Indem wir uns gegenseitig unterstützen, können wir nicht nur unsere individuellen Fähigkeiten optimal einsetzen, sondern auch die Teamleistung steigern. Das bedeutet für uns jedes Teammitglied ist ein wichtiger Bestandteil unseres gemeinsamen Erfolgs.<br>
+
+<br>
+
+Es ist uns auch bewusst, dass unvorhergesehene Umstände oder Hindernisse auftreten könnten, die die Umsetzung unserer vereinbarten Aufgaben erschweren oder verhindern. Deshalb haben wir uns entschieden, dass jedes Teammitglied offen kommuniziert, wenn es auf Probleme stößt, die die Arbeit beeinträchtigen könnten. Zusätzlich ermöglicht uns rechtzeitige Benachrichtigung des Teams, gemeinsam nach Lösungen zu suchen, um die Herausforderungen zu bewältigen und unsere Ziele zu erreichen.<br>
+
+<br>
+
+Unser nächstes Versprechen ist Kreativität. Wir betrachten Kreativität als einen zentralen Bestandteil unserer Vorgehensweise. Sie erlaubt uns, innovative Lösungswege zu finden und Herausforderungen auf unkonventionelle Weise anzugehen. Kreativität ermutigt uns, über traditionelle Grenzen hinauszudenken und ermöglicht es, neue und effektive Wege zu entdecken, um unsere Ziele zu verwirklichen.<br>
+
+<br>
+
+Insgesamt stärken uns diese Prinzipien in unserer Zusammenarbeit und helfen uns, flexibel auf Veränderungen zu reagieren, unsere Effizienz zu steigern und letztendlich unsere gemeinsamen Ziele zu erreichen.<br>
+
+<br>
+
+Eine kleine Anmerkung dazu: Uns ist es erlaubt unseren Vertrag zu bearbeiten und anzupassen im Verlaufe der Gruppenarbeit, solange jedes Teammitglied damit einverstanden ist. Zudem verwenden wir WA und Teams für unser Gruppenarbeit.</div>
+</div>"
+15,1699788217757,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699788217757?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699788217757&parentMessageId=1699788217757,,html,<systemEventMessage/>
+16,1699787024491,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699787024491?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699787024491&parentMessageId=1699787024491,642e3495-9383-464e-b034-070390477877,html,"<div>Ich habe oben in diesem Kanal eine Registerkarte hinzugefügt. Probieren Sie diese aus!</div><attachment id=""tab::12a56b27-f5c7-4ad6-a9d3-1fca8195a33b""></attachment>"
+17,1699782624285,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699782624285?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699782624285&parentMessageId=1699782624285,,text,
+18,1699434685585,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699434685585?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699434685585&parentMessageId=1699434685585,,html,<systemEventMessage/>
+19,1699373894851,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699373894851?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699373894851&parentMessageId=1699373894851,,html,<systemEventMessage/>
+0,1699381852863,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699381852863?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699381852863&parentMessageId=1699381852863,,html,<systemEventMessage/>
+1,1699381852775,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699381852775?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699381852775&parentMessageId=1699381852775,,html,<systemEventMessage/>
+2,1699381728994,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699381728994?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699381728994&parentMessageId=1699381728994,,html,<systemEventMessage/>
+3,1699346243952,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699346243952?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699346243952&parentMessageId=1699346243952,46bd38d5-04ba-4e9a-9766-d3a16bc48b31,html,"<p>Hallo, hier ist meine verspätete Vorstellung. Ich bin Aiysha, bin 21 Jahre alt und studiere Informatik im Bachelor. Ich bin noch relativ am Anfang meines Studiums. Meine Hobbys sind, abgesehen vom Programmieren ;),&nbsp; Volleyballspielen, Backen, Kochen, Reisen und das Erlernen von Sprachen. Aktuell lerne ich neben dem Studium noch chinesisch und japanisch. Was so meine Fertigkeiten betrifft, die hier auch nützlich wären, sind zum Beispiel WordPress, Canva, Capcut, Bandlab, aber auch alles rund ums Programmieren könnt ihr mich fragen. Meine Telefonnummer ist +49 1785730055.</p>
+<p>&nbsp;</p>
+<p>LG Aiysha.</p>"
+4,1699174075158,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699174075158?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699174075158&parentMessageId=1699174075158,46bd38d5-04ba-4e9a-9766-d3a16bc48b31,html,"<p>Hey Leute,</p>
+<p>Tut mir leid, dass ich mich erst so spät melde. Ich bin kurzfristig bei einer Messe eingeprungen, weshalb ich seit Mittwoch von um 9 Uhr bis um 20 Uhr arbeite. Da ich leider auch 1h bis 1,5h brauche um Nachhause zu fahren, wegen den aktuellen Schienenverkehr (wohne in Freiberg) bin ich leider noch nicht dazu gekommen, irgendetwas für die Gruppe zu tun. Es tut mir wirklich leid für die Unannehmlichkeiten, die ich euch bereitet habe. Meine kurze Vorstellung würde ich dann am Montag reinschicken. Wenn ihr wollt könnt ihr schon mal mit der Geuppenarbeit anfangen.</p>
+<p>&nbsp;</p>
+<p>VG Aiysha</p>"
+5,1699006244285,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1699006244285?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1699006244285&parentMessageId=1699006244285,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,html,"<div><div>Wie genau gehts jetzt eigentlich weiter? Was wollen wir wann und wie machen? <emoji id=""think"" alt=""🤔"" title=""""></emoji> Hier für Whatsapp meine Nummer: 017664290488</div>
+</div>"
+6,1698684975584,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1698684975584?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698684975584&parentMessageId=1698684975584,642e3495-9383-464e-b034-070390477877,html,"<div>
+<div itemprop=""copy-paste-block"">Willkommen, ich hoffe wir sind bereits vollständig. Solltet Ihr bereits diese Nachricht lesen können reagiert doch gerne mal mit einem Daumen nach oben auf sie. Am besten starten wir mit einer Begrüßungs- und Vorstellungsrunde. Was haltet Ihr davon? Dafür wäre es schön wenn jeder von Euch ein Foto von sich hochlädt mit einem kurzen Text mit ein paar Infos über sich. (Das könnte sein: Name, Alter, Interessen, Studiengang, Kompetenzen, Defizite) Informiert uns alle auch gerne darüber in welchen Bereichen Ihr bereits Erfahrung habt, was deine besten Kompetenzen sind und vlt auch wo ihr Euch Hilfe wünscht. <emoji id=""smile"" alt=""🙂"" title=""""></emoji>&nbsp;LG Naomi Rachel&nbsp;</div>
+</div>"
+7,1698684969282,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1698684969282?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698684969282&parentMessageId=1698684969282,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,text,Hallo zusammen! Glaubt ihr es ist besser wenn wir uns eine Whatsapp Gruppe erstellen um uns für hier zu verabreden?
+8,1698911623275,message,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1698911623275?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698911623275&parentMessageId=1698911623275,0a5227bd-47fc-4a4d-8f00-a31032a5ca38,html,"<div>
+<div itemprop=""copy-paste-block"">Hallo zusammen, ich bin Martin, 24 Jahre alt und studiere im siebten Semester PoWi. Das Studium geht ins ""Finale"", denn es steht nur noch die Bachelorarbeit aus. (Und diese Vorlesung). Ansonsten mache ich gerade ein Praktikum bei Radio Dresden und schaue mich nach Praktikumsplätzen um. Insgesamt ist es ein anstrengender Jahresendspurt, aber ich freue mich darauf. <emoji id=""wink"" alt=""😉"" title=""""></emoji></div>
+</div>"
+9,1698747192837,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1698747192837?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698747192837&parentMessageId=1698747192837,,html,<systemEventMessage/>
+10,1698684241237,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1698684241237?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698684241237&parentMessageId=1698684241237,,html,<systemEventMessage/>
+11,1698684233471,systemEventMessage,,,19:9c3a77a5120a427495f4fcfc2ac5e3c5@thread.tacv2,normal,https://teams.microsoft.com/l/message/19%3A9c3a77a5120a427495f4fcfc2ac5e3c5%40thread.tacv2/1698684233471?groupId=991bc98e-b4e5-4035-a19c-7b6d774411c1&tenantId=b79162dc-8d04-44f6-b3b2-c5a1d0b1b9a1&createdTime=1698684233471&parentMessageId=1698684233471,,html,<systemEventMessage/>

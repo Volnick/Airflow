@@ -1,0 +1,364 @@
+[2024-11-04T11:05:49.518+0100] {processor.py:186} INFO - Started process (PID=17833) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:05:49.518+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:05:49.519+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:05:49.518+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:05:49.519+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:05:49.519+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/Desktop/Code/MSTeams_pipeline/airflow/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:05:49.519+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:05:49.550+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:05:49.550+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:05:49.558+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.042 seconds
+[2024-11-04T11:08:17.360+0100] {processor.py:186} INFO - Started process (PID=19551) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:08:17.360+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:08:17.361+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:08:17.361+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:08:17.362+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:08:17.361+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/Desktop/Code/MSTeams_pipeline/airflow/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:08:17.362+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:08:17.397+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:08:17.396+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:08:17.402+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.044 seconds
+[2024-11-04T11:12:01.713+0100] {processor.py:186} INFO - Started process (PID=22276) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:12:01.714+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:12:01.714+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:12:01.714+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:12:01.882+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:12:01.946+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:12:01.946+0100] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:test_airflow
+[2024-11-04T11:12:01.948+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:12:01.948+0100] {override.py:1900} INFO - Created Permission View: can create on DAG Run:test_airflow
+[2024-11-04T11:12:01.950+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:12:01.950+0100] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:test_airflow
+[2024-11-04T11:12:01.952+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:12:01.952+0100] {override.py:1900} INFO - Created Permission View: can read on DAG Run:test_airflow
+[2024-11-04T11:12:01.952+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:12:01.952+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:12:01.959+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:12:01.959+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:11:00+00:00, run_after=2024-11-04 10:12:00+00:00
+[2024-11-04T11:12:01.964+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.252 seconds
+[2024-11-04T11:16:12.840+0100] {processor.py:186} INFO - Started process (PID=25675) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:16:12.840+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:16:12.840+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:12.840+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:16:12.842+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:12.841+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:16:12.842+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:16:12.876+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:12.876+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:16:12.884+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.046 seconds
+[2024-11-04T11:16:14.629+0100] {processor.py:186} INFO - Started process (PID=25697) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:16:14.630+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:16:14.630+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:14.630+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:16:14.631+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:14.631+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:16:14.631+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:16:14.663+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:14.663+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:16:14.668+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.040 seconds
+[2024-11-04T11:17:40.537+0100] {processor.py:186} INFO - Started process (PID=26910) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:17:40.537+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:17:40.537+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:17:40.537+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:17:40.538+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:17:40.538+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:17:40.538+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:17:40.571+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:17:40.571+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:17:40.577+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.041 seconds
+[2024-11-04T11:18:49.871+0100] {processor.py:186} INFO - Started process (PID=27759) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:18:49.871+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:18:49.872+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:18:49.871+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:18:49.872+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:18:49.872+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:18:49.873+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:18:49.908+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:18:49.908+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:18:49.915+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.047 seconds
+[2024-11-04T11:20:04.934+0100] {processor.py:186} INFO - Started process (PID=28624) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:20:04.934+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:20:04.934+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:20:04.934+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:20:04.935+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:20:04.935+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:20:04.935+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:20:04.968+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:20:04.968+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:20:04.974+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.041 seconds
+[2024-11-04T11:21:19.782+0100] {processor.py:186} INFO - Started process (PID=29472) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:21:19.783+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:21:19.783+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:21:19.783+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:21:19.784+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:21:19.784+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:21:19.784+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:21:19.820+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:21:19.820+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:21:19.826+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.046 seconds
+[2024-11-04T11:22:36.916+0100] {processor.py:186} INFO - Started process (PID=30408) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:22:36.917+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:22:36.917+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:22:36.917+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:22:36.918+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:22:36.918+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:22:36.919+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:22:36.952+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:22:36.952+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:22:36.958+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.043 seconds
+[2024-11-04T11:23:51.642+0100] {processor.py:186} INFO - Started process (PID=31252) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:23:51.642+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:23:51.643+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:23:51.643+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:23:51.643+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:23:51.643+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/test_airflow.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/test_airflow.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-11-04T11:23:51.643+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:23:51.677+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:23:51.677+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:23:51.683+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.043 seconds
+[2024-11-04T11:25:43.847+0100] {processor.py:186} INFO - Started process (PID=32587) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:25:43.848+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:25:43.848+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:25:43.848+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:25:44.021+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:25:44.088+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:25:44.088+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:25:44.095+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:25:44.095+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:24:00+00:00, run_after=2024-11-04 10:25:00+00:00
+[2024-11-04T11:25:44.103+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.257 seconds
+[2024-11-04T11:27:41.098+0100] {processor.py:186} INFO - Started process (PID=34156) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:27:41.099+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:27:41.099+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:27:41.099+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:27:41.285+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:27:41.322+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:27:41.322+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:27:41.329+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:27:41.329+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:26:00+00:00, run_after=2024-11-04 10:27:00+00:00
+[2024-11-04T11:27:41.337+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.241 seconds
+[2024-11-04T11:28:38.124+0100] {processor.py:186} INFO - Started process (PID=34800) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:28:38.124+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:28:38.125+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:28:38.125+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:28:38.308+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:28:38.342+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:28:38.342+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:28:38.349+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:28:38.349+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:28:00+00:00, run_after=2024-11-04 10:29:00+00:00
+[2024-11-04T11:28:38.355+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.233 seconds
+[2024-11-04T11:29:09.547+0100] {processor.py:186} INFO - Started process (PID=35193) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:29:09.547+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:29:09.547+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:09.547+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:29:09.724+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:29:09.758+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:09.758+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:29:09.765+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:09.765+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:29:00+00:00, run_after=2024-11-04 10:30:00+00:00
+[2024-11-04T11:29:09.771+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.226 seconds
+[2024-11-04T11:29:41.048+0100] {processor.py:186} INFO - Started process (PID=35599) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:29:41.049+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:29:41.049+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:41.049+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:29:41.220+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:29:41.253+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:41.253+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:29:41.260+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:41.260+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:29:00+00:00, run_after=2024-11-04 10:30:00+00:00
+[2024-11-04T11:29:41.268+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.221 seconds
+[2024-11-04T11:30:12.151+0100] {processor.py:186} INFO - Started process (PID=35969) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:30:12.151+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:30:12.152+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:12.151+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:30:12.324+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:30:12.361+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:12.361+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:30:12.369+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:12.368+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:30:00+00:00, run_after=2024-11-04 10:31:00+00:00
+[2024-11-04T11:30:12.376+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.227 seconds
+[2024-11-04T11:30:43.479+0100] {processor.py:186} INFO - Started process (PID=36312) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:30:43.480+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:30:43.480+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:43.480+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:30:43.655+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:30:43.690+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:43.690+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:30:43.696+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:43.696+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:30:00+00:00, run_after=2024-11-04 10:31:00+00:00
+[2024-11-04T11:30:43.704+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.226 seconds
+[2024-11-04T11:31:14.847+0100] {processor.py:186} INFO - Started process (PID=36673) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:31:14.847+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:31:14.847+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:14.847+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:31:15.017+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:31:15.052+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:15.052+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:31:15.060+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:15.060+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:31:00+00:00, run_after=2024-11-04 10:32:00+00:00
+[2024-11-04T11:31:15.067+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.222 seconds
+[2024-11-04T11:31:46.198+0100] {processor.py:186} INFO - Started process (PID=37013) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:31:46.199+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:31:46.199+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:46.199+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:31:46.384+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:31:46.419+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:46.419+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:31:46.425+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:46.425+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:31:00+00:00, run_after=2024-11-04 10:32:00+00:00
+[2024-11-04T11:31:46.433+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.236 seconds
+[2024-11-04T11:32:18.085+0100] {processor.py:186} INFO - Started process (PID=37375) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:32:18.085+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:32:18.086+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:18.086+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:32:18.272+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:32:18.307+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:18.307+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:32:18.314+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:18.314+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:32:00+00:00, run_after=2024-11-04 10:33:00+00:00
+[2024-11-04T11:32:18.321+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.237 seconds
+[2024-11-04T11:32:49.373+0100] {processor.py:186} INFO - Started process (PID=37721) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:32:49.373+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:32:49.374+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:49.374+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:32:49.555+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:32:49.588+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:49.588+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:32:49.596+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:49.596+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:32:00+00:00, run_after=2024-11-04 10:33:00+00:00
+[2024-11-04T11:32:49.602+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.231 seconds
+[2024-11-04T11:33:21.129+0100] {processor.py:186} INFO - Started process (PID=38069) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:33:21.130+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:33:21.130+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:21.130+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:33:21.311+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:33:21.346+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:21.346+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:33:21.353+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:21.353+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:33:00+00:00, run_after=2024-11-04 10:34:00+00:00
+[2024-11-04T11:33:21.360+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.232 seconds
+[2024-11-04T11:33:52.403+0100] {processor.py:186} INFO - Started process (PID=38416) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:33:52.404+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:33:52.404+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:52.404+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:33:52.575+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:33:52.608+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:52.608+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:33:52.615+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:52.615+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:33:00+00:00, run_after=2024-11-04 10:34:00+00:00
+[2024-11-04T11:33:52.622+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.220 seconds
+[2024-11-04T11:34:24.135+0100] {processor.py:186} INFO - Started process (PID=38802) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:34:24.135+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:34:24.136+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:24.136+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:34:24.316+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:34:24.352+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:24.352+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:34:24.359+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:24.358+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:34:00+00:00, run_after=2024-11-04 10:35:00+00:00
+[2024-11-04T11:34:24.365+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.232 seconds
+[2024-11-04T11:34:55.516+0100] {processor.py:186} INFO - Started process (PID=39249) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:34:55.517+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:34:55.517+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:55.517+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:34:55.696+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:34:55.732+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:55.732+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:34:55.740+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:55.740+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:34:00+00:00, run_after=2024-11-04 10:35:00+00:00
+[2024-11-04T11:34:55.747+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.232 seconds
+[2024-11-04T11:35:27.349+0100] {processor.py:186} INFO - Started process (PID=39587) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:35:27.349+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:35:27.349+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:27.349+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:35:27.539+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:35:27.572+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:27.572+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:35:27.579+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:27.579+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:35:00+00:00, run_after=2024-11-04 10:36:00+00:00
+[2024-11-04T11:35:27.585+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.239 seconds
+[2024-11-04T11:35:58.661+0100] {processor.py:186} INFO - Started process (PID=39913) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:35:58.662+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:35:58.662+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:58.662+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:35:58.838+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:35:58.873+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:58.873+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:35:58.880+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:58.880+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:35:00+00:00, run_after=2024-11-04 10:36:00+00:00
+[2024-11-04T11:35:58.887+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.228 seconds
+[2024-11-04T11:36:30.020+0100] {processor.py:186} INFO - Started process (PID=40254) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:36:30.020+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:36:30.021+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:36:30.021+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:36:30.196+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:36:30.230+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:36:30.230+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:36:30.236+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:36:30.236+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:36:00+00:00, run_after=2024-11-04 10:37:00+00:00
+[2024-11-04T11:36:30.243+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.225 seconds
+[2024-11-04T11:37:01.122+0100] {processor.py:186} INFO - Started process (PID=40594) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:37:01.122+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:37:01.123+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:01.123+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:37:01.299+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:37:01.332+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:01.332+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:37:01.339+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:01.339+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:36:00+00:00, run_after=2024-11-04 10:37:00+00:00
+[2024-11-04T11:37:01.346+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.225 seconds
+[2024-11-04T11:37:32.465+0100] {processor.py:186} INFO - Started process (PID=40940) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:37:32.465+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:37:32.465+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:32.465+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:37:32.642+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:37:32.675+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:32.675+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:37:32.682+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:32.682+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:37:00+00:00, run_after=2024-11-04 10:38:00+00:00
+[2024-11-04T11:37:32.689+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.226 seconds
+[2024-11-04T11:38:04.397+0100] {processor.py:186} INFO - Started process (PID=41272) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:38:04.398+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:38:04.398+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:04.398+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:38:04.571+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:38:04.604+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:04.604+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:38:04.611+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:04.611+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:38:00+00:00, run_after=2024-11-04 10:39:00+00:00
+[2024-11-04T11:38:04.618+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.222 seconds
+[2024-11-04T11:38:35.740+0100] {processor.py:186} INFO - Started process (PID=41604) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:38:35.740+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:38:35.741+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:35.741+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:38:35.910+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:38:35.943+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:35.943+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:38:35.949+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:35.949+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:38:00+00:00, run_after=2024-11-04 10:39:00+00:00
+[2024-11-04T11:38:35.956+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.217 seconds
+[2024-11-04T11:39:07.135+0100] {processor.py:186} INFO - Started process (PID=41959) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:39:07.136+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:39:07.137+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:07.137+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:39:07.310+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:39:07.343+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:07.343+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:39:07.350+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:07.350+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:39:00+00:00, run_after=2024-11-04 10:40:00+00:00
+[2024-11-04T11:39:07.357+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.223 seconds
+[2024-11-04T11:39:38.254+0100] {processor.py:186} INFO - Started process (PID=42286) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:39:38.254+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:39:38.255+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:38.254+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:39:38.430+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:39:38.465+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:38.465+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:39:38.472+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:38.472+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:39:00+00:00, run_after=2024-11-04 10:40:00+00:00
+[2024-11-04T11:39:38.479+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.227 seconds
+[2024-11-04T11:40:09.315+0100] {processor.py:186} INFO - Started process (PID=42628) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:40:09.315+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:40:09.316+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:09.315+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:40:09.490+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:40:09.525+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:09.525+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:40:09.532+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:09.532+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:40:00+00:00, run_after=2024-11-04 10:41:00+00:00
+[2024-11-04T11:40:09.539+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.226 seconds
+[2024-11-04T11:40:40.429+0100] {processor.py:186} INFO - Started process (PID=42970) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:40:40.429+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T11:40:40.430+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:40.429+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:40:40.607+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T11:40:40.641+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:40.641+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T11:40:40.648+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:40.648+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 10:40:00+00:00, run_after=2024-11-04 10:41:00+00:00
+[2024-11-04T11:40:40.654+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.227 seconds
+[2024-11-04T14:06:21.428+0100] {processor.py:186} INFO - Started process (PID=36480) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:06:21.428+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T14:06:21.429+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:21.429+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:06:21.610+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:06:21.644+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:21.644+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:06:21.652+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:21.652+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 13:05:00+00:00, run_after=2024-11-04 13:06:00+00:00
+[2024-11-04T14:06:21.659+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.233 seconds
+[2024-11-04T14:06:52.974+0100] {processor.py:186} INFO - Started process (PID=36861) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:06:52.975+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T14:06:52.975+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:52.975+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:06:53.171+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:06:53.208+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:53.208+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:06:53.216+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:53.215+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 13:06:00+00:00, run_after=2024-11-04 13:07:00+00:00
+[2024-11-04T14:06:53.223+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.250 seconds
+[2024-11-04T14:40:47.132+0100] {processor.py:186} INFO - Started process (PID=59348) to work on /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:40:47.134+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/test_airflow.py for tasks to queue
+[2024-11-04T14:40:47.134+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:40:47.134+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:40:47.323+0100] {processor.py:925} INFO - DAG(s) 'test_airflow' retrieved from /Users/nick/airflow/dags/test_airflow.py
+[2024-11-04T14:40:47.361+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:40:47.360+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:40:47.370+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:40:47.370+0100] {dag.py:4180} INFO - Setting next_dagrun for test_airflow to 2024-11-04 13:39:00+00:00, run_after=2024-11-04 13:40:00+00:00
+[2024-11-04T14:40:47.377+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/test_airflow.py took 0.247 seconds

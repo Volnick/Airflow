@@ -1,0 +1,973 @@
+[2023-10-31T01:30:52.676+0100] {processor.py:157} INFO - Started process (PID=24228) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:30:52.678+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T01:30:52.678+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:30:52.678+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:30:52.690+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:30:52.759+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:30:52.759+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T01:30:52.762+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:30:52.762+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T01:30:52.770+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T01:47:38.354+0100] {processor.py:157} INFO - Started process (PID=24413) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:47:38.356+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T01:47:38.356+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:47:38.356+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:47:38.368+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:47:38.436+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:47:38.436+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T01:47:38.440+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:47:38.440+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T01:47:38.447+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T01:48:53.670+0100] {processor.py:157} INFO - Started process (PID=24548) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:48:53.672+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T01:48:53.672+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:48:53.672+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:48:53.684+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T01:48:53.754+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:48:53.754+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T01:48:53.757+0100] {logging_mixin.py:151} INFO - [2023-10-31T01:48:53.757+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T01:48:53.764+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T02:07:12.690+0100] {processor.py:157} INFO - Started process (PID=24689) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:07:12.692+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T02:07:12.693+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:07:12.693+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:07:12.705+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:07:12.773+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:07:12.773+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T02:07:12.776+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:07:12.776+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T02:07:12.783+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T02:39:03.853+0100] {processor.py:157} INFO - Started process (PID=24860) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:39:03.856+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T02:39:03.856+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:39:03.856+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:39:03.868+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:39:03.938+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:39:03.938+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T02:39:03.941+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:39:03.941+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T02:39:03.948+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T02:40:30.555+0100] {processor.py:157} INFO - Started process (PID=25026) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:40:30.557+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T02:40:30.557+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:40:30.557+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:40:30.569+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:40:30.637+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:40:30.637+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T02:40:30.641+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:40:30.641+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T02:40:30.648+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T02:41:45.400+0100] {processor.py:157} INFO - Started process (PID=25163) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:41:45.402+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T02:41:45.402+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:41:45.402+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:41:45.414+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:41:45.483+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:41:45.482+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T02:41:45.486+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:41:45.486+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T02:41:45.492+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.092 seconds
+[2023-10-31T02:59:18.980+0100] {processor.py:157} INFO - Started process (PID=25298) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:59:18.982+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T02:59:18.982+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:59:18.982+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:59:18.994+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T02:59:19.062+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:59:19.062+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T02:59:19.065+0100] {logging_mixin.py:151} INFO - [2023-10-31T02:59:19.065+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T02:59:19.072+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T03:33:30.268+0100] {processor.py:157} INFO - Started process (PID=25445) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:33:30.270+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T03:33:30.271+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:33:30.271+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:33:30.283+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:33:30.351+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:33:30.351+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T03:33:30.354+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:33:30.354+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T03:33:30.361+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T03:34:57.828+0100] {processor.py:157} INFO - Started process (PID=25608) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:34:57.830+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T03:34:57.830+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:34:57.830+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:34:57.843+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:34:57.912+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:34:57.912+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T03:34:57.916+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:34:57.916+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T03:34:57.924+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T03:36:15.490+0100] {processor.py:157} INFO - Started process (PID=25748) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:36:15.492+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T03:36:15.492+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:36:15.492+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:36:15.504+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T03:36:15.572+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:36:15.572+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T03:36:15.576+0100] {logging_mixin.py:151} INFO - [2023-10-31T03:36:15.576+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T03:36:15.582+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T04:11:41.902+0100] {processor.py:157} INFO - Started process (PID=25891) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:11:41.905+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T04:11:41.905+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:11:41.905+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:11:41.918+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:11:42.002+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:11:42.001+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T04:11:42.006+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:11:42.006+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T04:11:42.014+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2023-10-31T04:29:14.397+0100] {processor.py:157} INFO - Started process (PID=26121) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:29:14.400+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T04:29:14.400+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:29:14.400+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:29:14.412+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:29:14.481+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:29:14.480+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T04:29:14.484+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:29:14.484+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T04:29:14.491+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T04:30:33.283+0100] {processor.py:157} INFO - Started process (PID=26264) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:30:33.284+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T04:30:33.285+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:30:33.285+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:30:33.297+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T04:30:33.365+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:30:33.365+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T04:30:33.369+0100] {logging_mixin.py:151} INFO - [2023-10-31T04:30:33.368+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T04:30:33.375+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T05:05:44.809+0100] {processor.py:157} INFO - Started process (PID=26476) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:05:44.812+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T05:05:44.812+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:05:44.812+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:05:44.824+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:05:44.899+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:05:44.898+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T05:05:44.903+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:05:44.903+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T05:05:44.914+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.105 seconds
+[2023-10-31T05:24:36.255+0100] {processor.py:157} INFO - Started process (PID=26705) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:24:36.258+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T05:24:36.258+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:24:36.258+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:24:36.270+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:24:36.339+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:24:36.339+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T05:24:36.342+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:24:36.342+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T05:24:36.349+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T05:25:51.494+0100] {processor.py:157} INFO - Started process (PID=26938) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:25:51.496+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T05:25:51.496+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:25:51.496+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:25:51.510+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:25:51.585+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:25:51.585+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T05:25:51.589+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:25:51.589+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T05:25:51.596+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.102 seconds
+[2023-10-31T05:45:18.505+0100] {processor.py:157} INFO - Started process (PID=27150) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:45:18.508+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T05:45:18.508+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:45:18.508+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:45:18.520+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T05:45:18.589+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:45:18.589+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T05:45:18.592+0100] {logging_mixin.py:151} INFO - [2023-10-31T05:45:18.592+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T05:45:18.599+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T06:19:52.925+0100] {processor.py:157} INFO - Started process (PID=27302) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:19:52.927+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T06:19:52.927+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:19:52.927+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:19:52.939+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:19:53.007+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:19:53.007+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T06:19:53.011+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:19:53.010+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T06:19:53.017+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T06:21:19.428+0100] {processor.py:157} INFO - Started process (PID=27469) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:21:19.430+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T06:21:19.430+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:21:19.430+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:21:19.442+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:21:19.511+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:21:19.511+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T06:21:19.515+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:21:19.515+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T06:21:19.521+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T06:22:34.053+0100] {processor.py:157} INFO - Started process (PID=27601) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:22:34.055+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T06:22:34.055+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:22:34.055+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:22:34.067+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:22:34.137+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:22:34.137+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T06:22:34.140+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:22:34.140+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T06:22:34.147+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T06:58:55.969+0100] {processor.py:157} INFO - Started process (PID=27742) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:58:55.971+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T06:58:55.971+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:58:55.971+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:58:55.983+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T06:58:56.052+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:58:56.052+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T06:58:56.055+0100] {logging_mixin.py:151} INFO - [2023-10-31T06:58:56.055+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T06:58:56.062+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T07:19:10.661+0100] {processor.py:157} INFO - Started process (PID=27970) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:19:10.663+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T07:19:10.663+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:19:10.663+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:19:10.675+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:19:10.745+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:19:10.745+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T07:19:10.748+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:19:10.748+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T07:19:10.755+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T07:20:36.388+0100] {processor.py:157} INFO - Started process (PID=28132) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:20:36.389+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T07:20:36.390+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:20:36.390+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:20:36.402+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:20:36.471+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:20:36.471+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T07:20:36.474+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:20:36.474+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T07:20:36.481+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T07:21:54.153+0100] {processor.py:157} INFO - Started process (PID=28272) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:21:54.155+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T07:21:54.155+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:21:54.155+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:21:54.167+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:21:54.236+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:21:54.236+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T07:21:54.239+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:21:54.239+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T07:21:54.246+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T07:55:29.703+0100] {processor.py:157} INFO - Started process (PID=28423) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:55:29.706+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T07:55:29.706+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:55:29.706+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:55:29.718+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T07:55:29.786+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:55:29.786+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T07:55:29.790+0100] {logging_mixin.py:151} INFO - [2023-10-31T07:55:29.790+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T07:55:29.797+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T08:13:25.646+0100] {processor.py:157} INFO - Started process (PID=28643) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:13:25.649+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T08:13:25.649+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:13:25.649+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:13:25.661+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:13:25.729+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:13:25.729+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T08:13:25.732+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:13:25.732+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T08:13:25.739+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T08:14:43.340+0100] {processor.py:157} INFO - Started process (PID=28790) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:14:43.342+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T08:14:43.342+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:14:43.342+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:14:43.354+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:14:43.423+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:14:43.423+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T08:14:43.426+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:14:43.426+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T08:14:43.433+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T08:49:34.678+0100] {processor.py:157} INFO - Started process (PID=29009) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:49:34.681+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T08:49:34.681+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:49:34.681+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:49:34.693+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T08:49:34.763+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:49:34.763+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T08:49:34.766+0100] {logging_mixin.py:151} INFO - [2023-10-31T08:49:34.766+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T08:49:34.773+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T09:06:52.899+0100] {processor.py:157} INFO - Started process (PID=29244) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:06:52.901+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T09:06:52.902+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:06:52.902+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:06:52.914+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:06:52.982+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:06:52.982+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T09:06:52.985+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:06:52.985+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T09:06:52.992+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T09:08:12.478+0100] {processor.py:157} INFO - Started process (PID=29386) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:08:12.481+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T09:08:12.481+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:08:12.481+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:08:12.494+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:08:12.562+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:08:12.562+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T09:08:12.565+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:08:12.565+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T09:08:12.572+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T09:42:17.711+0100] {processor.py:157} INFO - Started process (PID=29604) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:42:17.714+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T09:42:17.714+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:42:17.714+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:42:17.726+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:42:17.795+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:42:17.794+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T09:42:17.798+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:42:17.798+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T09:42:17.804+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T09:43:45.323+0100] {processor.py:157} INFO - Started process (PID=29766) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:43:45.326+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T09:43:45.326+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:43:45.326+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:43:45.338+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:43:45.407+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:43:45.407+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T09:43:45.410+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:43:45.410+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T09:43:45.416+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T09:45:01.028+0100] {processor.py:157} INFO - Started process (PID=29902) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:45:01.030+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T09:45:01.031+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:45:01.031+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:45:01.043+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T09:45:01.112+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:45:01.111+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T09:45:01.115+0100] {logging_mixin.py:151} INFO - [2023-10-31T09:45:01.115+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T09:45:01.122+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T10:01:46.381+0100] {processor.py:157} INFO - Started process (PID=30042) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:01:46.383+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T10:01:46.383+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:01:46.383+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:01:46.395+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:01:46.463+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:01:46.463+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T10:01:46.466+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:01:46.466+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T10:01:46.473+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.092 seconds
+[2023-10-31T10:03:04.539+0100] {processor.py:157} INFO - Started process (PID=30182) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:03:04.541+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T10:03:04.541+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:03:04.541+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:03:04.553+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:03:04.623+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:03:04.623+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T10:03:04.626+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:03:04.626+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T10:03:04.633+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T10:38:43.271+0100] {processor.py:157} INFO - Started process (PID=30399) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:38:43.273+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T10:38:43.273+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:38:43.273+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:38:43.286+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:38:43.357+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:38:43.357+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T10:38:43.361+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:38:43.361+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T10:38:43.368+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T10:47:50.223+0100] {processor.py:157} INFO - Started process (PID=30615) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:47:50.225+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T10:47:50.225+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:47:50.225+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:47:50.237+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T10:47:50.306+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:47:50.305+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T10:47:50.309+0100] {logging_mixin.py:151} INFO - [2023-10-31T10:47:50.309+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T10:47:50.316+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T11:04:11.782+0100] {processor.py:157} INFO - Started process (PID=30800) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:04:11.785+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:04:11.785+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:04:11.785+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:04:11.798+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:04:11.868+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:04:11.868+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:04:11.872+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:04:11.872+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:04:11.878+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T11:05:32.180+0100] {processor.py:157} INFO - Started process (PID=30981) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:05:32.182+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:05:32.182+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:05:32.182+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:05:32.195+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:05:32.265+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:05:32.265+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:05:32.268+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:05:32.268+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:05:32.275+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T11:06:50.044+0100] {processor.py:157} INFO - Started process (PID=31130) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:06:50.046+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:06:50.046+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:06:50.046+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:06:50.058+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:06:50.127+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:06:50.127+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:06:50.130+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:06:50.130+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:06:50.137+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T11:08:11.820+0100] {processor.py:157} INFO - Started process (PID=31294) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:08:11.822+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:08:11.822+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:08:11.822+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:08:11.834+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:08:11.903+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:08:11.902+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:08:11.906+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:08:11.906+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:08:11.913+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T11:09:29.433+0100] {processor.py:157} INFO - Started process (PID=31444) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:09:29.435+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:09:29.436+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:09:29.436+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:09:29.448+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:09:29.517+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:09:29.516+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:09:29.520+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:09:29.520+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:09:29.527+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T11:10:49.541+0100] {processor.py:157} INFO - Started process (PID=31613) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:10:49.544+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:10:49.544+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:10:49.544+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:10:49.558+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:10:49.640+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:10:49.640+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:10:49.644+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:10:49.644+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:10:49.652+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2023-10-31T11:12:12.661+0100] {processor.py:157} INFO - Started process (PID=31777) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:12:12.664+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:12:12.664+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:12:12.664+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:12:12.677+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:12:12.748+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:12:12.748+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:12:12.752+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:12:12.752+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:12:12.759+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.099 seconds
+[2023-10-31T11:13:34.558+0100] {processor.py:157} INFO - Started process (PID=31929) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:13:34.560+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:13:34.560+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:13:34.560+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:13:34.573+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:13:34.651+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:13:34.651+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:13:34.655+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:13:34.655+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:13:34.663+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.106 seconds
+[2023-10-31T11:14:58.233+0100] {processor.py:157} INFO - Started process (PID=32095) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:14:58.236+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:14:58.237+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:14:58.236+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:14:58.251+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:14:58.335+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:14:58.335+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:14:58.339+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:14:58.339+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:14:58.347+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.114 seconds
+[2023-10-31T11:16:17.289+0100] {processor.py:157} INFO - Started process (PID=32235) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:16:17.291+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:16:17.291+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:16:17.291+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:16:17.305+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:16:17.382+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:16:17.382+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:16:17.386+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:16:17.386+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:16:17.394+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.105 seconds
+[2023-10-31T11:17:38.062+0100] {processor.py:157} INFO - Started process (PID=32477) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:17:38.064+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:17:38.064+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:17:38.064+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:17:38.077+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:17:38.146+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:17:38.146+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:17:38.149+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:17:38.149+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:17:38.156+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T11:18:59.366+0100] {processor.py:157} INFO - Started process (PID=32632) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:18:59.369+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:18:59.369+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:18:59.369+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:18:59.381+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:18:59.452+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:18:59.451+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:18:59.455+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:18:59.455+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:18:59.462+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T11:20:16.178+0100] {processor.py:157} INFO - Started process (PID=32777) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:20:16.180+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:20:16.180+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:20:16.180+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:20:16.194+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:20:16.265+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:20:16.265+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:20:16.269+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:20:16.269+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:20:16.275+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T11:21:39.452+0100] {processor.py:157} INFO - Started process (PID=32931) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:21:39.454+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:21:39.455+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:21:39.455+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:21:39.468+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:21:39.542+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:21:39.542+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:21:39.545+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:21:39.545+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:21:39.552+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.100 seconds
+[2023-10-31T11:23:03.004+0100] {processor.py:157} INFO - Started process (PID=33077) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:23:03.007+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:23:03.007+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:23:03.007+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:23:03.020+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:23:03.092+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:23:03.091+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:23:03.095+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:23:03.095+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:23:03.102+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T11:24:28.142+0100] {processor.py:157} INFO - Started process (PID=33229) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:24:28.145+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:24:28.145+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:24:28.145+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:24:28.158+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:24:28.234+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:24:28.234+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:24:28.238+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:24:28.238+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:24:28.245+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.103 seconds
+[2023-10-31T11:25:51.143+0100] {processor.py:157} INFO - Started process (PID=33383) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:25:51.145+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:25:51.146+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:25:51.145+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:25:51.158+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:25:51.229+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:25:51.229+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:25:51.232+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:25:51.232+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:25:51.239+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T11:27:13.506+0100] {processor.py:157} INFO - Started process (PID=33534) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:27:13.508+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:27:13.508+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:27:13.508+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:27:13.522+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:27:13.596+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:27:13.596+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:27:13.601+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:27:13.600+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:27:13.610+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.104 seconds
+[2023-10-31T11:28:32.739+0100] {processor.py:157} INFO - Started process (PID=33685) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:28:32.741+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:28:32.741+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:28:32.741+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:28:32.753+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:28:32.825+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:28:32.825+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:28:32.828+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:28:32.828+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:28:32.835+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T11:29:51.793+0100] {processor.py:157} INFO - Started process (PID=33832) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:29:51.795+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:29:51.795+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:29:51.795+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:29:51.807+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:29:51.877+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:29:51.877+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:29:51.881+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:29:51.881+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:29:51.888+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T11:31:12.390+0100] {processor.py:157} INFO - Started process (PID=33977) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:31:12.392+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:31:12.393+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:31:12.393+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:31:12.406+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:31:12.483+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:31:12.483+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:31:12.487+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:31:12.487+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:31:12.494+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.104 seconds
+[2023-10-31T11:32:34.684+0100] {processor.py:157} INFO - Started process (PID=34129) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:32:34.687+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:32:34.687+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:32:34.687+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:32:34.700+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:32:34.771+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:32:34.771+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:32:34.775+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:32:34.775+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:32:34.782+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T11:33:57.205+0100] {processor.py:157} INFO - Started process (PID=34295) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:33:57.208+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:33:57.208+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:33:57.208+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:33:57.224+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:33:57.305+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:33:57.305+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:33:57.309+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:33:57.309+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:33:57.317+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2023-10-31T11:35:22.498+0100] {processor.py:157} INFO - Started process (PID=34469) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:35:22.501+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:35:22.501+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:35:22.501+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:35:22.514+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:35:22.589+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:35:22.589+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:35:22.594+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:35:22.594+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:35:22.602+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.105 seconds
+[2023-10-31T11:36:44.143+0100] {processor.py:157} INFO - Started process (PID=34612) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:36:44.146+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:36:44.146+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:36:44.146+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:36:44.159+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:36:44.234+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:36:44.234+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:36:44.238+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:36:44.237+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:36:44.244+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.102 seconds
+[2023-10-31T11:38:06.299+0100] {processor.py:157} INFO - Started process (PID=34766) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:38:06.301+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:38:06.301+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:38:06.301+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:38:06.314+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:38:06.386+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:38:06.386+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:38:06.390+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:38:06.390+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:38:06.396+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T11:39:29.472+0100] {processor.py:157} INFO - Started process (PID=34913) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:39:29.474+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:39:29.474+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:39:29.474+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:39:29.488+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:39:29.561+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:39:29.561+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:39:29.564+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:39:29.564+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:39:29.572+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.100 seconds
+[2023-10-31T11:40:53.590+0100] {processor.py:157} INFO - Started process (PID=35068) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:40:53.593+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:40:53.593+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:40:53.593+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:40:53.608+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:40:53.687+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:40:53.686+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:40:53.690+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:40:53.690+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:40:53.698+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.108 seconds
+[2023-10-31T11:42:17.930+0100] {processor.py:157} INFO - Started process (PID=35222) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:42:17.932+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:42:17.933+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:42:17.933+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:42:17.945+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:42:18.015+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:42:18.015+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:42:18.019+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:42:18.019+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:42:18.026+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T11:43:35.806+0100] {processor.py:157} INFO - Started process (PID=35364) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:43:35.808+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:43:35.808+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:43:35.808+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:43:35.821+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:43:35.893+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:43:35.893+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:43:35.896+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:43:35.896+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:43:35.903+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T11:44:56.349+0100] {processor.py:157} INFO - Started process (PID=35507) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:44:56.351+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:44:56.352+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:44:56.352+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:44:56.364+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:44:56.434+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:44:56.434+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:44:56.438+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:44:56.438+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:44:56.447+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T11:46:09.657+0100] {processor.py:157} INFO - Started process (PID=35645) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:46:09.659+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:46:09.659+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:46:09.659+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:46:09.671+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:46:09.741+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:46:09.741+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:46:09.745+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:46:09.745+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:46:09.753+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T11:47:24.358+0100] {processor.py:157} INFO - Started process (PID=35783) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:47:24.360+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:47:24.360+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:47:24.360+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:47:24.372+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:47:24.442+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:47:24.442+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:47:24.446+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:47:24.445+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:47:24.452+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T11:48:43.084+0100] {processor.py:157} INFO - Started process (PID=35922) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:48:43.086+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:48:43.086+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:48:43.086+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:48:43.098+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:48:43.168+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:48:43.168+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:48:43.172+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:48:43.172+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:48:43.178+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T11:49:59.058+0100] {processor.py:157} INFO - Started process (PID=36063) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:49:59.061+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:49:59.061+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:49:59.061+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:49:59.073+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:49:59.142+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:49:59.142+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:49:59.146+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:49:59.145+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:49:59.152+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T11:51:20.534+0100] {processor.py:157} INFO - Started process (PID=36209) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:51:20.538+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:51:20.538+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:51:20.538+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:51:20.557+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:51:20.635+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:51:20.635+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:51:20.639+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:51:20.638+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:51:20.647+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.114 seconds
+[2023-10-31T11:52:40.962+0100] {processor.py:157} INFO - Started process (PID=36353) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:52:40.964+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:52:40.965+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:52:40.965+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:52:40.978+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:52:41.053+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:52:41.053+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:52:41.056+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:52:41.056+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:52:41.063+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.102 seconds
+[2023-10-31T11:54:06.754+0100] {processor.py:157} INFO - Started process (PID=36507) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:54:06.756+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:54:06.756+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:54:06.756+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:54:06.769+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:54:06.841+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:54:06.841+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:54:06.844+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:54:06.844+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:54:06.851+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T11:55:27.439+0100] {processor.py:157} INFO - Started process (PID=36657) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:55:27.442+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:55:27.442+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:55:27.442+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:55:27.455+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:55:27.528+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:55:27.528+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:55:27.532+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:55:27.532+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:55:27.539+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2023-10-31T11:56:43.554+0100] {processor.py:157} INFO - Started process (PID=36798) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:56:43.555+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:56:43.556+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:56:43.556+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:56:43.568+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:56:43.636+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:56:43.636+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:56:43.639+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:56:43.639+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:56:43.646+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T11:57:57.177+0100] {processor.py:157} INFO - Started process (PID=36933) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:57:57.178+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:57:57.179+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:57:57.179+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:57:57.191+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:57:57.259+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:57:57.259+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:57:57.263+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:57:57.262+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:57:57.269+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T11:59:12.614+0100] {processor.py:157} INFO - Started process (PID=37072) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:59:12.616+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T11:59:12.617+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:59:12.616+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:59:12.629+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T11:59:12.697+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:59:12.697+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T11:59:12.700+0100] {logging_mixin.py:151} INFO - [2023-10-31T11:59:12.700+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T11:59:12.707+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T12:00:25.292+0100] {processor.py:157} INFO - Started process (PID=37208) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:00:25.294+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:00:25.294+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:00:25.294+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:00:25.306+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:00:25.375+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:00:25.375+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:00:25.378+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:00:25.378+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:00:25.385+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T12:01:41.969+0100] {processor.py:157} INFO - Started process (PID=37357) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:01:41.971+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:01:41.971+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:01:41.971+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:01:41.983+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:01:42.052+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:01:42.051+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:01:42.055+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:01:42.055+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:01:42.062+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T12:02:57.606+0100] {processor.py:157} INFO - Started process (PID=37498) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:02:57.608+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:02:57.608+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:02:57.608+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:02:57.620+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:02:57.689+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:02:57.689+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:02:57.692+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:02:57.692+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:02:57.699+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T12:04:14.041+0100] {processor.py:157} INFO - Started process (PID=37642) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:04:14.043+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:04:14.043+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:04:14.043+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:04:14.055+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:04:14.123+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:04:14.123+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:04:14.127+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:04:14.127+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:04:14.133+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T12:05:26.955+0100] {processor.py:157} INFO - Started process (PID=37779) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:05:26.957+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:05:26.957+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:05:26.957+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:05:26.969+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:05:27.039+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:05:27.039+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:05:27.042+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:05:27.042+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:05:27.049+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T12:07:22.819+0100] {processor.py:157} INFO - Started process (PID=37936) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:07:22.822+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:07:22.823+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:07:22.823+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:07:22.844+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:07:22.940+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:07:22.940+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:07:22.944+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:07:22.944+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:07:22.952+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.134 seconds
+[2023-10-31T12:11:59.076+0100] {processor.py:157} INFO - Started process (PID=38160) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:11:59.079+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:11:59.079+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:11:59.079+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:11:59.091+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:11:59.159+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:11:59.159+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:11:59.163+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:11:59.163+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:11:59.169+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T12:16:06.960+0100] {processor.py:157} INFO - Started process (PID=38364) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:16:06.962+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:16:06.962+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:16:06.962+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:16:06.974+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:16:07.043+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:16:07.043+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:16:07.047+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:16:07.046+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:16:07.053+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T12:33:31.852+0100] {processor.py:157} INFO - Started process (PID=38553) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:33:31.855+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:33:31.855+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:33:31.855+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:33:31.867+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:33:31.935+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:33:31.935+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:33:31.938+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:33:31.938+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:33:31.945+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T12:34:47.952+0100] {processor.py:157} INFO - Started process (PID=38692) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:34:47.954+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:34:47.954+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:34:47.954+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:34:47.966+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:34:48.035+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:34:48.035+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:34:48.038+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:34:48.038+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:34:48.045+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T12:54:04.465+0100] {processor.py:157} INFO - Started process (PID=38881) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:54:04.468+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T12:54:04.468+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:54:04.468+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:54:04.480+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T12:54:04.548+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:54:04.548+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T12:54:04.552+0100] {logging_mixin.py:151} INFO - [2023-10-31T12:54:04.552+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T12:54:04.559+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T13:12:19.383+0100] {processor.py:157} INFO - Started process (PID=39146) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:12:19.386+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T13:12:19.387+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:12:19.387+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:12:19.399+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:12:19.473+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:12:19.473+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T13:12:19.477+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:12:19.477+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T13:12:19.484+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2023-10-31T13:13:35.841+0100] {processor.py:157} INFO - Started process (PID=39304) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:13:35.844+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T13:13:35.844+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:13:35.844+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:13:35.856+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:13:35.925+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:13:35.925+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T13:13:35.929+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:13:35.929+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T13:13:35.936+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T13:34:20.136+0100] {processor.py:157} INFO - Started process (PID=39504) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:34:20.139+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T13:34:20.139+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:34:20.139+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:34:20.151+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:34:20.220+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:34:20.220+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T13:34:20.223+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:34:20.223+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T13:34:20.230+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T13:35:47.560+0100] {processor.py:157} INFO - Started process (PID=39673) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:35:47.562+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T13:35:47.562+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:35:47.562+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:35:47.574+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:35:47.643+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:35:47.642+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T13:35:47.646+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:35:47.646+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T13:35:47.653+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T13:37:01.507+0100] {processor.py:157} INFO - Started process (PID=39804) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:37:01.509+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T13:37:01.509+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:37:01.509+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:37:01.521+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:37:01.590+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:37:01.590+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T13:37:01.593+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:37:01.593+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T13:37:01.600+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T13:55:57.865+0100] {processor.py:157} INFO - Started process (PID=39966) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:55:57.867+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T13:55:57.867+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:55:57.867+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:55:57.879+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:55:57.948+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:55:57.948+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T13:55:57.951+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:55:57.951+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T13:55:57.958+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T13:59:22.533+0100] {processor.py:157} INFO - Started process (PID=40137) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:59:22.536+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T13:59:22.536+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:59:22.536+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:59:22.548+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T13:59:22.616+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:59:22.616+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T13:59:22.619+0100] {logging_mixin.py:151} INFO - [2023-10-31T13:59:22.619+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T13:59:22.626+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T14:00:50.841+0100] {processor.py:157} INFO - Started process (PID=40340) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:00:50.843+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:00:50.843+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:00:50.843+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:00:50.858+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:00:50.937+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:00:50.937+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:00:50.941+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:00:50.941+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:00:50.950+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2023-10-31T14:02:11.229+0100] {processor.py:157} INFO - Started process (PID=40484) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:02:11.231+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:02:11.232+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:02:11.232+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:02:11.245+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:02:11.316+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:02:11.316+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:02:11.320+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:02:11.320+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:02:11.327+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.099 seconds
+[2023-10-31T14:03:30.030+0100] {processor.py:157} INFO - Started process (PID=40626) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:03:30.033+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:03:30.034+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:03:30.033+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:03:30.046+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:03:30.117+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:03:30.117+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:03:30.121+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:03:30.121+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:03:30.128+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T14:04:50.844+0100] {processor.py:157} INFO - Started process (PID=40791) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:04:50.846+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:04:50.847+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:04:50.847+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:04:50.859+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:04:50.929+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:04:50.929+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:04:50.932+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:04:50.932+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:04:50.939+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T14:06:14.580+0100] {processor.py:157} INFO - Started process (PID=40942) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:06:14.582+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:06:14.582+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:06:14.582+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:06:14.594+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:06:14.663+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:06:14.663+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:06:14.666+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:06:14.666+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:06:14.673+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2023-10-31T14:07:30.756+0100] {processor.py:157} INFO - Started process (PID=41079) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:07:30.758+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:07:30.758+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:07:30.758+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:07:30.770+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:07:30.840+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:07:30.840+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:07:30.843+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:07:30.843+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:07:30.850+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T14:08:46.612+0100] {processor.py:157} INFO - Started process (PID=41224) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:08:46.614+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:08:46.615+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:08:46.615+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:08:46.628+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:08:46.701+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:08:46.701+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:08:46.705+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:08:46.705+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:08:46.711+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.099 seconds
+[2023-10-31T14:20:19.697+0100] {processor.py:157} INFO - Started process (PID=41398) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:20:19.699+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:20:19.699+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:20:19.699+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:20:19.711+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:20:19.780+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:20:19.780+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:20:19.784+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:20:19.784+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:20:19.790+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T14:45:08.855+0100] {processor.py:157} INFO - Started process (PID=41563) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:45:08.858+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:45:08.859+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:45:08.859+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:45:08.875+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:45:08.957+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:45:08.956+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:45:08.961+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:45:08.960+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:45:08.968+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.114 seconds
+[2023-10-31T14:46:56.960+0100] {processor.py:157} INFO - Started process (PID=41830) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:46:56.962+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:46:56.963+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:46:56.963+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:46:56.975+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:46:57.045+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:46:57.044+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:46:57.048+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:46:57.048+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:46:57.055+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T14:48:18.604+0100] {processor.py:157} INFO - Started process (PID=41992) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:48:18.607+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:48:18.607+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:48:18.607+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:48:18.620+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:48:18.695+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:48:18.695+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:48:18.698+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:48:18.698+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:48:18.705+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2023-10-31T14:49:42.596+0100] {processor.py:157} INFO - Started process (PID=42148) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:49:42.599+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:49:42.599+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:49:42.599+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:49:42.611+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:49:42.680+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:49:42.680+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:49:42.684+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:49:42.684+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:49:42.692+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T14:51:11.434+0100] {processor.py:157} INFO - Started process (PID=42303) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:51:11.437+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:51:11.437+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:51:11.437+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:51:11.451+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:51:11.525+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:51:11.525+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:51:11.528+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:51:11.528+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:51:11.536+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.103 seconds
+[2023-10-31T14:52:42.012+0100] {processor.py:157} INFO - Started process (PID=42460) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:52:42.015+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:52:42.015+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:52:42.015+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:52:42.029+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:52:42.108+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:52:42.108+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:52:42.112+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:52:42.112+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:52:42.120+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2023-10-31T14:54:05.573+0100] {processor.py:157} INFO - Started process (PID=42608) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:54:05.575+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:54:05.575+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:54:05.575+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:54:05.588+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:54:05.659+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:54:05.659+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:54:05.663+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:54:05.663+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:54:05.669+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T14:55:28.407+0100] {processor.py:157} INFO - Started process (PID=42757) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:55:28.410+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:55:28.410+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:55:28.410+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:55:28.423+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:55:28.500+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:55:28.500+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:55:28.504+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:55:28.504+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:55:28.512+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.105 seconds
+[2023-10-31T14:57:07.091+0100] {processor.py:157} INFO - Started process (PID=42924) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:57:07.093+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:57:07.094+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:57:07.094+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:57:07.107+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:57:07.184+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:57:07.184+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:57:07.188+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:57:07.187+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:57:07.195+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.105 seconds
+[2023-10-31T14:58:32.063+0100] {processor.py:157} INFO - Started process (PID=43077) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:58:32.066+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:58:32.066+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:58:32.066+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:58:32.080+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:58:32.155+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:58:32.155+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:58:32.158+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:58:32.158+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:58:32.166+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.103 seconds
+[2023-10-31T14:59:54.189+0100] {processor.py:157} INFO - Started process (PID=43228) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:59:54.192+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T14:59:54.193+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:59:54.192+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:59:54.206+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T14:59:54.280+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:59:54.280+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T14:59:54.284+0100] {logging_mixin.py:151} INFO - [2023-10-31T14:59:54.284+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T14:59:54.292+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.103 seconds
+[2023-10-31T15:01:18.763+0100] {processor.py:157} INFO - Started process (PID=43376) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:01:18.774+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:01:18.774+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:01:18.774+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:01:18.800+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:01:18.891+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:01:18.891+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:01:18.895+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:01:18.895+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:01:18.902+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.142 seconds
+[2023-10-31T15:02:41.138+0100] {processor.py:157} INFO - Started process (PID=43537) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:02:41.140+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:02:41.141+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:02:41.140+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:02:41.153+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:02:41.233+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:02:41.233+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:02:41.237+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:02:41.237+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:02:41.245+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.108 seconds
+[2023-10-31T15:04:08.199+0100] {processor.py:157} INFO - Started process (PID=43728) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:04:08.202+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:04:08.202+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:04:08.202+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:04:08.215+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:04:08.287+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:04:08.287+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:04:08.290+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:04:08.290+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:04:08.297+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T15:05:29.590+0100] {processor.py:157} INFO - Started process (PID=43878) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:05:29.593+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:05:29.593+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:05:29.593+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:05:29.606+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:05:29.676+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:05:29.676+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:05:29.679+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:05:29.679+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:05:29.686+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.096 seconds
+[2023-10-31T15:06:46.807+0100] {processor.py:157} INFO - Started process (PID=44027) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:06:46.809+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:06:46.809+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:06:46.809+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:06:46.823+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:06:46.894+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:06:46.894+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:06:46.898+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:06:46.897+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:06:46.905+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T15:08:14.481+0100] {processor.py:157} INFO - Started process (PID=44198) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:08:14.484+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:08:14.484+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:08:14.484+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:08:14.497+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:08:14.568+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:08:14.568+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:08:14.571+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:08:14.571+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:08:14.579+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.098 seconds
+[2023-10-31T15:09:33.889+0100] {processor.py:157} INFO - Started process (PID=44343) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:09:33.891+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:09:33.891+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:09:33.891+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:09:33.904+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:09:33.976+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:09:33.975+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:09:33.979+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:09:33.979+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:09:33.986+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T15:10:53.260+0100] {processor.py:157} INFO - Started process (PID=44499) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:10:53.263+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:10:53.263+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:10:53.263+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:10:53.278+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:10:53.367+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:10:53.367+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:10:53.371+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:10:53.371+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:10:53.382+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.122 seconds
+[2023-10-31T15:12:09.582+0100] {processor.py:157} INFO - Started process (PID=44646) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:12:09.584+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:12:09.584+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:12:09.584+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:12:09.596+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:12:09.666+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:12:09.666+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:12:09.669+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:12:09.669+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:12:09.676+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T15:13:30.617+0100] {processor.py:157} INFO - Started process (PID=44803) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:13:30.620+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:13:30.620+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:13:30.620+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:13:30.635+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:13:30.718+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:13:30.718+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:13:30.723+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:13:30.723+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:13:30.732+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2023-10-31T15:14:55.376+0100] {processor.py:157} INFO - Started process (PID=44981) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:14:55.378+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:14:55.379+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:14:55.379+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:14:55.391+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:14:55.462+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:14:55.461+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:14:55.465+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:14:55.465+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:14:55.472+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.097 seconds
+[2023-10-31T15:16:13.799+0100] {processor.py:157} INFO - Started process (PID=45130) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:16:13.801+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:16:13.801+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:16:13.801+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:16:13.813+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:16:13.883+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:16:13.883+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:16:13.886+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:16:13.886+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:16:13.893+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2023-10-31T15:17:36.118+0100] {processor.py:157} INFO - Started process (PID=45284) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:17:36.120+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:17:36.120+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:17:36.120+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:17:36.135+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:17:36.214+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:17:36.214+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:17:36.219+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:17:36.219+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:17:36.228+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2023-10-31T15:18:59.214+0100] {processor.py:157} INFO - Started process (PID=45447) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:18:59.216+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:18:59.216+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:18:59.216+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:18:59.230+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:18:59.307+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:18:59.307+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:18:59.311+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:18:59.310+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:18:59.318+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.104 seconds
+[2023-10-31T15:20:23.788+0100] {processor.py:157} INFO - Started process (PID=45636) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:20:23.791+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T15:20:23.791+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:20:23.791+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:20:23.804+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T15:20:23.873+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:20:23.873+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T15:20:23.877+0100] {logging_mixin.py:151} INFO - [2023-10-31T15:20:23.877+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T15:20:23.883+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.095 seconds
+[2023-10-31T22:34:19.491+0100] {processor.py:157} INFO - Started process (PID=65475) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:34:19.494+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T22:34:19.494+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:34:19.494+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:34:19.508+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:34:19.582+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:34:19.582+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T22:34:19.585+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:34:19.585+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T22:34:19.593+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.102 seconds
+[2023-10-31T22:35:48.902+0100] {processor.py:157} INFO - Started process (PID=65708) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:35:48.904+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T22:35:48.904+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:35:48.904+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:35:48.917+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:35:48.997+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:35:48.996+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T22:35:49.000+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:35:49.000+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T22:35:49.009+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.107 seconds
+[2023-10-31T22:37:25.560+0100] {processor.py:157} INFO - Started process (PID=65886) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:37:25.563+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T22:37:25.563+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:37:25.563+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:37:25.577+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:37:25.653+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:37:25.653+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T22:37:25.657+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:37:25.656+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T22:37:25.664+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.105 seconds
+[2023-10-31T22:39:02.579+0100] {processor.py:157} INFO - Started process (PID=66056) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:39:02.582+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T22:39:02.582+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:39:02.582+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:39:02.597+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:39:02.676+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:39:02.676+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T22:39:02.680+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:39:02.679+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T22:39:02.687+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2023-10-31T22:40:50.707+0100] {processor.py:157} INFO - Started process (PID=66291) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:40:50.710+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T22:40:50.710+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:40:50.710+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:40:50.725+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:40:50.804+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:40:50.804+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T22:40:50.808+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:40:50.808+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T22:40:50.816+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds
+[2023-10-31T22:42:21.225+0100] {processor.py:157} INFO - Started process (PID=66458) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:42:21.228+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T22:42:21.228+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:42:21.228+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:42:21.241+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:42:21.316+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:42:21.316+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T22:42:21.320+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:42:21.320+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T22:42:21.328+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.104 seconds
+[2023-10-31T22:43:51.004+0100] {processor.py:157} INFO - Started process (PID=66621) to work on /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:43:51.007+0100] {processor.py:829} INFO - Processing file /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-10-31T22:43:51.007+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:43:51.007+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:43:51.021+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-10-31T22:43:51.098+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:43:51.097+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-31T22:43:51.101+0100] {logging_mixin.py:151} INFO - [2023-10-31T22:43:51.101+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-10-31T22:43:51.110+0100] {processor.py:179} INFO - Processing /Users/nick/miniforge3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.106 seconds

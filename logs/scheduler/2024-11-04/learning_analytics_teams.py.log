@@ -1,0 +1,518 @@
+[2024-11-04T11:05:47.758+0100] {processor.py:186} INFO - Started process (PID=17822) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:05:47.758+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:05:47.759+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:05:47.759+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:05:47.766+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:05:47.766+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/Desktop/Code/MSTeams_pipeline/airflow/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/extract_operators.py", line 6, in <module>
+    from msal import ConfidentialClientApplication
+ModuleNotFoundError: No module named 'msal'
+[2024-11-04T11:05:47.766+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:05:47.796+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:05:47.796+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:05:47.802+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.046 seconds
+[2024-11-04T11:08:15.473+0100] {processor.py:186} INFO - Started process (PID=19544) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:08:15.474+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:08:15.474+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:08:15.474+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:08:15.483+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:08:15.482+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/Desktop/Code/MSTeams_pipeline/airflow/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/extract_operators.py", line 6, in <module>
+    from msal import ConfidentialClientApplication
+ModuleNotFoundError: No module named 'msal'
+[2024-11-04T11:08:15.483+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:08:15.518+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:08:15.518+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:08:15.523+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.051 seconds
+[2024-11-04T11:11:59.784+0100] {processor.py:186} INFO - Started process (PID=22170) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:11:59.784+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:11:59.785+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:11:59.785+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:11:59.793+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:11:59.792+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/Desktop/Code/MSTeams_pipeline/airflow/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/extract_operators.py", line 6, in <module>
+    from msal import ConfidentialClientApplication
+ModuleNotFoundError: No module named 'msal'
+[2024-11-04T11:11:59.793+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:11:59.983+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.201 seconds
+[2024-11-04T11:16:20.110+0100] {processor.py:186} INFO - Started process (PID=25742) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:16:20.110+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:16:20.111+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:20.111+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:16:20.118+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:20.118+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/extract_operators.py", line 6, in <module>
+    from msal import ConfidentialClientApplication
+ModuleNotFoundError: No module named 'msal'
+[2024-11-04T11:16:20.119+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:16:20.150+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:16:20.150+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:16:20.155+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.047 seconds
+[2024-11-04T11:18:44.669+0100] {processor.py:186} INFO - Started process (PID=27746) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:18:44.669+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:18:44.670+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:18:44.670+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:18:44.678+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:18:44.677+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/extract_operators.py", line 6, in <module>
+    from msal import ConfidentialClientApplication
+ModuleNotFoundError: No module named 'msal'
+[2024-11-04T11:18:44.678+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:18:44.712+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:18:44.712+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:18:44.717+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.049 seconds
+[2024-11-04T11:21:14.041+0100] {processor.py:186} INFO - Started process (PID=29466) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:21:14.041+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:21:14.042+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:21:14.042+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:21:14.050+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:21:14.049+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/extract_operators.py", line 6, in <module>
+    from msal import ConfidentialClientApplication
+ModuleNotFoundError: No module named 'msal'
+[2024-11-04T11:21:14.050+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:21:14.082+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:21:14.082+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:21:14.088+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.048 seconds
+[2024-11-04T11:23:46.118+0100] {processor.py:186} INFO - Started process (PID=31242) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:23:46.118+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:23:46.118+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:23:46.118+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:23:46.126+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:23:46.126+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/extract_operators.py", line 6, in <module>
+    from msal import ConfidentialClientApplication
+ModuleNotFoundError: No module named 'msal'
+[2024-11-04T11:23:46.126+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:23:46.161+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:23:46.161+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-04T11:23:46.167+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.051 seconds
+[2024-11-04T11:28:40.244+0100] {processor.py:186} INFO - Started process (PID=34805) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:28:40.244+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:28:40.245+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:28:40.245+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:28:40.466+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:28:40.465+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:28:40.466+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:28:40.506+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.264 seconds
+[2024-11-04T11:29:11.607+0100] {processor.py:186} INFO - Started process (PID=35197) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:29:11.607+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:29:11.607+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:11.607+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:29:11.805+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:11.805+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:29:11.805+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:29:11.843+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.238 seconds
+[2024-11-04T11:29:43.064+0100] {processor.py:186} INFO - Started process (PID=35600) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:29:43.064+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:29:43.064+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:43.064+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:29:43.258+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:29:43.258+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:29:43.259+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:29:43.296+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.234 seconds
+[2024-11-04T11:30:14.171+0100] {processor.py:186} INFO - Started process (PID=35973) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:30:14.171+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:30:14.172+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:14.172+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:30:14.347+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:14.347+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:30:14.348+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:30:14.384+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.215 seconds
+[2024-11-04T11:30:45.438+0100] {processor.py:186} INFO - Started process (PID=36313) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:30:45.439+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:30:45.439+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:45.439+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:30:45.639+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:30:45.638+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:30:45.639+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:30:45.680+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.244 seconds
+[2024-11-04T11:31:16.897+0100] {processor.py:186} INFO - Started process (PID=36675) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:31:16.897+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:31:16.898+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:16.898+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:31:17.071+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:17.071+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:31:17.072+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:31:17.108+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.213 seconds
+[2024-11-04T11:31:48.129+0100] {processor.py:186} INFO - Started process (PID=37015) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:31:48.129+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:31:48.130+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:48.130+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:31:48.312+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:31:48.311+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:31:48.312+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:31:48.348+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.222 seconds
+[2024-11-04T11:32:20.014+0100] {processor.py:186} INFO - Started process (PID=37376) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:32:20.014+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:32:20.014+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:20.014+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:32:20.193+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:20.192+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:32:20.193+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:32:20.229+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.217 seconds
+[2024-11-04T11:32:51.262+0100] {processor.py:186} INFO - Started process (PID=37722) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:32:51.262+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:32:51.263+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:51.263+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:32:51.448+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:32:51.447+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:32:51.448+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:32:51.487+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.227 seconds
+[2024-11-04T11:33:23.159+0100] {processor.py:186} INFO - Started process (PID=38170) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:33:23.160+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:33:23.160+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:23.160+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:33:23.338+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:23.337+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:33:23.338+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:33:23.377+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.219 seconds
+[2024-11-04T11:33:54.424+0100] {processor.py:186} INFO - Started process (PID=38518) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:33:54.424+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:33:54.424+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:54.424+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:33:54.601+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:33:54.601+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:33:54.601+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:33:54.635+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.213 seconds
+[2024-11-04T11:34:26.188+0100] {processor.py:186} INFO - Started process (PID=38909) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:34:26.188+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:34:26.189+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:26.189+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:34:26.371+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:26.370+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:34:26.371+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:34:26.406+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.220 seconds
+[2024-11-04T11:34:57.587+0100] {processor.py:186} INFO - Started process (PID=39251) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:34:57.588+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:34:57.588+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:57.588+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:34:57.764+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:34:57.763+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:34:57.764+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:34:57.800+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.214 seconds
+[2024-11-04T11:35:28.654+0100] {processor.py:186} INFO - Started process (PID=39589) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:35:28.654+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:35:28.655+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:28.655+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:35:28.831+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:28.831+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:35:28.831+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:35:28.867+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.214 seconds
+[2024-11-04T11:35:59.697+0100] {processor.py:186} INFO - Started process (PID=39914) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:35:59.698+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:35:59.698+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:59.698+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:35:59.876+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:35:59.876+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:35:59.877+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:35:59.913+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.218 seconds
+[2024-11-04T11:36:32.071+0100] {processor.py:186} INFO - Started process (PID=40260) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:36:32.071+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:36:32.071+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:36:32.071+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:36:32.260+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:36:32.260+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:36:32.261+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:36:32.298+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.229 seconds
+[2024-11-04T11:37:04.686+0100] {processor.py:186} INFO - Started process (PID=40608) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:37:04.686+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:37:04.687+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:04.687+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:37:04.867+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:04.866+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:37:04.867+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:37:04.903+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.218 seconds
+[2024-11-04T11:37:35.808+0100] {processor.py:186} INFO - Started process (PID=40941) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:37:35.808+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:37:35.808+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:35.808+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:37:35.987+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:37:35.986+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:37:35.987+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:37:36.022+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.216 seconds
+[2024-11-04T11:38:07.896+0100] {processor.py:186} INFO - Started process (PID=41279) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:38:07.897+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:38:07.897+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:07.897+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:38:08.074+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:08.074+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:38:08.074+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:38:08.111+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.216 seconds
+[2024-11-04T11:38:39.014+0100] {processor.py:186} INFO - Started process (PID=41624) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:38:39.015+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:38:39.015+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:39.015+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:38:39.185+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:38:39.184+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:38:39.185+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:38:39.221+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.209 seconds
+[2024-11-04T11:39:10.131+0100] {processor.py:186} INFO - Started process (PID=41963) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:39:10.132+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:39:10.132+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:10.132+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:39:10.309+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:10.309+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:39:10.310+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:39:10.346+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.216 seconds
+[2024-11-04T11:39:41.270+0100] {processor.py:186} INFO - Started process (PID=42290) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:39:41.270+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:39:41.271+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:41.270+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:39:41.450+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:39:41.449+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:39:41.450+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:39:41.490+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.222 seconds
+[2024-11-04T11:40:12.398+0100] {processor.py:186} INFO - Started process (PID=42629) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:40:12.398+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:40:12.399+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:12.399+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:40:12.575+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:12.574+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:40:12.575+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:40:12.612+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.215 seconds
+[2024-11-04T11:40:43.526+0100] {processor.py:186} INFO - Started process (PID=42971) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:40:43.526+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T11:40:43.527+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:43.527+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:40:43.704+0100] {logging_mixin.py:190} INFO - [2024-11-04T11:40:43.703+0100] {dagbag.py:387} ERROR - Failed to import: /Users/nick/airflow/dags/learning_analytics_teams.py
+Traceback (most recent call last):
+  File "/Users/nick/airflow/airflow_venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/nick/airflow/dags/learning_analytics_teams.py", line 6, in <module>
+    import extract_operators, load_operators, transform_operators
+  File "/Users/nick/airflow/dags/load_operators.py", line 1, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2024-11-04T11:40:43.704+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T11:40:43.740+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.216 seconds
+[2024-11-04T14:06:27.715+0100] {processor.py:186} INFO - Started process (PID=36602) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T14:06:27.715+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T14:06:27.716+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:27.716+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T14:06:27.998+0100] {processor.py:925} INFO - DAG(s) 'learning_analytics_teams' retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T14:06:28.064+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:28.063+0100] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:learning_analytics_teams
+[2024-11-04T14:06:28.106+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:28.106+0100] {override.py:1900} INFO - Created Permission View: can read on DAG Run:learning_analytics_teams
+[2024-11-04T14:06:28.109+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:28.109+0100] {override.py:1900} INFO - Created Permission View: can create on DAG Run:learning_analytics_teams
+[2024-11-04T14:06:28.141+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:28.141+0100] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:learning_analytics_teams
+[2024-11-04T14:06:28.144+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:28.144+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:06:28.162+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.449 seconds
+[2024-11-04T14:06:59.368+0100] {processor.py:186} INFO - Started process (PID=36973) to work on /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T14:06:59.368+0100] {processor.py:914} INFO - Processing file /Users/nick/airflow/dags/learning_analytics_teams.py for tasks to queue
+[2024-11-04T14:06:59.369+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:59.369+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T14:06:59.592+0100] {processor.py:925} INFO - DAG(s) 'learning_analytics_teams' retrieved from /Users/nick/airflow/dags/learning_analytics_teams.py
+[2024-11-04T14:06:59.602+0100] {logging_mixin.py:190} INFO - [2024-11-04T14:06:59.602+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-04T14:06:59.617+0100] {processor.py:208} INFO - Processing /Users/nick/airflow/dags/learning_analytics_teams.py took 0.250 seconds

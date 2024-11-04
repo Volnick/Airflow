@@ -1,0 +1,2 @@
+[2023-10-31T22:39:40.217+0100] {taskinstance.py:1149} INFO - Dependencies not met for <TaskInstance: la_test.extract_channels manual__2023-10-31T16:30:46.289465+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2023-10-31T22:39:40.218+0100] {local_task_job_runner.py:154} INFO - Task is not able to be run
